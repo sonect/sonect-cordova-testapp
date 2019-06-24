@@ -1,0 +1,17 @@
+{
+  "name": "ch.sonect.sdk.cordova.plugin",
+  "version": "0.0.1",
+  "description": "\"SonectSDK Cordova Plugin\"",
+  "cordova": {
+    "id": "ch.sonect.sdk.cordova.plugin",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "\"Sonect\"",
+  "license": "ISC"
+}
