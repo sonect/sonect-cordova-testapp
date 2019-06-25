@@ -17,42 +17,48 @@
  * under the License.
  */
 var app = {
-    // Application Constructor
-    initialize: function() {
-        document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+  // Application Constructor
+  initialize: function() {
+    document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+    document.getElementById('openSonectButton').addEventListener('click', this.openSonect);
+  },
+
+  // deviceready Event Handler
+  //
+  // Bind any cordova events here. Common events are:
+  // 'pause', 'resume', etc.
+  onDeviceReady: function() {
+    this.receivedEvent('deviceready');
+  },
+
+  // Update DOM on a Received Event
+  receivedEvent: function(id) {
+      var parentElement = document.getElementById(id);
+      var listeningElement = parentElement.querySelector('.listening');
+      var receivedElement = parentElement.querySelector('.received');
+
+      listeningElement.setAttribute('style', 'display:none;');
+      receivedElement.setAttribute('style', 'display:block;');
+
+      console.log('Received Event: ' + id);
+  },
+
+  openSonect: function() {
+    let token = document.getElementById('tokenInputField').value
+
+    sonect.echo(token,
+    function(msg) {
+      document
+      .getElementById('deviceready')
+      .querySelector('.received')
+      .innerHTML = msg;
     },
-
-    // deviceready Event Handler
-    //
-    // Bind any cordova events here. Common events are:
-    // 'pause', 'resume', etc.
-    onDeviceReady: function() {
-        this.receivedEvent('deviceready');
-        sonect.echo('Hi Sonect!', 
-        function(msg) {
-          document
-          .getElementById('deviceready')
-          .querySelector('.received')
-          .innerHTML = msg;
-        },
-        function(err) {
-          document
-          .getElementById('deviceready')
-          .innerHTML = '<p class="event received">' + err + '</p>';
-        })
-    },
-
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
-
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
-        console.log('Received Event: ' + id);
-    }
+    function(err) {
+      document
+      .getElementById('deviceready')
+      .innerHTML = '<p class="event received">' + err + '</p>';
+    })
+  }
 };
 
 app.initialize();

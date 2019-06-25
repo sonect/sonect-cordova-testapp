@@ -12,5 +12,7 @@
         </config-file>
         <header-file src="src/ios/SonectCordovaPlugin.h" />
         <source-file src="src/ios/SonectCordovaPlugin.m" />
+        <source-file src="src/ios/Sonect.framework" target-dir="lib" framework="true" />
+        <framework src="src/ios/Sonect.framework" embed="true" custom="true" /> 
     </platform>
 </plugin>
