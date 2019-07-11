@@ -17,48 +17,60 @@
  * under the License.
  */
 var app = {
-  // Application Constructor
-  initialize: function() {
+    // Application Constructor
+initialize: function() {
     document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
     document.getElementById('openSonectButton').addEventListener('click', this.openSonect);
-  },
+},
 
-  // deviceready Event Handler
-  //
-  // Bind any cordova events here. Common events are:
-  // 'pause', 'resume', etc.
-  onDeviceReady: function() {
+    // deviceready Event Handler
+    //
+    // Bind any cordova events here. Common events are:
+    // 'pause', 'resume', etc.
+onDeviceReady: function() {
     this.receivedEvent('deviceready');
-  },
+},
 
-  // Update DOM on a Received Event
-  receivedEvent: function(id) {
-      var parentElement = document.getElementById(id);
-      var listeningElement = parentElement.querySelector('.listening');
-      var receivedElement = parentElement.querySelector('.received');
+    // Update DOM on a Received Event
+receivedEvent: function(id) {
+    var parentElement = document.getElementById(id);
+    var listeningElement = parentElement.querySelector('.listening');
+    var receivedElement = parentElement.querySelector('.received');
 
-      listeningElement.setAttribute('style', 'display:none;');
-      receivedElement.setAttribute('style', 'display:block;');
+    listeningElement.setAttribute('style', 'display:none;');
+    receivedElement.setAttribute('style', 'display:block;');
 
-      console.log('Received Event: ' + id);
-  },
+    console.log('Received Event: ' + id);
+},
 
-  openSonect: function() {
-    let token = document.getElementById('tokenInputField').value
+openSonect: function() {
+    let token = "NWMzMjMxMjAtNTAyNy0xMWU4LWFkM2YtN2JlN2MyNTFmYzYxOmI2NDQwN2I0MDlhYmJjNDI2OTc3MWNiZDFmN2MyOGRiZDQ5ODI3MGRlZmZmM2E2MDZmNWY0ZjJkMjdhNGUwN2E="
+    let userId = "Lms47jIm5t0MuOSrRguMCpOfuv2On4"
+    let signature = "B+oCdHcLfwDfU/6cpZthH9Wu3VkixOeDa4c876rqPQk="
 
-    sonect.echo(token,
-    function(msg) {
-      document
-      .getElementById('deviceready')
-      .querySelector('.received')
-      .innerHTML = msg;
-    },
-    function(err) {
-      document
-      .getElementById('deviceready')
-      .innerHTML = '<p class="event received">' + err + '</p>';
-    })
-  }
+    sonect.present(token, userId, signature,
+                   function(balanceCallback) {
+                   let balance = {
+                        value: "20.00",
+                        currency: "CHF"
+                   };
+                   balanceCallback(balance);
+                   },
+                   function(value, currency, paymentCallback) {
+                        paymentCallback("PAYMENT_REFERENCE");
+                   },
+                   function(msg) {
+                   document
+                   .getElementById('deviceready')
+                   .querySelector('.received')
+                   .innerHTML = msg;
+                   },
+                   function(err) {
+                   document
+                   .getElementById('deviceready')
+                   .innerHTML = '<p class="event received">' + err + '</p>';
+                   })
+}
 };
 
 app.initialize();

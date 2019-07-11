@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SNCTransactionAmount : NSObject
+@interface SNCTransactionAmount : NSObject <NSCopying>
 
 /**
  Amount of money to do transaction with.
@@ -38,6 +38,16 @@ NS_ASSUME_NONNULL_BEGIN
  @return an amount.
  */
 + (instancetype)zeroAmountWithCurrency:(NSString *)currency;
+
+/**
+ Compares two transaction amounts, throws an error if the other amount is not in the same currency.
+
+ @param otherAmount an amount.
+ @param error an error if any.
+ @return a comparison result. Will return NSNotFound if there was and error.
+ */
+- (NSComparisonResult)compare:(SNCTransactionAmount *)otherAmount error:(NSError *_Nullable *_Nullable)error;
+
 @end
 
 NS_ASSUME_NONNULL_END

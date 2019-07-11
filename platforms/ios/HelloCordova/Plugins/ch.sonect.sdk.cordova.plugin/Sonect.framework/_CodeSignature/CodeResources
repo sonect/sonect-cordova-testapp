@@ -6,11 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		ZL1wS0WO8P5lGwFb3RBB7b+Umrk=
+		RCOs+panqG+azAOtnvSmrg8vYx8=
 		</data>
 		<key>Headers/SNCConfiguration.h</key>
 		<data>
-		wXSSDgqMIoBZmnc20JDzPcAJ4NA=
+		OPIXVbdV+gpFdBtgmcigg55I2lY=
+		</data>
+		<key>Headers/SNCCredentials.h</key>
+		<data>
+		NeMobPZB3unjMRGcpIcRX573b6k=
 		</data>
 		<key>Headers/SNCPaymentContext.h</key>
 		<data>
@@ -18,11 +22,11 @@
 		</data>
 		<key>Headers/SNCPaymentMethod.h</key>
 		<data>
-		O7V/K4AUaVE5hUHB6WYEdx7stFA=
+		gChGcXHX8jPdG37B/PvDVlbB4sE=
 		</data>
 		<key>Headers/SNCSonect.h</key>
 		<data>
-		IcBzbsscw+tG7mnM1p1f9RwIRBY=
+		F9mJFpqmQahX0GZi8r2FOoYCvqw=
 		</data>
 		<key>Headers/SNCSonectPaymentDataSource.h</key>
 		<data>
@@ -38,7 +42,7 @@
 		</data>
 		<key>Headers/SNCTransactionAmount.h</key>
 		<data>
-		1xe1WErrA13c51AHxx/hT9E+m9s=
+		9GCWB9KVaKHo5lBmuxKntS+Yn/o=
 		</data>
 		<key>Headers/SNCTransactionMetadata.h</key>
 		<data>
@@ -46,11 +50,11 @@
 		</data>
 		<key>Headers/Sonect.h</key>
 		<data>
-		Xu9J1yc7ulU5L4Vm9sKe3EpD/vM=
+		O68slqOejxI1SSn858bfDixQUAA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		V7Z44pJY3/dS80Wk2xSbnXA/Dy8=
+		Ar84nDw39Pvk0EEQDpZkexG0vww=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -90,255 +94,323 @@
 		</data>
 		<key>SNCATMCategoryCell.nib</key>
 		<data>
-		pr9OZugVcsI6crvXBoaIN8P4p8I=
+		NMtCI8DPH2TRCniAjbaeQ6othqc=
 		</data>
 		<key>SNCATMDetailsCell.nib</key>
 		<data>
-		p/jmUmydJ80ant14DMFo1MQClwk=
+		G4YvtL9Hq/b4XP2tfCaaMf+aULI=
 		</data>
 		<key>SNCATMDetailsViewController.nib</key>
 		<data>
-		UJim9cZiU3p1kmD7dU1rvAQb+sA=
+		PNZIy0ML6FFomNYs2WHLz2zK7mw=
 		</data>
 		<key>SNCATMEmptyCategoryCell.nib</key>
 		<data>
-		lGGD/dk628uBx9t9PNF4F1JkPh0=
+		w5xBLcznGwQ9SppFA38M1bG3UIk=
 		</data>
 		<key>SNCATMGroupDetailsViewController.nib/objects-11.0+.nib</key>
 		<data>
-		m58/PRQ7wj2TYbD8knI1lpwiNf8=
+		3PTlxurcky/4MdU8a8Vx5l/sjWY=
 		</data>
 		<key>SNCATMGroupDetailsViewController.nib/runtime.nib</key>
 		<data>
-		9We4di282wZoImAtgbqsQW+RBJk=
+		rhyK5Zm57MBOGEA/2CSY3bxz9kw=
 		</data>
 		<key>SNCATMListViewController.nib/objects-11.0+.nib</key>
 		<data>
-		HZFaSxdPdtdKSyCUN91X+amHe5c=
+		ZkKraQIlt+4SAeysXBhL20VmrmQ=
 		</data>
 		<key>SNCATMListViewController.nib/runtime.nib</key>
 		<data>
-		Z7HesIVUHeqeYOZajP2aq7QPUY4=
+		L6ket+Yx91JZFIRNgmFpl6xn0JM=
 		</data>
 		<key>SNCAmountPickerView.nib/objects-11.0+.nib</key>
 		<data>
-		HMQi0eELPeK/P7EmJYZxj+Ae2Jw=
+		1qAiGY5212ZHShudGKh6Oeyx+Ng=
 		</data>
 		<key>SNCAmountPickerView.nib/runtime.nib</key>
 		<data>
-		zqgu8/n3w4+y8eFqTVKE7rzq3Gs=
+		Uk3VL8SbfY7o26tyZ48XUzsL8sY=
 		</data>
 		<key>SNCCollectionViewController.nib/objects-11.0+.nib</key>
 		<data>
-		BmXjUxOPWaxFuSL2WvaQ+sn5GNk=
+		lA2Cp0417XQZOjDOLpNLsPpikoI=
 		</data>
 		<key>SNCCollectionViewController.nib/runtime.nib</key>
 		<data>
-		r1gxtdoPhwonWih/At2K66pqgW8=
+		tW9fi2/mSBocFxrDmlMbQpWYmmE=
+		</data>
+		<key>SNCContactUsViewController.nib/objects-11.0+.nib</key>
+		<data>
+		Wl2wP8ABjrlTHnH+DXHzoBtjbiA=
+		</data>
+		<key>SNCContactUsViewController.nib/runtime.nib</key>
+		<data>
+		LyMfD9haBILtp3RcjDLuVtSA+BI=
 		</data>
 		<key>SNCDashboardViewController.nib/objects-11.0+.nib</key>
 		<data>
-		JmXPk3CLKGmcBhrJhhfVP2szcLQ=
+		iQ/sb2ETbUIyvgRjf7n5J/2JZHQ=
 		</data>
 		<key>SNCDashboardViewController.nib/runtime.nib</key>
 		<data>
-		Tocmd0aa3Z92tCwyvh8nkh+3Ccg=
+		URx9Oeky1zTtcgSMsPe6bT/ylWA=
+		</data>
+		<key>SNCImageCell.nib</key>
+		<data>
+		rVvyrKczncq07pvkDQNd/Bg4RBI=
+		</data>
+		<key>SNCLimitProgressCell.nib</key>
+		<data>
+		vNDyFc8JL7+7z8XoGfxpHKN6OH0=
 		</data>
 		<key>SNCMapFilterViewController.nib/objects-11.0+.nib</key>
 		<data>
-		JXgwCSGFY70fXPDB9Qdhh/G/mz8=
+		k4M2qoovsuDKL4PzK4knWNYx+X8=
 		</data>
 		<key>SNCMapFilterViewController.nib/runtime.nib</key>
 		<data>
-		Da6GpYZskn+A2KGYfVKKPAvdHjs=
+		IjoVp/IjRn+XRqx8Yykpd1HP90A=
 		</data>
 		<key>SNCMapSearchMoreCell.nib</key>
 		<data>
-		DZ2mO/qDuh1XmA3rzQonzZoxvKs=
+		okslcNMHqzim7+kOCW62h6u6EO0=
 		</data>
 		<key>SNCMapSearchResultCell.nib</key>
 		<data>
-		EgGQLNXqGbSPDSYdCN/6HnwBlDw=
+		AG8hd4sRgnLIN7q/w/6NEBdAWEA=
 		</data>
 		<key>SNCMapViewController.nib/objects-11.0+.nib</key>
 		<data>
-		/iKAo76tJC9Jzu9sHOqhLA1RT7g=
+		S0ZzkdzoHrNqJBxfbDU1WsGthnk=
 		</data>
 		<key>SNCMapViewController.nib/runtime.nib</key>
 		<data>
-		wmYWjkg1goE6LofgDojgXSHStf4=
+		+CvPth1wlM7BMY281tqQqcQIP1k=
 		</data>
 		<key>SNCReceiptAmountCell.nib</key>
 		<data>
-		7t5Om5VC6gBbDNCpVxVt/Lb2eBQ=
+		CRDKJdJgbtd9+P02Ly/PmtS69Kc=
 		</data>
 		<key>SNCReceiptBarcodeCell.nib</key>
 		<data>
-		Sd3oBHwCkerVsys4hncaGPwfwyk=
+		P/enGDlA5uvLGDENGTynfUZqhTQ=
 		</data>
 		<key>SNCReceiptBottomCell.nib</key>
 		<data>
-		82OGDHQ/OZTpSg2wMsI/iLMmPck=
+		yO4zWuI46lEPrqljRvZ1tEX3SzU=
 		</data>
 		<key>SNCReceiptContactCell.nib</key>
 		<data>
-		2jcpJqOtdHGVAHADYHkmMZN3jwE=
+		AHBopWjfM+1s/Fry1l7q9S2kMsw=
 		</data>
 		<key>SNCReceiptDateCell.nib</key>
 		<data>
-		+7rrCnk4DQXEejZgjWLLlTJfd78=
+		p7ldN3dFCxIyOrbc1FRpsVk8dGE=
 		</data>
 		<key>SNCReceiptHeaderCell.nib</key>
 		<data>
-		z0iTslmQ40TsSbCVcWSzRp+tVsY=
+		STchqoN52ECntx96Vatpfut6M+k=
 		</data>
 		<key>SNCReceiptMapButtonCell.nib</key>
 		<data>
-		wz8DCLg1ycGPLkYcxg3StwqWZlw=
+		NABXV6kYKxjG1RZljrv+tD9G6RA=
 		</data>
 		<key>SNCReceiptOptionCell.nib</key>
 		<data>
-		pAPt2BP49mlV5cyG7mYI4xR1ZJk=
+		6BOA72RE377FXIS7zi91cvi6emc=
 		</data>
 		<key>SNCReceiptPaymentCell.nib</key>
 		<data>
-		axZc/zSLLFebHpskbI3UHZsYc4s=
+		+IJT5OxNNe/hlP0WALW06EgdEdM=
 		</data>
 		<key>SNCReceiptSlipCancel.nib/objects-11.0+.nib</key>
 		<data>
-		eWEiqAdU239jR0cX3fkBUtNFy6w=
+		OvubjPDZ7jjvHAzpwwQSU1EIUp0=
 		</data>
 		<key>SNCReceiptSlipCancel.nib/runtime.nib</key>
 		<data>
-		6DTG5cgq1EBWxkz0VVDcCO3ShUI=
+		9wJo202ZASZZIs+arwdONQfoo40=
 		</data>
 		<key>SNCReceiptSlipEmail.nib/objects-11.0+.nib</key>
 		<data>
-		u9I5ZmpWa5EkRT98hFVt5ElX12g=
+		FesLyKPP8Aqs/mPGX33Y2ao6T8M=
 		</data>
 		<key>SNCReceiptSlipEmail.nib/runtime.nib</key>
 		<data>
-		InvFOld7sst0E1F4EoIK4BPFiVw=
+		F/ImDsmGC6594QjOrlpgdu00vi0=
 		</data>
 		<key>SNCReceiptSpacerCell.nib</key>
 		<data>
-		JSYDQEPBn4n8jBmvYCnhtBQq4So=
+		Amdn6Fdd7W+m+ZNqReayKy6KNXA=
 		</data>
 		<key>SNCReceiptViewController.nib/objects-11.0+.nib</key>
 		<data>
-		ZmXJWaToha+7/r1/T+VvYcGgyLM=
+		lI9MBlyrFO6I8eviLizChY+nbVk=
 		</data>
 		<key>SNCReceiptViewController.nib/runtime.nib</key>
 		<data>
-		1ZT5pruPrh1PgNT4AgyurKjGxQo=
+		oH/bHVxhGEyVdCnNnHA09tA3Gk0=
 		</data>
 		<key>SNCReferralViewController.nib/objects-11.0+.nib</key>
 		<data>
-		KLdtsKPB3/BjtmsdkX390ytGXHM=
+		7ITZogb5Hl7Xjom/1UKmvSh/ay0=
 		</data>
 		<key>SNCReferralViewController.nib/runtime.nib</key>
 		<data>
-		t0dSiiJXN821BwEjrtbpUwRxTHs=
+		XTI9L4iOzukF3OATiQz9ZJvopWU=
 		</data>
 		<key>SNCSendCashAddPaymentMethodCell.nib</key>
 		<data>
-		T26hEDC4D0bbiNZUJAeVGh/9Ils=
+		1fh2zB3mBwRSttCDQNLJOC/K//I=
 		</data>
 		<key>SNCSendCashAmountCell.nib</key>
 		<data>
-		zLoLmRSyYWzVJyQxWLJWfvlMR1Q=
+		tL20DWc/AeRsBjuT3YctOzjJAPM=
 		</data>
 		<key>SNCSendCashAmountPickerCell.nib</key>
 		<data>
-		kpXcj/hLJ6lKx/62SJXStvD1hLs=
+		EdCPDurr0YP//Y2B60Havbvama0=
 		</data>
 		<key>SNCSendCashPaymentMethodCell.nib</key>
 		<data>
-		sQjcswNbHKIi3qCFqKBSVTWTyZo=
+		I1K0mu6IprMNCA6CSd0H0wKj4bg=
 		</data>
 		<key>SNCSendCashPaymentMethodPickerCell.nib</key>
 		<data>
-		2+GzSDTesOxvyo+1QbgaAmiPj3Q=
+		2tXM74JtnlBwmoAygUK2R+VWUnw=
 		</data>
 		<key>SNCSendCashReceiptViewController.nib/objects-11.0+.nib</key>
 		<data>
-		RFfkUNcE0q0UPDRsvoKKAA3UcE8=
+		D+Ns3oPGRTf85rFO0zsn3/xEufw=
 		</data>
 		<key>SNCSendCashReceiptViewController.nib/runtime.nib</key>
 		<data>
-		qR0Gv/Vj5uB10xjSaTprNcDePwI=
+		xqcBAzc4QhKeJCsEy817ENassrg=
 		</data>
 		<key>SNCSendCashReceiverCell.nib</key>
 		<data>
-		5AJXINXUOmk/HsUwfCyPP428OW0=
+		cDz0C2d+2WKLUeJavsZbtyRF04c=
 		</data>
 		<key>SNCSendCashSelectPaymentMethodCell.nib</key>
 		<data>
-		8kPqvdBnki/o4TdnRNxcdwlcJio=
+		2VOv60lzC0FWtEwRyOh3LKXfUMg=
 		</data>
 		<key>SNCSendCashViewController.nib/objects-11.0+.nib</key>
 		<data>
-		Ldi6Kyvj0R1X9GV0XBLV+gj1IRU=
+		RV2KlV1gSFOW+x2voTNtHY91v/g=
 		</data>
 		<key>SNCSendCashViewController.nib/runtime.nib</key>
 		<data>
-		kAByJe2RbpSA+UbuJ3V9wqQHwpk=
+		tOVZC7uq3Z/NWfjYy7FJT+dkD+E=
+		</data>
+		<key>SNCSettingsContactUsButton.nib/objects-11.0+.nib</key>
+		<data>
+		r3BkJ7Np/iw6SunBZ1P0W9+YXbw=
+		</data>
+		<key>SNCSettingsContactUsButton.nib/runtime.nib</key>
+		<data>
+		Lzhw+R2OQZ03DbU/dSD35fkDp/o=
+		</data>
+		<key>SNCSettingsEmailCell.nib</key>
+		<data>
+		6TJ5Pa93q1ga9wwXULWOO8ZM01Q=
+		</data>
+		<key>SNCSettingsHeaderCell.nib</key>
+		<data>
+		SIS8tpE8JfodSKaGmXRxR5710ks=
+		</data>
+		<key>SNCSettingsTextCell.nib</key>
+		<data>
+		9PwqRk4gBWNALodUvgXerJ3TtFY=
+		</data>
+		<key>SNCSettingsVersionCell.nib</key>
+		<data>
+		ky4ppu6+e4pOHkfIjDA9KKvWBYk=
+		</data>
+		<key>SNCSonectViewController.nib</key>
+		<data>
+		Am7+ZVSnjN5fNip5WCCYB3Quzhg=
 		</data>
 		<key>SNCSpacerCell.nib</key>
 		<data>
-		9FaXH3p5vlGnH3ukqU8aQLb1UY0=
+		+43EjVK7CbZEFBVZVCe8cNNxW6c=
+		</data>
+		<key>SNCTermsViewController.nib/objects-11.0+.nib</key>
+		<data>
+		GmwQrWSl7fGymzit44mTv7aArVc=
+		</data>
+		<key>SNCTermsViewController.nib/runtime.nib</key>
+		<data>
+		v5cmjgCbfFjGXNwqy6i90kmIAdo=
 		</data>
 		<key>SNCTextInfoCell.nib</key>
 		<data>
-		407MTMIi+Ft+D76uGe5AzfHgRcE=
+		DmkrUlf7xzXlI8/3B0/QVEizi0A=
 		</data>
 		<key>SNCTransactionHistoryCell.nib</key>
 		<data>
-		xcSdso/DjVDqtnz/k2VfQQaXPGA=
+		n2tGFXrHIiL+irw6aQAG753xmG8=
 		</data>
 		<key>SNCTransactionHistoryEmptyCell.nib</key>
 		<data>
-		cmKzbEE8adoknp4R4gTBV+uGbl4=
+		VtAuhEXmWZ3G5Tk6DmDQXJjPTbA=
 		</data>
 		<key>SNCTransactionHistoryListViewController.nib/objects-11.0+.nib</key>
 		<data>
-		602UKhp+5WBwAXnOuz1tqtpdISQ=
+		c92Cck6Hy9R68Pzf9w3hfqIzwho=
 		</data>
 		<key>SNCTransactionHistoryListViewController.nib/runtime.nib</key>
 		<data>
-		trcTTm//7ED5V3PptvgMxXj/IBU=
+		Q+uLopOjfBIyCPk0qHXyeOdMFzw=
 		</data>
 		<key>SNCTransactionHistoryViewController.nib/objects-11.0+.nib</key>
 		<data>
-		KelrjdGTp8yQYSnLrPGnG0Hqg5A=
+		ClnW0DY2+ocee833dVXj6Gzqo3g=
 		</data>
 		<key>SNCTransactionHistoryViewController.nib/runtime.nib</key>
 		<data>
-		3IOB4c6PRltZN9mq0oFvHrkVV4Y=
+		XBMtuxEuVzcTcQ63VmWo9vOud+I=
 		</data>
 		<key>SNCTransactionViewController.nib/objects-11.0+.nib</key>
 		<data>
-		uft7EX/KOkqer6rdzQfQnFQCCow=
+		8OUvpEoDI9GRi8YrlD57UbZYkNY=
 		</data>
 		<key>SNCTransactionViewController.nib/runtime.nib</key>
 		<data>
-		1jpoD6K2UpQvBt49z2QItiH8g3g=
+		ApUbq0V6Taq195DVnDFMY9mXBjE=
+		</data>
+		<key>SNCTutorialPageViewController.nib/objects-11.0+.nib</key>
+		<data>
+		2B+9n6Ke+6aTdxeYEeJWUYEZc/U=
+		</data>
+		<key>SNCTutorialPageViewController.nib/runtime.nib</key>
+		<data>
+		uByNRxLwxUaI/bSftqS9m9Efi7w=
+		</data>
+		<key>SNCTutorialViewController.nib/objects-11.0+.nib</key>
+		<data>
+		aMtomTsd5PPIDd5et3i58z/zQAw=
+		</data>
+		<key>SNCTutorialViewController.nib/runtime.nib</key>
+		<data>
+		aOrKJyi+/lsKLs5g/sb4TeHr3L8=
 		</data>
 		<key>SNCWithdrawAddPaymentMethodCell.nib</key>
 		<data>
-		0/llH/ai9EtZswPi8FzSSCrvlk4=
+		Qmt+ZEZlEXk3RQ0rUXAFWek6kEA=
 		</data>
 		<key>SNCWithdrawPaymentMethodCell.nib</key>
 		<data>
-		p2iaGDUpmHQfpC09rq0MpBf1dlE=
+		FZ90uCl9f72nOvf12w0wsphLQJw=
 		</data>
 		<key>SNCWithdrawViewController.nib/objects-11.0+.nib</key>
 		<data>
-		4VUjj2ye1PVh+tmgCJ6cFd40aHU=
+		22Dsv6LsaZEzMRN/M/JQ14NyVds=
 		</data>
 		<key>SNCWithdrawViewController.nib/runtime.nib</key>
 		<data>
-		urDChAXXud/ZH5DMWyJucNxzk0o=
+		7DXMt2LKW6BywhS+ELJGne/x5yM=
 		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
@@ -387,22 +459,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZL1wS0WO8P5lGwFb3RBB7b+Umrk=
+			RCOs+panqG+azAOtnvSmrg8vYx8=
 			</data>
 			<key>hash2</key>
 			<data>
-			bVRhcy6FxETkizgVeiwkoU3eH6P01t0yqPgiWvh6VN8=
+			4Y4eVtJdt2BVHwZUnOqIMNAgcZ3btOpG140ngNksqMc=
 			</data>
 		</dict>
 		<key>Headers/SNCConfiguration.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wXSSDgqMIoBZmnc20JDzPcAJ4NA=
+			OPIXVbdV+gpFdBtgmcigg55I2lY=
 			</data>
 			<key>hash2</key>
 			<data>
-			XK4D0Jrz3Bfs7Iq+akQulynppoNe0mdEZM9d6zl9WMs=
+			dvxV5vK/9ZJxDiBaqAwajD+gYxGBVL/fxOxDYAWtkBo=
+			</data>
+		</dict>
+		<key>Headers/SNCCredentials.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NeMobPZB3unjMRGcpIcRX573b6k=
+			</data>
+			<key>hash2</key>
+			<data>
+			pAQaVuOKeRdtnSmiMLe6LRDC4Ooxac4EW3GA4hNZBvk=
 			</data>
 		</dict>
 		<key>Headers/SNCPaymentContext.h</key>
@@ -420,22 +503,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O7V/K4AUaVE5hUHB6WYEdx7stFA=
+			gChGcXHX8jPdG37B/PvDVlbB4sE=
 			</data>
 			<key>hash2</key>
 			<data>
-			jygz71CNRjKgbkBj1Mmu2SHYM6PvEYEoXY7fUNg9PxQ=
+			3tzH0ZiE0ckVJPhP3212ABmRgAaNpN2EEeNkrhfHkec=
 			</data>
 		</dict>
 		<key>Headers/SNCSonect.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IcBzbsscw+tG7mnM1p1f9RwIRBY=
+			F9mJFpqmQahX0GZi8r2FOoYCvqw=
 			</data>
 			<key>hash2</key>
 			<data>
-			SkklV+jS+S2XLdfhEgeTO5ky70gtYrsJ5suprOtAoXY=
+			aVMy8mHWxg93u37bVCdPJ8ZpMfDgDnOUXZ2LBROZviE=
 			</data>
 		</dict>
 		<key>Headers/SNCSonectPaymentDataSource.h</key>
@@ -475,11 +558,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1xe1WErrA13c51AHxx/hT9E+m9s=
+			9GCWB9KVaKHo5lBmuxKntS+Yn/o=
 			</data>
 			<key>hash2</key>
 			<data>
-			LiGqlYNgFNPGmIrofmSjzOIiLptjw6qD+tpwYlqqko0=
+			wky4B3xbHlODaJd7KImZqxlp6cJ0batpjpFz/wC/yVc=
 			</data>
 		</dict>
 		<key>Headers/SNCTransactionMetadata.h</key>
@@ -497,11 +580,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Xu9J1yc7ulU5L4Vm9sKe3EpD/vM=
+			O68slqOejxI1SSn858bfDixQUAA=
 			</data>
 			<key>hash2</key>
 			<data>
-			hwp00L+6jOrW+IuW/jI7WHebJOAL6YA1d0NreFWwAso=
+			Sbmqeme3SFIfmZV4YCTOIrYa3wJ7/ikDR961QqS+Jv4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -607,693 +690,880 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pr9OZugVcsI6crvXBoaIN8P4p8I=
+			NMtCI8DPH2TRCniAjbaeQ6othqc=
 			</data>
 			<key>hash2</key>
 			<data>
-			ulE8rJDrRk04aPfUEBYoI5dYXnfaSShozfrjf4IBEpk=
+			EqusNY+4/peWUanQH8fM05AmwqCmprcLRP1YbWa5BvA=
 			</data>
 		</dict>
 		<key>SNCATMDetailsCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			p/jmUmydJ80ant14DMFo1MQClwk=
+			G4YvtL9Hq/b4XP2tfCaaMf+aULI=
 			</data>
 			<key>hash2</key>
 			<data>
-			zn+jbdc5lhTJLNcEvPwmBZIOZ26I4SNOTzfPhGDd0fk=
+			ceqi8nCJmyWnbU3xT2M510E0zB1L/BBXOvbDGSftw8U=
 			</data>
 		</dict>
 		<key>SNCATMDetailsViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UJim9cZiU3p1kmD7dU1rvAQb+sA=
+			PNZIy0ML6FFomNYs2WHLz2zK7mw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vlsv0bYOxvH3myRRHG+WwIXc8aRp86cbuPKQTEdXWpM=
+			HyjM43LH1xOj6nKfVJDiEv2BcVDXeTqmz5uyfkpGWss=
 			</data>
 		</dict>
 		<key>SNCATMEmptyCategoryCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lGGD/dk628uBx9t9PNF4F1JkPh0=
+			w5xBLcznGwQ9SppFA38M1bG3UIk=
 			</data>
 			<key>hash2</key>
 			<data>
-			xcUauBi9gGXJnQorEMrww+Ea45477YmYGXlQLmABV1A=
+			A85K4qY6ZJ31sw+F+sCspXtPa3t4Fyf45qXQBIatrqI=
 			</data>
 		</dict>
 		<key>SNCATMGroupDetailsViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m58/PRQ7wj2TYbD8knI1lpwiNf8=
+			3PTlxurcky/4MdU8a8Vx5l/sjWY=
 			</data>
 			<key>hash2</key>
 			<data>
-			bHEGzZDDiGj4LVEJ7LRUzRQ6lY6BvIqU344nOgLPqZU=
+			QziAUtGigauoLIoi7lOKykL09Mryf2nEAhHaBFN4Q2c=
 			</data>
 		</dict>
 		<key>SNCATMGroupDetailsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9We4di282wZoImAtgbqsQW+RBJk=
+			rhyK5Zm57MBOGEA/2CSY3bxz9kw=
 			</data>
 			<key>hash2</key>
 			<data>
-			z0zksCVClQDWQloBqG8zUyTs7o+r3gkkdfhGPM5Q2qc=
+			H8snD2Pn2c85qe1DPlSauwtV2/q2jt8XRknBJXAwks4=
 			</data>
 		</dict>
 		<key>SNCATMListViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HZFaSxdPdtdKSyCUN91X+amHe5c=
+			ZkKraQIlt+4SAeysXBhL20VmrmQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			hQNJ/nq/B/YDW8p9+upWuB2PY9yYiHP205M463EnctE=
+			ys1smdSeZBf5snAwQ5oW4/xwRXwZAijuL6m+6ZRuUfY=
 			</data>
 		</dict>
 		<key>SNCATMListViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Z7HesIVUHeqeYOZajP2aq7QPUY4=
+			L6ket+Yx91JZFIRNgmFpl6xn0JM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Bw1yli1gXg9Os9ZpW3TchL+9vGfI9W7dpSjiyK13e0o=
+			iOnfKRfk/FY7A5tzWopGd5Ko/tGBuF1kxvbPcKcJlqk=
 			</data>
 		</dict>
 		<key>SNCAmountPickerView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HMQi0eELPeK/P7EmJYZxj+Ae2Jw=
+			1qAiGY5212ZHShudGKh6Oeyx+Ng=
 			</data>
 			<key>hash2</key>
 			<data>
-			V7UCD/5wnJJbnBzYzc8v5qFvHHkoWV2Mg2egNkUDL+o=
+			FA0otEFViBncRDu0qsCKiZAv551lKvIA//A1Dy+8/BE=
 			</data>
 		</dict>
 		<key>SNCAmountPickerView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zqgu8/n3w4+y8eFqTVKE7rzq3Gs=
+			Uk3VL8SbfY7o26tyZ48XUzsL8sY=
 			</data>
 			<key>hash2</key>
 			<data>
-			WzB5ehWQctfZZJjdNjwkGqQfoz7E0PseGahCq1AbP6w=
+			8c167KvGkwSWuBrYik9WF7SNB3eSX0SJvthVQo31IfM=
 			</data>
 		</dict>
 		<key>SNCCollectionViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BmXjUxOPWaxFuSL2WvaQ+sn5GNk=
+			lA2Cp0417XQZOjDOLpNLsPpikoI=
 			</data>
 			<key>hash2</key>
 			<data>
-			4odPXwz5HduJK0+PVyhPyrYLbY08UHci1fFBZE+pUt0=
+			O4VwnUSmn0rJpcIMVa4aVJptuGMvXGh3gHfwAv8HEc4=
 			</data>
 		</dict>
 		<key>SNCCollectionViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			r1gxtdoPhwonWih/At2K66pqgW8=
+			tW9fi2/mSBocFxrDmlMbQpWYmmE=
 			</data>
 			<key>hash2</key>
 			<data>
-			5Z2H2osXrVQ/NFUsgRayy1YvXOdOGG0ViYMSGcsYlXE=
+			KupIfuCye5GGoK4QrmytfUaXY3LD3KYiuz9jlKN1SS8=
+			</data>
+		</dict>
+		<key>SNCContactUsViewController.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Wl2wP8ABjrlTHnH+DXHzoBtjbiA=
+			</data>
+			<key>hash2</key>
+			<data>
+			anArAhQj0r/6/Jt0wM73Y+05sS2jzJk1DlTt50me9YY=
+			</data>
+		</dict>
+		<key>SNCContactUsViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LyMfD9haBILtp3RcjDLuVtSA+BI=
+			</data>
+			<key>hash2</key>
+			<data>
+			JkS7rRkoAzjYASgNKl2b47tSb+WE1i6ZFSPPhRrXRHE=
 			</data>
 		</dict>
 		<key>SNCDashboardViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JmXPk3CLKGmcBhrJhhfVP2szcLQ=
+			iQ/sb2ETbUIyvgRjf7n5J/2JZHQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			x4hCnk9J8VxUJzFhtPOvlrulyLkfxUBJ9B4tbZEZVwE=
+			XNOUbIXd6nIkTGyuDfFU1SgjjG3sCcJINtGOPwIVFS0=
 			</data>
 		</dict>
 		<key>SNCDashboardViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Tocmd0aa3Z92tCwyvh8nkh+3Ccg=
+			URx9Oeky1zTtcgSMsPe6bT/ylWA=
 			</data>
 			<key>hash2</key>
 			<data>
-			pWCL205dUjTPVJjvEkx0lWjlydp8/0bdX9Neqt+RFkA=
+			45Z60nULn2BS++iD1qt3jsyUMA3/yQbabBWp40/g/Ws=
+			</data>
+		</dict>
+		<key>SNCImageCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rVvyrKczncq07pvkDQNd/Bg4RBI=
+			</data>
+			<key>hash2</key>
+			<data>
+			nrv+JXm4ka9tc+5z7sIvqE7G1Nh76tfWyxFI0GqQCp8=
+			</data>
+		</dict>
+		<key>SNCLimitProgressCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vNDyFc8JL7+7z8XoGfxpHKN6OH0=
+			</data>
+			<key>hash2</key>
+			<data>
+			JkLoi6KYWRWChuPTSm5EAs5B9hDfCjMDVDyhpTSS+4k=
 			</data>
 		</dict>
 		<key>SNCMapFilterViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JXgwCSGFY70fXPDB9Qdhh/G/mz8=
+			k4M2qoovsuDKL4PzK4knWNYx+X8=
 			</data>
 			<key>hash2</key>
 			<data>
-			eEaM2au+b+WIShE1d5BCzC+Pxkq6k0FYc9BpKygXKmg=
+			oiq8RVOKWvLYRGpHTSSFhrOdcyTaLc71n7xAbSjcFew=
 			</data>
 		</dict>
 		<key>SNCMapFilterViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Da6GpYZskn+A2KGYfVKKPAvdHjs=
+			IjoVp/IjRn+XRqx8Yykpd1HP90A=
 			</data>
 			<key>hash2</key>
 			<data>
-			LhK+x+bteTDVJex0WHUNXorBZKmZfrxlvZo+JBIy+zs=
+			lkfPzHvrKgoBGlFdNgYXGG9QP4F+CCaaTL7Vx5lbpEw=
 			</data>
 		</dict>
 		<key>SNCMapSearchMoreCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DZ2mO/qDuh1XmA3rzQonzZoxvKs=
+			okslcNMHqzim7+kOCW62h6u6EO0=
 			</data>
 			<key>hash2</key>
 			<data>
-			zgfne6YkVKqeJAQhNMgLF+L9Jh4iCtO8FrtSKyuOBLw=
+			1qUfoZp/I98Od88nRqXo8asuJw40B82XdnjSb3TUa0Y=
 			</data>
 		</dict>
 		<key>SNCMapSearchResultCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EgGQLNXqGbSPDSYdCN/6HnwBlDw=
+			AG8hd4sRgnLIN7q/w/6NEBdAWEA=
 			</data>
 			<key>hash2</key>
 			<data>
-			9Y87OMwTR/D4JwPvUAdeC+Au8u0xnbNrx+2PZ7Z5Z2k=
+			SMFe7FgwIZmQ4lEiKqqSPmQ0VIVX9Ktut7DrPaizl9g=
 			</data>
 		</dict>
 		<key>SNCMapViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/iKAo76tJC9Jzu9sHOqhLA1RT7g=
+			S0ZzkdzoHrNqJBxfbDU1WsGthnk=
 			</data>
 			<key>hash2</key>
 			<data>
-			od2jUsxXu35tpKuAnQjSZyjrjqEtWJuKjrlZKra4d78=
+			PtVw+L/yHi9o4rJaMoNDLi14h3HVM6yakg4uXn4SHqg=
 			</data>
 		</dict>
 		<key>SNCMapViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wmYWjkg1goE6LofgDojgXSHStf4=
+			+CvPth1wlM7BMY281tqQqcQIP1k=
 			</data>
 			<key>hash2</key>
 			<data>
-			8lVPSI0rt2YFBOKPbsaCACPC7Pjnyc5ruKj17Naz0ZE=
+			YCxNWLlykGUoYWcGxFisB9zXlngvvEDoyOsi/k8jSn4=
 			</data>
 		</dict>
 		<key>SNCReceiptAmountCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7t5Om5VC6gBbDNCpVxVt/Lb2eBQ=
+			CRDKJdJgbtd9+P02Ly/PmtS69Kc=
 			</data>
 			<key>hash2</key>
 			<data>
-			7V+7rEhbbjFtq9yoVro51ZVwcumby2VQ15nEjOdUCak=
+			v4km1DtfysdVb/2NxtQ1kmKcXbT7m+vVeYJDk4dzkec=
 			</data>
 		</dict>
 		<key>SNCReceiptBarcodeCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Sd3oBHwCkerVsys4hncaGPwfwyk=
+			P/enGDlA5uvLGDENGTynfUZqhTQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			XxyZgWn5jJ0CNc8oI4GA3ugj8yjmUa6oOqJ3dmThc5U=
+			XJDJ5cY/3nUXFTUeO8rvAPwJx9N6rDWGnKIsvmoYEEw=
 			</data>
 		</dict>
 		<key>SNCReceiptBottomCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			82OGDHQ/OZTpSg2wMsI/iLMmPck=
+			yO4zWuI46lEPrqljRvZ1tEX3SzU=
 			</data>
 			<key>hash2</key>
 			<data>
-			MLTzTxt2nWh9dIQCh6FWvTy7B0IDb5L9DfQ+5WFp5AU=
+			oakDUdRB+jKMKFLnB/2kCL9Nn/xvZNOo9J4WaCys3FY=
 			</data>
 		</dict>
 		<key>SNCReceiptContactCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2jcpJqOtdHGVAHADYHkmMZN3jwE=
+			AHBopWjfM+1s/Fry1l7q9S2kMsw=
 			</data>
 			<key>hash2</key>
 			<data>
-			9rNjnV+tBBKAH7VomLn6XXaOXiVDO5kq/66IRGv/ioQ=
+			+0Gnp36BXuzOF+BoG1Zd1nc30F6AslxCcXpitYcEO2A=
 			</data>
 		</dict>
 		<key>SNCReceiptDateCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+7rrCnk4DQXEejZgjWLLlTJfd78=
+			p7ldN3dFCxIyOrbc1FRpsVk8dGE=
 			</data>
 			<key>hash2</key>
 			<data>
-			QTtr7dzfzWPAPEShHJcmKrk8Mc/hP9qnDD7IZ3xbmXY=
+			IEitzivBUB2ChuLMMMUhaTKb8xaSr+nuC8aquMYK+2w=
 			</data>
 		</dict>
 		<key>SNCReceiptHeaderCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			z0iTslmQ40TsSbCVcWSzRp+tVsY=
+			STchqoN52ECntx96Vatpfut6M+k=
 			</data>
 			<key>hash2</key>
 			<data>
-			OUQlOzB7p1/+NbQMx2iLZG8EMDJO4F1ZAFpCxkHxBoA=
+			VMIY/9k5AVBZYNhIkiqFdzT3L6wDZgSG1JXFl9YKV1o=
 			</data>
 		</dict>
 		<key>SNCReceiptMapButtonCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wz8DCLg1ycGPLkYcxg3StwqWZlw=
+			NABXV6kYKxjG1RZljrv+tD9G6RA=
 			</data>
 			<key>hash2</key>
 			<data>
-			MZOLhrov5bm3jAS402K1w2531f/VAiH66UTipBtitiI=
+			oJcGkTopVQFrGHLY4o2BZ9wETiFKgYrgf6MBq9C/Hk4=
 			</data>
 		</dict>
 		<key>SNCReceiptOptionCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pAPt2BP49mlV5cyG7mYI4xR1ZJk=
+			6BOA72RE377FXIS7zi91cvi6emc=
 			</data>
 			<key>hash2</key>
 			<data>
-			VAbc3aGdPcwJORNGwdB2uw0iPI9nAVxUfgGjB/+0SRQ=
+			vTH1Bt7ma/q3kbUVBdPfcrW0mWHljddQbcAlyT7wHvs=
 			</data>
 		</dict>
 		<key>SNCReceiptPaymentCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			axZc/zSLLFebHpskbI3UHZsYc4s=
+			+IJT5OxNNe/hlP0WALW06EgdEdM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ODuSggSrb8RV7dRRxnytF2ZB3PV6xnhwv51/kg0OYtE=
+			PoCi56gIGcliPc6prxrYJLWEValu2hWLAqZhzfTUkBk=
 			</data>
 		</dict>
 		<key>SNCReceiptSlipCancel.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eWEiqAdU239jR0cX3fkBUtNFy6w=
+			OvubjPDZ7jjvHAzpwwQSU1EIUp0=
 			</data>
 			<key>hash2</key>
 			<data>
-			gsbAdmac8gNB/kFc3qCGORUhhqAY/GH9quvx4jCO/+4=
+			vb4ke1F2+dMivVLtnlOfGUN+og+4V6NlDDV/otuFTXw=
 			</data>
 		</dict>
 		<key>SNCReceiptSlipCancel.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6DTG5cgq1EBWxkz0VVDcCO3ShUI=
+			9wJo202ZASZZIs+arwdONQfoo40=
 			</data>
 			<key>hash2</key>
 			<data>
-			g+F+WImcgmFjw+n395jGXmdlTrpwIHJ6GcN2IV/9wz0=
+			kpM0Vm/3+JO3byqf+BpDJjbyZRjakMT2KKpjbYHOaCE=
 			</data>
 		</dict>
 		<key>SNCReceiptSlipEmail.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u9I5ZmpWa5EkRT98hFVt5ElX12g=
+			FesLyKPP8Aqs/mPGX33Y2ao6T8M=
 			</data>
 			<key>hash2</key>
 			<data>
-			c/P+LUfltQIv8SFE5bu0m+1XnQG2laBe0WoFes7MPjU=
+			vwSgd2W63Z5SDUaAFkR5UO9SULHxOJLsO1Q1TIT8zVU=
 			</data>
 		</dict>
 		<key>SNCReceiptSlipEmail.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			InvFOld7sst0E1F4EoIK4BPFiVw=
+			F/ImDsmGC6594QjOrlpgdu00vi0=
 			</data>
 			<key>hash2</key>
 			<data>
-			/yEVXrNZlZ7INOy+rBOIDCaG6bQ4nj9eww/Q/Ms0IJ4=
+			KgPVzcV+OSgi3hRSmJ9vhqvTel0CC2eJEm7XOVxP8Ek=
 			</data>
 		</dict>
 		<key>SNCReceiptSpacerCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JSYDQEPBn4n8jBmvYCnhtBQq4So=
+			Amdn6Fdd7W+m+ZNqReayKy6KNXA=
 			</data>
 			<key>hash2</key>
 			<data>
-			H+Uf7AxQ/MguWYdLx5yd85qfSodLyRWrv5YXoGtlVX4=
+			eqvxzv3sK3II9/G71GoUu0bxtScdrlDoioKMwOSy9B4=
 			</data>
 		</dict>
 		<key>SNCReceiptViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZmXJWaToha+7/r1/T+VvYcGgyLM=
+			lI9MBlyrFO6I8eviLizChY+nbVk=
 			</data>
 			<key>hash2</key>
 			<data>
-			c8QVxDCCQIPgj4TrN+1Jok7WJFVOiOuxA7erURxiz6U=
+			W24gID45gGP2DRON/Rt76Anu/dFbY5rJShtJf/Y47lM=
 			</data>
 		</dict>
 		<key>SNCReceiptViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1ZT5pruPrh1PgNT4AgyurKjGxQo=
+			oH/bHVxhGEyVdCnNnHA09tA3Gk0=
 			</data>
 			<key>hash2</key>
 			<data>
-			mzd4xM528FTeXashAWC1eq9kmDog9N/lfWY+S2GZge4=
+			Co7Ak34aeAEw99YqLi8iuwLE13+1A8bbSGJaD38n0X4=
 			</data>
 		</dict>
 		<key>SNCReferralViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KLdtsKPB3/BjtmsdkX390ytGXHM=
+			7ITZogb5Hl7Xjom/1UKmvSh/ay0=
 			</data>
 			<key>hash2</key>
 			<data>
-			TqcWvssTVVXJUTI6GhuZEVeW21Gag5w+3deJjwpy6F8=
+			nigj1X3dSlGhqHH2h+YMUPmk0lrQngiuVQR7kxvK5yI=
 			</data>
 		</dict>
 		<key>SNCReferralViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			t0dSiiJXN821BwEjrtbpUwRxTHs=
+			XTI9L4iOzukF3OATiQz9ZJvopWU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ovjs0oSxoV+SJuQNNlMbJ9AbO52/KBX8zuL8/xu2eLQ=
+			dYCZBUQkfwjYX7eGixD8NKjEghma/EIH0dDOgPjQCS4=
 			</data>
 		</dict>
 		<key>SNCSendCashAddPaymentMethodCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T26hEDC4D0bbiNZUJAeVGh/9Ils=
+			1fh2zB3mBwRSttCDQNLJOC/K//I=
 			</data>
 			<key>hash2</key>
 			<data>
-			W16bDDCT4qLlQSCEc8S2go4DYzQuqux59TplpacvxGk=
+			hNPFhzvDV3NcxIWCIs4lc1CHFzFD3zp7mdTGGZZ4PIo=
 			</data>
 		</dict>
 		<key>SNCSendCashAmountCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zLoLmRSyYWzVJyQxWLJWfvlMR1Q=
+			tL20DWc/AeRsBjuT3YctOzjJAPM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ycWPnbhoi7bFkbP5NkuqHHamN3Tt6mYlmjKur8LfAVg=
+			FrVvEKxeh91rwO5ULyYuqJ9d3kzq5UQBSGdfnQUHcUs=
 			</data>
 		</dict>
 		<key>SNCSendCashAmountPickerCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kpXcj/hLJ6lKx/62SJXStvD1hLs=
+			EdCPDurr0YP//Y2B60Havbvama0=
 			</data>
 			<key>hash2</key>
 			<data>
-			YngsA++2UvVfaoVfr5ifb63PT+am1G9qofYk7LznvYU=
+			bMnc9vrXquKZpmYGrvpb3xH44vMKaYQlJHP8sGinMbI=
 			</data>
 		</dict>
 		<key>SNCSendCashPaymentMethodCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sQjcswNbHKIi3qCFqKBSVTWTyZo=
+			I1K0mu6IprMNCA6CSd0H0wKj4bg=
 			</data>
 			<key>hash2</key>
 			<data>
-			4CpLsZ6JDE9ctRqfKuTFGkxGi8t0LWTYtWqKVqolKDs=
+			fr8uHR4C0P8Jm+cQmGO8MmmSqv0asIQjKd/ewrJPyoM=
 			</data>
 		</dict>
 		<key>SNCSendCashPaymentMethodPickerCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2+GzSDTesOxvyo+1QbgaAmiPj3Q=
+			2tXM74JtnlBwmoAygUK2R+VWUnw=
 			</data>
 			<key>hash2</key>
 			<data>
-			OrZSteumNKNfIIltUrgv4SJkzPPyor5NjLsxoqqnSAo=
+			fripuZ9A09BzG91IjAMhRtTpMUhKDl3Ihl00QPlSf5M=
 			</data>
 		</dict>
 		<key>SNCSendCashReceiptViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RFfkUNcE0q0UPDRsvoKKAA3UcE8=
+			D+Ns3oPGRTf85rFO0zsn3/xEufw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gecml+a11IYRZwwQguSR9uIqEEmKsvlDquG7nRPPIvo=
+			P8m2qN8LiDQWuMUODbw7ztSKnRyBInB79tNJDAq3cLk=
 			</data>
 		</dict>
 		<key>SNCSendCashReceiptViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qR0Gv/Vj5uB10xjSaTprNcDePwI=
+			xqcBAzc4QhKeJCsEy817ENassrg=
 			</data>
 			<key>hash2</key>
 			<data>
-			A7y72w0ha7vPExHIIxsUgYY/RG25av9VHFO3fkMANN0=
+			qIYnqqFtXonuhAl1l8g7KmhfnP3XK5O26KVzalkVryo=
 			</data>
 		</dict>
 		<key>SNCSendCashReceiverCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5AJXINXUOmk/HsUwfCyPP428OW0=
+			cDz0C2d+2WKLUeJavsZbtyRF04c=
 			</data>
 			<key>hash2</key>
 			<data>
-			tZ9RNgnEcSkUMoJNbwhl58JfGSJNf02F0OJ7hRPD0D8=
+			bJVcONKEFR2lt2yZt9MgMlnPKqvCYuSNYpgmrmOd78M=
 			</data>
 		</dict>
 		<key>SNCSendCashSelectPaymentMethodCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8kPqvdBnki/o4TdnRNxcdwlcJio=
+			2VOv60lzC0FWtEwRyOh3LKXfUMg=
 			</data>
 			<key>hash2</key>
 			<data>
-			zCubNT5ckNQra4+173AqXeF/AW4jxq5B2TPUIHkGjUM=
+			xaRAwKnLIIgOiqIq51kx2s179X5jcr7LoHqWuoI51HI=
 			</data>
 		</dict>
 		<key>SNCSendCashViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ldi6Kyvj0R1X9GV0XBLV+gj1IRU=
+			RV2KlV1gSFOW+x2voTNtHY91v/g=
 			</data>
 			<key>hash2</key>
 			<data>
-			xsWng2/ycSge5nrvvUGF6V//6KXKqo/xPjW92fQVyk4=
+			l2Qu30sV5bQ8dUrCJ30aiX3KvNX6derrdSeNn5X8XJY=
 			</data>
 		</dict>
 		<key>SNCSendCashViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kAByJe2RbpSA+UbuJ3V9wqQHwpk=
+			tOVZC7uq3Z/NWfjYy7FJT+dkD+E=
 			</data>
 			<key>hash2</key>
 			<data>
-			n/cuIZnTZ1HFGG3A6oGVWaQOUPEn7alDBOnPoLC9k6E=
+			F1C19YzwR3tRMcv4mmrg8NAw7NG8O9FGPHBU/rBZqnA=
+			</data>
+		</dict>
+		<key>SNCSettingsContactUsButton.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			r3BkJ7Np/iw6SunBZ1P0W9+YXbw=
+			</data>
+			<key>hash2</key>
+			<data>
+			2zY6k6kvz+1AFlGtjEZucfk/HyHhMxSPtfolXSs2sH0=
+			</data>
+		</dict>
+		<key>SNCSettingsContactUsButton.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Lzhw+R2OQZ03DbU/dSD35fkDp/o=
+			</data>
+			<key>hash2</key>
+			<data>
+			QfIq92ojyc0WkkiN9joF7QE5+gVWQaF/ytftpoS6M3c=
+			</data>
+		</dict>
+		<key>SNCSettingsEmailCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6TJ5Pa93q1ga9wwXULWOO8ZM01Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			LAyih7bvbTVxCMUNHDWQPwjl4fwcdvUJ8YWOAOORYIM=
+			</data>
+		</dict>
+		<key>SNCSettingsHeaderCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SIS8tpE8JfodSKaGmXRxR5710ks=
+			</data>
+			<key>hash2</key>
+			<data>
+			fXOjNRqvRQU6MEubzxGMgFnJirZ5mc0hpCptKy4Q0qU=
+			</data>
+		</dict>
+		<key>SNCSettingsTextCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9PwqRk4gBWNALodUvgXerJ3TtFY=
+			</data>
+			<key>hash2</key>
+			<data>
+			nzCNfDm2uZW1GsgdzIsxL3z79OZJiCLC9n24dEyE+YE=
+			</data>
+		</dict>
+		<key>SNCSettingsVersionCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ky4ppu6+e4pOHkfIjDA9KKvWBYk=
+			</data>
+			<key>hash2</key>
+			<data>
+			2r1G4EOfS+e8vXYyyvxHYmiqwV9J3sO6PgoyBAXS9R8=
+			</data>
+		</dict>
+		<key>SNCSonectViewController.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Am7+ZVSnjN5fNip5WCCYB3Quzhg=
+			</data>
+			<key>hash2</key>
+			<data>
+			jISY92yzlH9jfYBDW1aajBeyCQjqTjKuK2BjDNk+0QI=
 			</data>
 		</dict>
 		<key>SNCSpacerCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9FaXH3p5vlGnH3ukqU8aQLb1UY0=
+			+43EjVK7CbZEFBVZVCe8cNNxW6c=
 			</data>
 			<key>hash2</key>
 			<data>
-			74aKeZz1zb8YtQnqlSCz3cs8j5BFybfxEuQOEAwqZjk=
+			LfDcfs4sNszFqiRB9W7jzoev8ugfuuImrsOAmk1tWRY=
+			</data>
+		</dict>
+		<key>SNCTermsViewController.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GmwQrWSl7fGymzit44mTv7aArVc=
+			</data>
+			<key>hash2</key>
+			<data>
+			SVkjt10ynVhHP0M2Yw6D5CsG6JyKKUjABmmddG9YABA=
+			</data>
+		</dict>
+		<key>SNCTermsViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			v5cmjgCbfFjGXNwqy6i90kmIAdo=
+			</data>
+			<key>hash2</key>
+			<data>
+			gBjjkHAWwLYRj5VglRnlDkxX0H0lrCi/T4548OXMXMI=
 			</data>
 		</dict>
 		<key>SNCTextInfoCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			407MTMIi+Ft+D76uGe5AzfHgRcE=
+			DmkrUlf7xzXlI8/3B0/QVEizi0A=
 			</data>
 			<key>hash2</key>
 			<data>
-			GQJ7pmrW8JTGoBs8zuyUwfHk9KjIzdtZf267sJ0Kr3g=
+			C4Vlgb07eXEavGkUlmsmEE0JhKQ8fZDU/SOaZ5JN7/Q=
 			</data>
 		</dict>
 		<key>SNCTransactionHistoryCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xcSdso/DjVDqtnz/k2VfQQaXPGA=
+			n2tGFXrHIiL+irw6aQAG753xmG8=
 			</data>
 			<key>hash2</key>
 			<data>
-			MD8n7OVSQFxRUWJWGkY9GWWwrqVVwowMvWA6wMZrVds=
+			MlQSurhbfY+yKqaiSfXfkvOiu1fFnRuKtjJcHuba02A=
 			</data>
 		</dict>
 		<key>SNCTransactionHistoryEmptyCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cmKzbEE8adoknp4R4gTBV+uGbl4=
+			VtAuhEXmWZ3G5Tk6DmDQXJjPTbA=
 			</data>
 			<key>hash2</key>
 			<data>
-			y/twRcn26P0IEkMIlVkVk0O1wuTD3MUAcVphILz1pHA=
+			B8FPW+2RSAXvPalN6unA5ENOgSQwDJClST+A0EDahfU=
 			</data>
 		</dict>
 		<key>SNCTransactionHistoryListViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			602UKhp+5WBwAXnOuz1tqtpdISQ=
+			c92Cck6Hy9R68Pzf9w3hfqIzwho=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZBrNa/B36aIq6PyZ1MfZq/SrZ0YYcEZ542YUfknN2ak=
+			WROLbyZ0HVdLmVt9TKWwWI8D8OmIXkBz42bxvgsenjg=
 			</data>
 		</dict>
 		<key>SNCTransactionHistoryListViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			trcTTm//7ED5V3PptvgMxXj/IBU=
+			Q+uLopOjfBIyCPk0qHXyeOdMFzw=
 			</data>
 			<key>hash2</key>
 			<data>
-			9P7pAySndwFHgfbVfuKkfWM0TLL3/Sr3QidY88dO60E=
+			8IAtsjxzfl1zuMT4GtyCn1JuQpNsYsfslMnF2Su0Od8=
 			</data>
 		</dict>
 		<key>SNCTransactionHistoryViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KelrjdGTp8yQYSnLrPGnG0Hqg5A=
+			ClnW0DY2+ocee833dVXj6Gzqo3g=
 			</data>
 			<key>hash2</key>
 			<data>
-			/C6qqsK1G273PbkHxyNSLpz9zYlKmmpHDZ5ehikGlxs=
+			Jr863RrFI0M2mTa38GnpF082C9KVoT7IKY50zvRC5J8=
 			</data>
 		</dict>
 		<key>SNCTransactionHistoryViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3IOB4c6PRltZN9mq0oFvHrkVV4Y=
+			XBMtuxEuVzcTcQ63VmWo9vOud+I=
 			</data>
 			<key>hash2</key>
 			<data>
-			bKViWDLEdAfM9UHhPwCi1bw9tsccRiL2AzqWXl7KjjI=
+			562vNnx6116ZZ49cp6XfDEUGAT4OyJ3Wm3bqN8smkZs=
 			</data>
 		</dict>
 		<key>SNCTransactionViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uft7EX/KOkqer6rdzQfQnFQCCow=
+			8OUvpEoDI9GRi8YrlD57UbZYkNY=
 			</data>
 			<key>hash2</key>
 			<data>
-			vNDEOog2ahmLXL9yuJKPGhzdB5hkuXGnV0XW89h/0AY=
+			CAyPoD3b5fk+MkR5NkETv4+8sSbWPNMHZBQVBclLwyM=
 			</data>
 		</dict>
 		<key>SNCTransactionViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1jpoD6K2UpQvBt49z2QItiH8g3g=
+			ApUbq0V6Taq195DVnDFMY9mXBjE=
 			</data>
 			<key>hash2</key>
 			<data>
-			2ymSRSAOlMyRJnw9xn6CSfLTTdrEpycycqctq8MGSRc=
+			RsW5vjZ00bMcrvnqP4KQ3c0TNTQNuYLuPdO8mv4bbgo=
+			</data>
+		</dict>
+		<key>SNCTutorialPageViewController.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2B+9n6Ke+6aTdxeYEeJWUYEZc/U=
+			</data>
+			<key>hash2</key>
+			<data>
+			MOYw+p1sJ+HP3icF+K7lCd8BWJJV6yn+MO2fPL1tiVg=
+			</data>
+		</dict>
+		<key>SNCTutorialPageViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uByNRxLwxUaI/bSftqS9m9Efi7w=
+			</data>
+			<key>hash2</key>
+			<data>
+			i5O1Nj6vDRKCpYi+iSQR8b2NoLVpUs1sje4xRvS+CUc=
+			</data>
+		</dict>
+		<key>SNCTutorialViewController.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aMtomTsd5PPIDd5et3i58z/zQAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			wa7ZeoymV87XOsByQ6SQqjWQ+LcM+2sWFjM8M7cGayU=
+			</data>
+		</dict>
+		<key>SNCTutorialViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aOrKJyi+/lsKLs5g/sb4TeHr3L8=
+			</data>
+			<key>hash2</key>
+			<data>
+			EH2534rW9XjMsJkodzMbqDiFk+S8dtUQ+KtBsKOtFeY=
 			</data>
 		</dict>
 		<key>SNCWithdrawAddPaymentMethodCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0/llH/ai9EtZswPi8FzSSCrvlk4=
+			Qmt+ZEZlEXk3RQ0rUXAFWek6kEA=
 			</data>
 			<key>hash2</key>
 			<data>
-			DhNo7JN9xpXyZDXeEVUlzCj3Fvc/lG9E3inevt7sBz4=
+			d9onOemqmepUDG0sOmgaQ4Srby5TwyOQANIby6jnJj8=
 			</data>
 		</dict>
 		<key>SNCWithdrawPaymentMethodCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			p2iaGDUpmHQfpC09rq0MpBf1dlE=
+			FZ90uCl9f72nOvf12w0wsphLQJw=
 			</data>
 			<key>hash2</key>
 			<data>
-			f5zamaEEK22PlwRIcsX2G5W2q9zaA6fCN7TWfFnCqtg=
+			QVB17a1G8Dp36OfTlJieJXUTERkyMqzqiZKlyKKEkYo=
 			</data>
 		</dict>
 		<key>SNCWithdrawViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4VUjj2ye1PVh+tmgCJ6cFd40aHU=
+			22Dsv6LsaZEzMRN/M/JQ14NyVds=
 			</data>
 			<key>hash2</key>
 			<data>
-			xY90VUT7wuqmbv5NY87Ui94+07bgUYAsRTAMtqdg7uw=
+			VLUxS0XVOoi/OsJ3V8ZBK2NoexR1t2yLcmdCsg2qd2E=
 			</data>
 		</dict>
 		<key>SNCWithdrawViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			urDChAXXud/ZH5DMWyJucNxzk0o=
+			7DXMt2LKW6BywhS+ELJGne/x5yM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ccyc57+nwSJJckB4mWsVy/ekBEyJ33Gk9cfSa3mYdwk=
+			Vcx6NCpV0wqMt1+rdBc64sj/DbPYWUmttt7HrnkVi0Y=
 			</data>
 		</dict>
 		<key>de.lproj/Localizable.strings</key>

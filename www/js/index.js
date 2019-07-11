@@ -44,9 +44,11 @@ var app = {
   },
 
   openSonect: function() {
-    let token = document.getElementById('tokenInputField').value
+    let token = "NWMzMjMxMjAtNTAyNy0xMWU4LWFkM2YtN2JlN2MyNTFmYzYxOmI2NDQwN2I0MDlhYmJjNDI2OTc3MWNiZDFmN2MyOGRiZDQ5ODI3MGRlZmZmM2E2MDZmNWY0ZjJkMjdhNGUwN2E="
+    let userId = "Lms47jIm5t0MuOSrRguMCpOfuv2On4"
+    let signature = "B+oCdHcLfwDfU/6cpZthH9Wu3VkixOeDa4c876rqPQk="
 
-    sonect.echo(token,
+    sonect.present(token, userId, signature,
     function(msg) {
       document
       .getElementById('deviceready')

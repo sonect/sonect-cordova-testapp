@@ -27,7 +27,7 @@ typedef void(^SNCPaymentMethodAvailabilityHandler)(BOOL canPayAmount, NSError * 
 @protocol SNCPaymentMethod <NSObject>
 
 /**
- Call this method when the Transaction needs transaction metadata to proceed.
+ This method is called when the Transaction needs transaction metadata to proceed.
  A payment method should implement this method, and process the payment details to
  retrieve additional payment metadata which is processed by the SDK.
 
@@ -38,6 +38,7 @@ typedef void(^SNCPaymentMethodAvailabilityHandler)(BOOL canPayAmount, NSError * 
 
 /**
  Checks if the payment method can actually pay out the amount of money.
+ Ideally, the payment method should check the amount against the users current balance.
 
  @param amount an amount.
  @param paymentAvailabilityHandler should return YES if payment is possible with that amount, i.e. the amount is not over balance, if not return NO and an error.
