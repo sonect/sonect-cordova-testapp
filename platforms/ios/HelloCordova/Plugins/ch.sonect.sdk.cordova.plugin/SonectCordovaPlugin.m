@@ -10,8 +10,44 @@
                       allowedCountryCodes:(NSArray <NSNumber *> *)allowedCountryCodes;
 @end
 
+@interface TransactionMetadata: NSObject <SNCTransactionMetadata>
+@property (nonatomic, readonly) SNCTransactionAmount *amount;
+
+- (instancetype)initWithAmount:(SNCTransactionAmount *)amount;
+
+@end
+
+@implementation TransactionMetadata
+
+- (instancetype)initWithAmount:(SNCTransactionAmount *)amount {
+    self = [super init];
+    if (self) {
+        _amount = amount;
+    }
+    return self;
+}
+
+- (NSDictionary<NSString *,NSString *> *)serialized {
+    return @{
+             SNCTransactionMetadataKeyAmount: self.amount.value.stringValue,
+             SNCTransactionMetadataKeyCurrency: self.amount.currency,
+             SNCTransactionMetadataKeyPaymentMethod : @"DIRECT_DEBIT",
+             SNCTransactionMetadataKeyPaymentMethodId : @"neon",
+             SNCTransactionMetadataKeyType : @"atm",
+             SNCTransactionMetadataKeyOpen : @"true"
+             };
+}
+
+@end
+
 @interface PaymentMethod: NSObject <SNCPaymentMethod>
 @property (nonatomic, weak) id <CDVCommandDelegate> commandDelegate;
+
+@property (nonatomic, copy) SNCPaymentMethodAvailabilityHandler availabilityHandler;
+@property (nonatomic, copy) SNCPaymentMethodHandler paymentHandler;
+
+@property (nonatomic) SNCTransactionAmount *requestedAmount;
+
 @end
 
 @implementation PaymentMethod
@@ -37,12 +73,15 @@
 }
 
 - (void)canPayAmount:(nonnull SNCTransactionAmount *)amount withHandler:(nonnull SNCPaymentMethodAvailabilityHandler)paymentAvailabilityHandler {
-    [self.commandDelegate evalJs:@"sonect.checkBalance()"];
+    self.availabilityHandler = paymentAvailabilityHandler;
+    self.requestedAmount = amount;
 
-    paymentAvailabilityHandler(YES, nil);
+    [self.commandDelegate evalJs:@"sonect.checkBalance()"];
 }
 
 - (void)payAmount:(nonnull SNCTransactionAmount *)amount withHandler:(nonnull SNCPaymentMethodHandler)handler {
+    self.paymentHandler = handler;
+
     NSDictionary *parameters = @{
                                  @"value": amount.value.stringValue,
                                  @"currency": amount.currency
@@ -56,10 +95,44 @@
     [self.commandDelegate evalJs:[NSString stringWithFormat:@"sonect.pay('%@')", jsonAmount]];
 }
 
+- (void)updateWithBalance:(SNCTransactionAmount *)balanceAmount {
+    if (!self.requestedAmount || !self.availabilityHandler) {
+        return;
+    }
+
+    NSError *error = nil;
+    NSComparisonResult comparisonResult = [balanceAmount compare:self.requestedAmount
+                                                 error:&error];
+    if (error) {
+        self.availabilityHandler(NO, error);
+        return;
+    }
+
+    if (comparisonResult == NSOrderedDescending) {
+        //TODO: write up a proper error.
+        NSError *error = [[NSError alloc] initWithDomain:@"ch.sonect.sdk.cordova.error"
+                                                    code:101
+                                                userInfo:nil];
+        self.availabilityHandler(NO, error);
+        return;
+    }
+
+    self.availabilityHandler(YES, nil);
+}
+
+- (void)updateWithPaymentReference:(NSString *)paymentReference {
+    if (!self.requestedAmount || !self.paymentHandler) {
+        return;
+    }
+
+    TransactionMetadata *metadata = [[TransactionMetadata alloc] initWithAmount:self.requestedAmount];
+    self.paymentHandler(metadata, nil, SNCPaymentStatusPending);
+}
+
 @end
 
 @interface SonectCordovaPlugin () <SNCSonectPaymentDataSource>
-
+@property (nonatomic) PaymentMethod *currentPaymentMethod;
 @end
 
 @implementation SonectCordovaPlugin
@@ -97,12 +170,23 @@
 
 - (void)processTransaction:(CDVInvokedUrlCommand*)command {
     NSString *paymentReference = [command.arguments objectAtIndex:0];
-    NSLog(@"%@", paymentReference);
+
+    NSParameterAssert(paymentReference);
+
+    [self.currentPaymentMethod updateWithPaymentReference:paymentReference];
 }
 
 - (void)updateBalance:(CDVInvokedUrlCommand*)command {
-    NSString *balance = [command.arguments objectAtIndex:0];
-    NSLog(@"%@", balance);
+    NSDictionary *balanceDictionary = [command.arguments objectAtIndex:0];
+    NSString *value = balanceDictionary[@"value"];
+    NSString *currency = balanceDictionary[@"currency"];
+
+    NSParameterAssert(value);
+    NSParameterAssert(currency);
+
+    SNCTransactionAmount *amount = [SNCTransactionAmount transactionAmountWithValue:[NSDecimalNumber decimalNumberWithString:value]
+                                                                           currency:currency];
+    [self.currentPaymentMethod updateWithBalance:amount];
 }
 
 - (void)closeSonect {
@@ -110,9 +194,15 @@
 }
 
 - (void)sonect:(SNCSonect *)sonect loadAvailablePaymentMethodsForContext:(SNCPaymentContext)context handler:(SNCPaymentMethodsHandler)handler {
-    PaymentMethod *paymentMethod = [PaymentMethod new];
-    paymentMethod.commandDelegate = self.commandDelegate;
-    handler(@[paymentMethod], nil);
+    handler(@[self.currentPaymentMethod], nil);
+}
+
+- (PaymentMethod *)currentPaymentMethod {
+    if (!_currentPaymentMethod) {
+        _currentPaymentMethod = [PaymentMethod new];
+        _currentPaymentMethod.commandDelegate = self.commandDelegate;
+    }
+    return _currentPaymentMethod;
 }
 
 @end
