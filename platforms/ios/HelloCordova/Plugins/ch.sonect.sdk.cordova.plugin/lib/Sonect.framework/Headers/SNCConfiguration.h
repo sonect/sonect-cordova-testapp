@@ -6,43 +6,33 @@
 //  Copyright © 2018 Sonect. All rights reserved.
 //
 
-#ifndef SNCConfiguration_h
-#define SNCConfiguration_h
-
 #import <Foundation/Foundation.h>
 
-@class SNCToken;
-@class SNCTheme;
+NS_ASSUME_NONNULL_BEGIN
 
 @interface SNCConfiguration : NSObject
 
 /**
- A token.
+ A 2 digit ISO country code.
  */
-@property(nonatomic, strong, readonly) SNCToken* token;
-
-/**
- The theme.
- */
-@property(nonatomic, strong, readonly) SNCTheme* theme;
+@property(nonatomic, copy, readonly) NSString* alpha2CountryCode;
 
 /**
  The user's preferred currency
  */
-@property(nonatomic, strong, readonly) NSString* currency;
+@property(nonatomic, copy, readonly) NSString* currency;
 
 /**
  Set allowed country codes.
  Example: would be US and Switzerland
  @[@1, @41]
  */
-@property(nonatomic, strong, readonly) NSArray <NSNumber *> *allowedCountryCodes;
+@property(nonatomic, copy, readonly) NSArray <NSNumber *> *allowedCountryCodes;
 
-- (instancetype)initWithToken:(SNCToken *)token
-                        theme:(SNCTheme *)theme
-                     currency:(NSString *)currency
-          allowedCountryCodes:(NSArray <NSNumber *> *)allowedCountryCodes;
+- (instancetype)initWithAlpha2CountryCode:(NSString *)alpha2CountryCode
+                                 currency:(NSString *)currency
+                      allowedCountryCodes:(NSArray <NSNumber *> *)allowedCountryCodes;
 
 @end
 
-#endif /* SNCConfiguration_h */
+NS_ASSUME_NONNULL_END

@@ -11,13 +11,38 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-//@protocol SNCSonectPaymentDataSource;
-@class SNCConfiguration, UIViewController;
+@class SNCConfiguration, SNCCredentials, UIViewController;
 @interface SNCSonect : NSObject
+
+/**
+ The current configuration that is passed through the presentWithCredentials: method.
+ */
 @property (class, nullable, readonly) SNCConfiguration *currentConfiguration;
 
-+ (UIViewController *)makeViewControllerWithConfiguration:(SNCConfiguration *)configuration
-                                               dataSource:(id <SNCSonectPaymentDataSource> _Nullable)dataSource;
+/**
+ The current credentials that are passed through the presentWithCredentials: method.
+ */
+@property (class, nullable, readonly) SNCCredentials *currentCredentials;
+
+/**
+ The payment data source.
+ The SDK client can override the default payment data source to their implementation,
+ in order to provide custom payment methods.
+ */
+@property (class) id <SNCSonectPaymentDataSource> paymentDataSource;
+
+/**
+ Presents the Sonect View Controller on the presenting view controller, with credentials and
+ configuration provided by the client.
+ The presented view controller is wrapped in a navigation controller.
+
+ @param credentials the credentials.
+ @param configuration the configuration.
+ @param presentingViewController a presenting view controller.
+ */
++ (void)presentWithCredentials:(SNCCredentials *)credentials
+                 configuration:(SNCConfiguration *)configuration
+      presentingViewController:(UIViewController *)presentingViewController;
 
 @end
 
