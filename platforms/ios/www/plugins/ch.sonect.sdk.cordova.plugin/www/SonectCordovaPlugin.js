@@ -1,5 +1,4 @@
 cordova.define("ch.sonect.sdk.cordova.plugin.SonectCordovaPlugin", function(require, exports, module) {
-cordova.define("ch.sonect.sdk.cordova.plugin.SonectCordovaPlugin", function(require, exports, module) {
     var exec = require('cordova/exec');
     
     var payInternal = null;
@@ -23,6 +22,4 @@ cordova.define("ch.sonect.sdk.cordova.plugin.SonectCordovaPlugin", function(requ
             exec(success, error, 'SonectCordovaPlugin', 'processTransaction', [paymentReference])
         });
     };
-});
-
 });
