@@ -10,7 +10,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     }
   ];
   module.exports.metadata = {
-    "ch.sonect.sdk.cordova.plugin": "0.0.1",
-    "cordova-plugin-whitelist": "1.3.3"
+    "cordova-plugin-whitelist": "1.3.3",
+    "ch.sonect.sdk.cordova.plugin": "0.0.1"
   };
 });

@@ -7,10 +7,10 @@
     "files": {}
   },
   "installed_plugins": {
-    "ch.sonect.sdk.cordova.plugin": {
+    "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     },
-    "cordova-plugin-whitelist": {
+    "ch.sonect.sdk.cordova.plugin": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },
