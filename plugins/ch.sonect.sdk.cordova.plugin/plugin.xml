@@ -15,4 +15,14 @@
         <source-file src="src/ios/Sonect.framework" target-dir="lib" framework="true" />
         <framework src="src/ios/Sonect.framework" embed="true" custom="true" /> 
     </platform>
+
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="SonectCordovaPlugin">
+                <param name="android-package" value="ch.sonect.sdk.SonectCordovaPlugin" />
+            </feature>
+        </config-file>
+        <framework src="src/android/sdkbuild.gradle" custom="true" type="gradleReference" />
+        <source-file src="src/android/SonectCordovaPlugin.java" target-dir="src/ch/sonect/sdk"/>
+    </platform>
 </plugin>

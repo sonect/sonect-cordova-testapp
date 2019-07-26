@@ -1,0 +1,16 @@
+repositories{    
+  jcenter()
+  mavenLocal()
+  maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+   implementation 'ch.sonect:sdk:0.1'
+}
+
+android {
+  packagingOptions {
+    exclude 'META-INF/NOTICE'
+    exclude 'META-INF/LICENSE'
+  }
+}
