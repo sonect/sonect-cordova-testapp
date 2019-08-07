@@ -3,21 +3,21 @@ var exec = require('cordova/exec');
 var payInternal = null;
 var checkBalanceInternal = null;
 
-exports.present = function(sdkToken, userId, signature, checkBalance, pay, success, error) {
+exports.present = function(credentials, paymentMethods, theme, checkBalance, pay, success, error) {
     this.payInternal = pay;
     this.checkBalanceInternal = checkBalance;
-    exec(success, error, 'SonectCordovaPlugin', 'present', [sdkToken, userId, signature]);
+    exec(success, error, 'SonectCordovaPlugin', 'present', [credentials, paymentMethods, theme]);
 };
 
-exports.checkBalance = function(success, error) {
-    this.checkBalanceInternal(function (balance) {
+exports.checkBalance = function(uniqueIdentifier, success, error) {
+    this.checkBalanceInternal(uniqueIdentifier, function (balance) {
         exec(success, error, 'SonectCordovaPlugin', 'updateBalance', [balance])
     });
 }
 
 exports.pay = function(amount, success, error) {
     let amountObject = JSON.parse(amount)
-    this.payInternal(amountObject.value, amountObject.currency, function (paymentReference){
+    this.payInternal(amountObject.uniqueIdentifier, amountObject.value, amountObject.currency, function (paymentReference){
         exec(success, error, 'SonectCordovaPlugin', 'processTransaction', [paymentReference])
     });
 };

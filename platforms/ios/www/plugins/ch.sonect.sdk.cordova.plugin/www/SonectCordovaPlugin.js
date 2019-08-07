@@ -11,7 +11,6 @@ exports.present = function(credentials, paymentMethods, theme, checkBalance, pay
 };
 
 exports.checkBalance = function(uniqueIdentifier, success, error) {
-    console.log(uniqueIdentifier);
     this.checkBalanceInternal(uniqueIdentifier, function (balance) {
         exec(success, error, 'SonectCordovaPlugin', 'updateBalance', [balance])
     });

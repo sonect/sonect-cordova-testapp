@@ -2,97 +2,74 @@
 #import <Cordova/CDV.h>
 #import <Sonect/Sonect.h>
 
-@interface SNCConfiguration (Protected)
+@interface NSDictionary (JSON)
 
-- (instancetype)initWithConfigurationType:(NSString *)configurationType
-                        alpha2CountryCode:(NSString *)alpha2CountryCode
-                                 currency:(NSString *)currency
-                      allowedCountryCodes:(NSArray <NSNumber *> *)allowedCountryCodes;
-@end
-
-@interface TransactionMetadata: NSObject <SNCTransactionMetadata>
-@property (nonatomic, readonly) SNCTransactionAmount *amount;
-
-- (instancetype)initWithAmount:(SNCTransactionAmount *)amount;
+- (NSString *)snc_jsonString;
 
 @end
 
-@implementation TransactionMetadata
+@implementation NSDictionary (JSON)
 
-- (instancetype)initWithAmount:(SNCTransactionAmount *)amount {
-    self = [super init];
-    if (self) {
-        _amount = amount;
-    }
-    return self;
-}
+- (NSString *)snc_jsonString {
+    NSData *data = [NSJSONSerialization dataWithJSONObject:self
+                                                   options:0
+                                                     error:nil];
 
-- (NSDictionary<NSString *,NSString *> *)serialized {
-    return @{
-             SNCTransactionMetadataKeyAmount: self.amount.value.stringValue,
-             SNCTransactionMetadataKeyCurrency: self.amount.currency,
-             SNCTransactionMetadataKeyPaymentMethod : @"DIRECT_DEBIT",
-             SNCTransactionMetadataKeyPaymentMethodId : @"neon",
-             SNCTransactionMetadataKeyType : @"atm",
-             SNCTransactionMetadataKeyOpen : @"true"
-             };
+    return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 }
 
 @end
 
 @interface PaymentMethod: NSObject <SNCPaymentMethod>
 @property (nonatomic, weak) id <CDVCommandDelegate> commandDelegate;
-
 @property (nonatomic, copy) SNCPaymentMethodAvailabilityHandler availabilityHandler;
 @property (nonatomic, copy) SNCPaymentMethodHandler paymentHandler;
-
 @property (nonatomic) SNCTransactionAmount *requestedAmount;
+
+@property (nonatomic, readonly) NSString *uniqueIdentifier;
+@property (nonatomic, readonly) NSString *detailDescription;
+@property (nonatomic, readonly) UIImage *image;
+@property (nonatomic, readonly) NSString *name;
+@property (nonatomic, readonly) NSString *shortDescription;
 
 @end
 
 @implementation PaymentMethod
 
-- (NSString *)detailDescription {
-    return @"Neon";
-}
-
-- (UIImage *)image {
-    return nil;
-}
-
-- (NSString *)name {
-    return @"Neon";
-}
-
 - (NSString *)shortDescription {
-    return @"Neon";
+    return self.detailDescription;
 }
 
-- (NSString *)uniqueIdentifier {
-    return @"Neon";
+
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary {
+    self = [super init];
+    if (self) {
+        _uniqueIdentifier = dictionary[@"uniqueIdentifier"];
+        _detailDescription = dictionary[@"detailDescription"];
+        _image = [UIImage imageNamed:dictionary[@"image"]];
+        _name = dictionary[@"name"];
+    }
+    return self;
+
 }
 
 - (void)canPayAmount:(nonnull SNCTransactionAmount *)amount withHandler:(nonnull SNCPaymentMethodAvailabilityHandler)paymentAvailabilityHandler {
     self.availabilityHandler = paymentAvailabilityHandler;
     self.requestedAmount = amount;
 
-    [self.commandDelegate evalJs:@"sonect.checkBalance()"];
+    [self.commandDelegate evalJs:[NSString stringWithFormat:@"sonect.checkBalance('%@')", self.uniqueIdentifier]];
 }
 
 - (void)payAmount:(nonnull SNCTransactionAmount *)amount withHandler:(nonnull SNCPaymentMethodHandler)handler {
     self.paymentHandler = handler;
 
     NSDictionary *parameters = @{
+                                 @"uniqueIdentifier": self.uniqueIdentifier,
                                  @"value": amount.value.stringValue,
                                  @"currency": amount.currency
                                  };
 
-    NSData *data = [NSJSONSerialization dataWithJSONObject:parameters
-                                                   options:0
-                                                     error:nil];
-
-    NSString *jsonAmount = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-    [self.commandDelegate evalJs:[NSString stringWithFormat:@"sonect.pay('%@')", jsonAmount]];
+    [self.commandDelegate evalJs:[NSString stringWithFormat:@"sonect.pay('%@')", parameters.snc_jsonString]];
 }
 
 - (void)updateWithBalance:(SNCTransactionAmount *)balanceAmount {
@@ -101,7 +78,7 @@
     }
 
     NSError *error = nil;
-    NSComparisonResult comparisonResult = [balanceAmount compare:self.requestedAmount
+    NSComparisonResult comparisonResult = [self.requestedAmount compare:balanceAmount
                                                  error:&error];
     if (error) {
         self.availabilityHandler(NO, error);
@@ -125,23 +102,29 @@
         return;
     }
 
-    TransactionMetadata *metadata = [[TransactionMetadata alloc] initWithAmount:self.requestedAmount];
+    SNCBankTransactionMetadata *metadata = [SNCBankTransactionMetadata transactionMetadataWithAmount:self.requestedAmount
+                                                                                    paymentReference:paymentReference];
     self.paymentHandler(metadata, nil, SNCPaymentStatusPending);
 }
 
 @end
 
 @interface SonectCordovaPlugin () <SNCSonectPaymentDataSource>
-@property (nonatomic) PaymentMethod *currentPaymentMethod;
+@property (nonatomic) NSArray *paymentMethods;
 @end
 
 @implementation SonectCordovaPlugin
 
 - (void)present:(CDVInvokedUrlCommand*)command {
     CDVPluginResult* pluginResult = nil;
-    NSString *sdkTokenValue = [command.arguments objectAtIndex:0];
-    NSString *userIdValue = [command.arguments objectAtIndex:1];
-    NSString *signatureValue = [command.arguments objectAtIndex:2];
+
+    NSDictionary *credentialsDictionary = [command.arguments objectAtIndex:0];
+    NSString *sdkTokenValue = credentialsDictionary[@"token"];
+    NSString *userIdValue = credentialsDictionary[@"userId"];
+    NSString *signatureValue = credentialsDictionary[@"signature"];
+
+    NSArray *paymentMethodDictionaries = [command.arguments objectAtIndex:1];
+    NSDictionary *themeDictionary = [command.arguments objectAtIndex:2];
 
     if (sdkTokenValue == nil || sdkTokenValue.length == 0 ||
         userIdValue == nil || userIdValue.length == 0 ||
@@ -153,40 +136,82 @@
                                                                         userId:userIdValue
                                                                      signature:signatureValue];
 
-        SNCConfiguration *configuration = [[SNCConfiguration alloc] initWithConfigurationType:@"DEV"
-                                                                            alpha2CountryCode:@"CH"
-                                                                                     currency:@"CHF"
-                                                                          allowedCountryCodes:@[@41]];
+        SNCConfiguration *configuration = [SNCConfiguration defaultConfiguration];
 
         [SNCSonect presentWithCredentials:credentials
                             configuration:configuration
                  presentingViewController:self.viewController];
 
         SNCSonect.paymentDataSource = self;
+
+        self.paymentMethods = [self makePaymentMethods:paymentMethodDictionaries];
+        [self applyTheme:themeDictionary];
     }
 
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
 
-- (void)processTransaction:(CDVInvokedUrlCommand*)command {
-    NSString *paymentReference = [command.arguments objectAtIndex:0];
+- (void)applyTheme:(NSDictionary *)themeDictionary {
+    SNCTheme *theme = [SNCTheme new];
+    theme.type = [themeDictionary[@"type"] isEqualToString: @"light"] ? SNCThemeTypeLight : SNCThemeTypeDark;
+    theme.detailColor1 = [self colorFromHexString:themeDictionary[@"detailColor1"]];
+    theme.detailColor2 = [self colorFromHexString:themeDictionary[@"detailColor2"]];
+    theme.detailColor3 = [self colorFromHexString:themeDictionary[@"detailColor3"]];
+    theme.detailColor4 = [self colorFromHexString:themeDictionary[@"detailColor4"]];
+    theme.detailColor5 = [self colorFromHexString:themeDictionary[@"detailColor5"]];
+    theme.navigationBarTintColor = [self colorFromHexString:themeDictionary[@"navigationBarTintColor"]];
+    theme.navigationBarTitleImage = [UIImage imageNamed:themeDictionary[@"navigationBarTitleImage"]];
+    [theme set];
+}
 
+- (UIColor *)colorFromHexString:(NSString *)hexString {
+    unsigned rgbValue = 0;
+    NSScanner *scanner = [NSScanner scannerWithString:hexString];
+    [scanner setScanLocation:1]; // bypass '#' character
+    [scanner scanHexInt:&rgbValue];
+    return [UIColor colorWithRed:((rgbValue & 0xFF0000) >> 16)/255.0 green:((rgbValue & 0xFF00) >> 8)/255.0 blue:(rgbValue & 0xFF)/255.0 alpha:1.0];
+}
+
+- (NSArray *)makePaymentMethods:(NSArray *)paymentMethodDictionaries {
+    NSAssert([paymentMethodDictionaries isKindOfClass:NSArray.class], @"Pass an array of payment methods");
+
+    NSMutableArray *paymentMethods = [NSMutableArray new];
+    for (NSDictionary *dictionary in paymentMethodDictionaries) {
+        PaymentMethod *paymentMethod = [[PaymentMethod alloc] initWithDictionary:dictionary];
+        paymentMethod.commandDelegate = self.commandDelegate;
+        [paymentMethods addObject:paymentMethod];
+    }
+    return paymentMethods.copy;
+}
+
+- (void)processTransaction:(CDVInvokedUrlCommand*)command {
+    NSDictionary *paymentDictionary = [command.arguments objectAtIndex:0];
+
+    NSString *uniqueIdentifier = paymentDictionary[@"uniqueIdentifier"];
+    NSString *paymentReference = paymentDictionary[@"paymentReference"];
+
+    NSParameterAssert(uniqueIdentifier);
     NSParameterAssert(paymentReference);
 
-    [self.currentPaymentMethod updateWithPaymentReference:paymentReference];
+    PaymentMethod *paymentMethod = [self paymentMethodWithUniqueIdentifier:uniqueIdentifier];
+    [paymentMethod updateWithPaymentReference:paymentReference];
 }
 
 - (void)updateBalance:(CDVInvokedUrlCommand*)command {
     NSDictionary *balanceDictionary = [command.arguments objectAtIndex:0];
+
+    NSString *uniqueIdentifier = balanceDictionary[@"uniqueIdentifier"];
     NSString *value = balanceDictionary[@"value"];
     NSString *currency = balanceDictionary[@"currency"];
 
+    NSParameterAssert(uniqueIdentifier);
     NSParameterAssert(value);
     NSParameterAssert(currency);
 
     SNCTransactionAmount *amount = [SNCTransactionAmount transactionAmountWithValue:[NSDecimalNumber decimalNumberWithString:value]
                                                                            currency:currency];
-    [self.currentPaymentMethod updateWithBalance:amount];
+    PaymentMethod *paymentMethod = [self paymentMethodWithUniqueIdentifier:uniqueIdentifier];
+    [paymentMethod updateWithBalance:amount];
 }
 
 - (void)closeSonect {
@@ -194,15 +219,18 @@
 }
 
 - (void)sonect:(SNCSonect *)sonect loadAvailablePaymentMethodsForContext:(SNCPaymentContext)context handler:(SNCPaymentMethodsHandler)handler {
-    handler(@[self.currentPaymentMethod], nil);
+    handler(self.paymentMethods, nil);
 }
 
-- (PaymentMethod *)currentPaymentMethod {
-    if (!_currentPaymentMethod) {
-        _currentPaymentMethod = [PaymentMethod new];
-        _currentPaymentMethod.commandDelegate = self.commandDelegate;
+- (PaymentMethod *)paymentMethodWithUniqueIdentifier:(NSString *)uniqueIdentifier {
+    for (PaymentMethod *paymentMethod in self.paymentMethods) {
+        if ([paymentMethod.uniqueIdentifier isEqualToString:uniqueIdentifier]) {
+            return paymentMethod;
+        }
     }
-    return _currentPaymentMethod;
+
+    NSAssert1(NO, @"No payment method with id %@", uniqueIdentifier);
+    return nil;
 }
 
 @end
