@@ -4,17 +4,13 @@ var exec = require('cordova/exec');
 var payInternal = null;
 var checkBalanceInternal = null;
 
-exports.present = function(sdkToken, userId, signature, paymentMethods, checkBalance, pay, success, error) {
-    console.log("PRESENTING SONECT");
-
+exports.present = function(credentials, paymentMethods, theme, checkBalance, pay, success, error) {
     this.payInternal = pay;
     this.checkBalanceInternal = checkBalance;
-    exec(success, error, 'SonectCordovaPlugin', 'present', [sdkToken, userId, signature, paymentMethods]);
+    exec(success, error, 'SonectCordovaPlugin', 'present', [credentials, paymentMethods, theme]);
 };
 
 exports.checkBalance = function(uniqueIdentifier, success, error) {
-    console.log("CHECK BALANCE SONECT");
-
     console.log(uniqueIdentifier);
     this.checkBalanceInternal(uniqueIdentifier, function (balance) {
         exec(success, error, 'SonectCordovaPlugin', 'updateBalance', [balance])

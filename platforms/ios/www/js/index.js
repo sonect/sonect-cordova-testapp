@@ -44,19 +44,33 @@ receivedEvent: function(id) {
 },
 
 openSonect: function() {
-    let token = "NWMzMjMxMjAtNTAyNy0xMWU4LWFkM2YtN2JlN2MyNTFmYzYxOmI2NDQwN2I0MDlhYmJjNDI2OTc3MWNiZDFmN2MyOGRiZDQ5ODI3MGRlZmZmM2E2MDZmNWY0ZjJkMjdhNGUwN2E="
-    let userId = "OepMZR0Ey9bzec3aNeIAjvzWdmy08C"
-    let signature = "jte2bhHnURx0Pbwgf3I05v+RzjPZsC5tLCvq5FJFcbU="
+    let credentials = {
+        token: "NWMzMjMxMjAtNTAyNy0xMWU4LWFkM2YtN2JlN2MyNTFmYzYxOmI2NDQwN2I0MDlhYmJjNDI2OTc3MWNiZDFmN2MyOGRiZDQ5ODI3MGRlZmZmM2E2MDZmNWY0ZjJkMjdhNGUwN2E=",
+        userId: "OepMZR0Ey9bzec3aNeIAjvzWdmy08C",
+        signature: "jte2bhHnURx0Pbwgf3I05v+RzjPZsC5tLCvq5FJFcbU="
+    };
+
+    let theme = {
+        "type": "light",
+        "detailColor1": "048b54",
+        "detailColor2": "048b54",
+        "detailColor3": "048b54",
+        "detailColor4": "048b54",
+        "detailColor5": "048b54",
+        "navigationBarTintColor": "048b54",
+        "navigationBarTitleImage": "Bank"
+    };
+
     let paymentMethods = [
-        {
-            uniqueIdentifier: "IBAN_1",
-            name: "My Bank",
-            detailDescription: "Balance: 20CHF", 
-            image: "Bank"
-        },
+                          {
+                          uniqueIdentifier: "IBAN_1",
+                          name: "My Bank",
+                          detailDescription: "Balance: 20CHF",
+                          image: "Bank"
+                          },
     ];
 
-    sonect.present(token, userId, signature, paymentMethods,
+    sonect.present(credentials, paymentMethods, theme,
                    function(uniqueIdentifier, balanceCallback) {
                    //This method should check against the bank balance and return a balance.
                    let balance = {

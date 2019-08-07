@@ -117,10 +117,14 @@
 
 - (void)present:(CDVInvokedUrlCommand*)command {
     CDVPluginResult* pluginResult = nil;
-    NSString *sdkTokenValue = [command.arguments objectAtIndex:0];
-    NSString *userIdValue = [command.arguments objectAtIndex:1];
-    NSString *signatureValue = [command.arguments objectAtIndex:2];
-    NSArray *paymentMethodDictionaries = [command.arguments objectAtIndex:3];
+
+    NSDictionary *credentialsDictionary = [command.arguments objectAtIndex:0];
+    NSString *sdkTokenValue = credentialsDictionary[@"token"];
+    NSString *userIdValue = credentialsDictionary[@"userId"];
+    NSString *signatureValue = credentialsDictionary[@"signature"];
+
+    NSArray *paymentMethodDictionaries = [command.arguments objectAtIndex:1];
+    NSDictionary *themeDictionary = [command.arguments objectAtIndex:2];
 
     if (sdkTokenValue == nil || sdkTokenValue.length == 0 ||
         userIdValue == nil || userIdValue.length == 0 ||
@@ -141,9 +145,31 @@
         SNCSonect.paymentDataSource = self;
 
         self.paymentMethods = [self makePaymentMethods:paymentMethodDictionaries];
+        [self applyTheme:themeDictionary];
     }
 
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+}
+
+- (void)applyTheme:(NSDictionary *)themeDictionary {
+    SNCTheme *theme = [SNCTheme new];
+    theme.type = [themeDictionary[@"type"] isEqualToString: @"light"] ? SNCThemeTypeLight : SNCThemeTypeDark;
+    theme.detailColor1 = [self colorFromHexString:themeDictionary[@"detailColor1"]];
+    theme.detailColor2 = [self colorFromHexString:themeDictionary[@"detailColor2"]];
+    theme.detailColor3 = [self colorFromHexString:themeDictionary[@"detailColor3"]];
+    theme.detailColor4 = [self colorFromHexString:themeDictionary[@"detailColor4"]];
+    theme.detailColor5 = [self colorFromHexString:themeDictionary[@"detailColor5"]];
+    theme.navigationBarTintColor = [self colorFromHexString:themeDictionary[@"navigationBarTintColor"]];
+    theme.navigationBarTitleImage = [UIImage imageNamed:themeDictionary[@"navigationBarTitleImage"]];
+    [theme set];
+}
+
+- (UIColor *)colorFromHexString:(NSString *)hexString {
+    unsigned rgbValue = 0;
+    NSScanner *scanner = [NSScanner scannerWithString:hexString];
+    [scanner setScanLocation:1]; // bypass '#' character
+    [scanner scanHexInt:&rgbValue];
+    return [UIColor colorWithRed:((rgbValue & 0xFF0000) >> 16)/255.0 green:((rgbValue & 0xFF00) >> 8)/255.0 blue:(rgbValue & 0xFF)/255.0 alpha:1.0];
 }
 
 - (NSArray *)makePaymentMethods:(NSArray *)paymentMethodDictionaries {
