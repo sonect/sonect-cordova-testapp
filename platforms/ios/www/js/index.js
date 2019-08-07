@@ -47,19 +47,31 @@ openSonect: function() {
     let token = "NWMzMjMxMjAtNTAyNy0xMWU4LWFkM2YtN2JlN2MyNTFmYzYxOmI2NDQwN2I0MDlhYmJjNDI2OTc3MWNiZDFmN2MyOGRiZDQ5ODI3MGRlZmZmM2E2MDZmNWY0ZjJkMjdhNGUwN2E="
     let userId = "OepMZR0Ey9bzec3aNeIAjvzWdmy08C"
     let signature = "jte2bhHnURx0Pbwgf3I05v+RzjPZsC5tLCvq5FJFcbU="
+    let paymentMethods = [
+        {
+            uniqueIdentifier: "IBAN_1",
+            name: "My Bank",
+            detailDescription: "Balance: 20CHF", 
+            image: "Bank"
+        },
+    ];
 
-    sonect.present(token, userId, signature,
-                   function(balanceCallback) {
+    sonect.present(token, userId, signature, paymentMethods,
+                   function(uniqueIdentifier, balanceCallback) {
                    //This method should check against the bank balance and return a balance.
                    let balance = {
+                        uniqueIdentifier: uniqueIdentifier,
                         value: "20.00",
                         currency: "CHF"
                    };
                    balanceCallback(balance);
                    },
-                   function(value, currency, paymentCallback) {
+                   function(uniqueIdentifier, value, currency, paymentCallback) {
                    //This method should initiate bank payment and return a payment reference as a string.
-                   let paymentReference = "PAYMENT_REFERENCE";
+                   let paymentReference = {
+                        uniqueIdentifier: uniqueIdentifier,
+                        paymentReference: "PAYMENT_REFERENCE"
+                   };
                    paymentCallback(paymentReference);
                    },
                    function(msg) {

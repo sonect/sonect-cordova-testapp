@@ -30,4 +30,21 @@ FOUNDATION_EXPORT SNCTransactionMetadataKey SNCTransactionMetadataKeyTrxType;
 @property (nonnull, readonly) NSDictionary <SNCTransactionMetadataKey, NSString *> *serialized;
 @end
 
+@class SNCTransactionAmount;
+@interface SNCBankTransactionMetadata : NSObject <SNCTransactionMetadata>
+
+/**
+ Creates a transaction metadata object for closed bank API-s,
+ where payment reference is obtained from the Bank implementing the
+ payment resolution.
+
+ @param amount an amount.
+ @param paymentReference a unique payment reference, obtained from the bank.
+ @return transaction metadata.
+ */
++ (instancetype)transactionMetadataWithAmount:(SNCTransactionAmount *)amount
+                             paymentReference:(NSString *)paymentReference;
+
+@end
+
 NS_ASSUME_NONNULL_END

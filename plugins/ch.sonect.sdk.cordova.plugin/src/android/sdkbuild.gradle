@@ -5,7 +5,7 @@ repositories{
 }
 
 dependencies {
-   implementation 'ch.sonect:sdk:0.1'
+   implementation 'ch.sonect:sdk:0.1.1'
 }
 
 android {

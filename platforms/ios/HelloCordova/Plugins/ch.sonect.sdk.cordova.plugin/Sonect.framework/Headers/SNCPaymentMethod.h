@@ -46,33 +46,33 @@ typedef void(^SNCPaymentMethodAvailabilityHandler)(BOOL canPayAmount, NSError * 
 - (void)canPayAmount:(SNCTransactionAmount *)amount withHandler:(SNCPaymentMethodAvailabilityHandler)paymentAvailabilityHandler;
 
 /**
- Shorter details like last 4 digits of balance etc...
+ Shorter details like last 4 digits of IBAN etc. This info is displayed in the payment tile.
  @default return detailDescription
 
  @return a string.
  */
-@property (nonatomic, readonly) NSString *shortDescription;
+@property (nullable, nonatomic, readonly) NSString *shortDescription;
 
 /**
- Details like last 4 digits of balance etc...
+ Details like last 4 digits of IBAN etc. This info is displayed in the payment tile.
 
  @return a string.
  */
-@property (nonatomic, readonly) NSString *detailDescription;
+@property (nullable, nonatomic, readonly) NSString *detailDescription;
 
 /**
- Details like type of the wallet (My wallet, Bank account) etc.
+ Details like type of the wallet (My wallet, Bank account) etc. This info is displayed in the payment tile.
 
  @return a string.
  */
-@property (nonatomic, readonly) NSString *name;
+@property (nullable, nonatomic, readonly) NSString *name;
 
 /**
- An image representing the payment method.
+ An image representing the payment method. This image is displayed in the payment tile.
 
  @return an image.
  */
-@property (nonatomic, readonly) UIImage *image;
+@property (nullable, nonatomic, readonly) UIImage *image;
 
 /**
  A string that uniquely represents this payment method.
