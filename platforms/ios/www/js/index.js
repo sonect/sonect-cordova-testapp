@@ -45,9 +45,9 @@ receivedEvent: function(id) {
 
 openSonect: function() {
     let credentials = {
-        token: "YOUR_TOKEN_HERE",
-        userId: "YOUR_USER_ID_HERE",
-        signature: "YOUR_SIGNATURE_HERE"
+        token: "NDhkOGNiNTAtYjliNC0xMWU5LWJlNGMtNWRiNTMyOGNhZmE0OmY4ZWFhYzNlMGQyNjE5MjhiZGI5ZjQxNTk3NGVkMTU4MjA0YjQ5NTVhNzdjMDZiZTA1YTBjZWI3Nzk2NzExYzg=",
+        userId: "user1",
+        signature: "sUFLKPul8oTJZjBH/XvVhEv43zHs/F8fUbKuVEB0SFo="
     };
 
     let theme = {
