@@ -14,13 +14,21 @@ exports.checkBalance = function(uniqueIdentifier, success, error) {
     this.checkBalanceInternal(uniqueIdentifier, function (balance) {
         exec(success, error, 'SonectCordovaPlugin', 'updateBalance', [balance])
     });
-}
+};
 
 exports.pay = function(amount, success, error) {
     let amountObject = JSON.parse(amount)
     this.payInternal(amountObject.uniqueIdentifier, amountObject.value, amountObject.currency, function (paymentReference){
         exec(success, error, 'SonectCordovaPlugin', 'processTransaction', [paymentReference])
     });
+};
+
+exports.hide = function(msg, success, error) {
+    exec(success, error, 'SonectCordovaPlugin', 'hideSdk', [msg]);
+};
+
+exports.presentTransaction = function(paymentReference, success, error) {
+    exec(paymentReference, error, 'SonectCordovaPlugin', 'processTransaction', [paymentReference]);
 };
 
 });

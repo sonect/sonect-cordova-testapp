@@ -25,3 +25,7 @@ exports.pay = function(amount, success, error) {
 exports.hide = function(msg, success, error) {
     exec(success, error, 'SonectCordovaPlugin', 'hideSdk', [msg]);
 };
+
+exports.presentTransaction = function(paymentReference, success, error) {
+    exec(paymentReference, error, 'SonectCordovaPlugin', 'processTransaction', [paymentReference]);
+};
