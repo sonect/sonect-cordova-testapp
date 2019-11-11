@@ -6,8 +6,6 @@
 	<string>CH</string>
 	<key>SonectCurrency</key>
 	<string>CHF</string>
-	<key>SonectConfigurationType</key>
-	<string>DEV</string>
 	<key>SonectDefaultWithdrawAmountIndex</key>
 	<integer>2</integer>
 	<key>SonectShouldPresentSonectLogo</key>
