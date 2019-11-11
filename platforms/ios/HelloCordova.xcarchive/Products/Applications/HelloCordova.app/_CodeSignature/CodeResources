@@ -102,11 +102,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		1iAeKTvjnLoe0nUXsqeU0I9Pylk=
+		vioAkOdKi5CWt3s7xIJnT5gmN80=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		CqUYS3eqvB4zziJXIKOUlDyr+V4=
+		3KefrUvF3I2x8eDjV1oBRui/Vug=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -114,19 +114,19 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		4LQCwL9n8LUGWl8iTbHtU5D4ZvI=
+		Q02BAHCVMr4ZN01zj4R3h2m0/zY=
 		</data>
 		<key>Frameworks/Sonect.framework/Assets.car</key>
 		<data>
-		vTXlipH8YVC3QFcdbNVX6Z4FypE=
+		eHALJav0GGSTBmDwl97Eyx6DnW0=
 		</data>
 		<key>Frameworks/Sonect.framework/Headers/SNCConfiguration.h</key>
 		<data>
-		mmxbfjETfd8S+69XWhB5p+UgOtc=
+		0awfNc/9iap2WAGaERmVSwgP0AU=
 		</data>
 		<key>Frameworks/Sonect.framework/Headers/SNCCredentials.h</key>
 		<data>
-		SN7Pf3RR3jl5ns2kRU0sc47Fcr8=
+		NeMobPZB3unjMRGcpIcRX573b6k=
 		</data>
 		<key>Frameworks/Sonect.framework/Headers/SNCPaymentContext.h</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>Frameworks/Sonect.framework/Info.plist</key>
 		<data>
-		s5p5x2XvYTf270Z+naqrmO5+mJw=
+		yBbBee4DF+0XUuyPCnyyPToIziA=
 		</data>
 		<key>Frameworks/Sonect.framework/Modules/module.modulemap</key>
 		<data>
@@ -206,355 +206,355 @@
 		</data>
 		<key>Frameworks/Sonect.framework/SNCATMCategoryCell.nib</key>
 		<data>
-		KVxJneu9m8HUVPQx4qIaOiSmPzU=
+		9iOlXP2J3+wCrUw177PBOX2FrgM=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCATMDetailsCell.nib</key>
 		<data>
-		iTz8p0sJKGBVp0kuljq76F5Mn7A=
+		hNmWii6KnTGPuGZTaoN71flTLFE=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCATMDetailsViewController.nib</key>
 		<data>
-		IdiSbgozAcSp4bjt3QxDd+lVUQs=
+		uzuadw6+dQdlD7IsOepNZD9wzqQ=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCATMEmptyCategoryCell.nib</key>
 		<data>
-		gma9NkoSKdMeL3Z7lqCZ2II/mPw=
+		1wYhTiZq5COUfuxugm8Edc1AD9c=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCATMGroupDetailsViewController.nib/objects-11.0+.nib</key>
 		<data>
-		RowXolEj/GAzTZKSazOHL+gklkE=
+		Rl9KUF25CflsyP6lLO/+RrKmO3c=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCATMGroupDetailsViewController.nib/runtime.nib</key>
 		<data>
-		ywYIVMRRjRwDekkrF9aIqEYvAjw=
+		IEegzz2jGe9WmcfnKTTkop9gV5I=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCATMListViewController.nib/objects-11.0+.nib</key>
 		<data>
-		cS8ugx9WIpmoXkOaUd7vP3lg2cg=
+		eRfO1UkE/QNNC9LzYlCX/V/0wiU=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCATMListViewController.nib/runtime.nib</key>
 		<data>
-		hUbAwsQFCMdokD6WTlksCrGwDLA=
+		akH45sbl+vhz31P+hh4AyqpRk4w=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCAmountPickerView.nib/objects-11.0+.nib</key>
 		<data>
-		eZKhVO+UhKEPH4jGNfnBFqohlSY=
+		cRIaXVZYowKhfW2btPYm3oOrrAs=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCAmountPickerView.nib/runtime.nib</key>
 		<data>
-		QGHChQ+pUOez11FahICwQnGKwzM=
+		twLDZ1Hg5pVFh2YMD+uuJ3ZDqrI=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCCollectionViewController.nib/objects-11.0+.nib</key>
 		<data>
-		g01mWfu6DFdKrjCafq/y4TMyFVA=
+		+4B7PsTD4Lj1Rjp5rlBYRpPpxyc=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCCollectionViewController.nib/runtime.nib</key>
 		<data>
-		w1RrSnXndfMo37i6P5CJgdz6Bi4=
+		cW8U5ZIQAYhLVWxkgLiUs4t/jRA=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCContactUsViewController.nib/objects-11.0+.nib</key>
 		<data>
-		oXgQHvWFIp7enIJDJG8nz0BEDsU=
+		KR0P2y0w2JWfUODn3o/6ZBSmddc=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCContactUsViewController.nib/runtime.nib</key>
 		<data>
-		FZ1mx1BjfqJXEJrtquDwzZH0hrM=
+		UXDk6mdqLTnuu00bSdQZynDTmCk=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCDashboardViewController.nib/objects-11.0+.nib</key>
 		<data>
-		21h3XAiYadIJh0DJsEk/qBRzmbA=
+		AgDYs4OvWCmmVFty4prgnxKvqoY=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCDashboardViewController.nib/runtime.nib</key>
 		<data>
-		BzDnpglglELS9soduRcqMRrZtYw=
+		ZsbOPRxhgQC6ZpdDd7L0I2y2B5k=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCImageCell.nib</key>
 		<data>
-		lzgWY8d74JOmZZNdcQp2fZGpRKo=
+		XQKSa90g+eA9guFYnuCl6fhbRmg=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCLimitProgressCell.nib</key>
 		<data>
-		Zvu/XAPdUYoPYUwpASJT2FxuNtw=
+		JbAJ4sdP4X+IWqmjz/j8l0J06R0=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCMapDetailsViewController.nib</key>
 		<data>
-		f+aeTsICnkaEU/AauNgNN0NPRZk=
+		BptAoXQVqW//CWjl9bk/taS3ClQ=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCMapFilterViewController.nib/objects-11.0+.nib</key>
 		<data>
-		M62qtGBlgpEJos2chQ8Kpv+rqMw=
+		uY3X17luhLyMaiqLkUt/u9oERkY=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCMapFilterViewController.nib/runtime.nib</key>
 		<data>
-		dyg9WPWbjC5YBF/E9q3EKNy1D3M=
+		RighKsc+Eo5fbSQMP0BshPrefo0=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCMapSearchMoreCell.nib</key>
 		<data>
-		+YqnQW4cLnWdJNHJh5J0668voOM=
+		/qSfZYpqTDkO7pp8YXc4ZrC+RWs=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCMapSearchResultCell.nib</key>
 		<data>
-		YXq5JewzCnGVwf/pWTJgu6xL3gY=
+		9EW3zuyUtFkVtkuYJU1HMT2vuXQ=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCMapViewController.nib/objects-11.0+.nib</key>
 		<data>
-		PQCN292YADNO1UYMvhN5XgWRchE=
+		k/YQM2u4yu8+ce/yUeviTsuk5dA=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCMapViewController.nib/runtime.nib</key>
 		<data>
-		Te1aLAjwaDLYABDMZDxKt38TaX4=
+		56wnQRPoBd4o+pJi+zFdfnib7p8=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCPoweredBySonectView.nib/objects-11.0+.nib</key>
 		<data>
-		pfTbSVWsEmgjq+lyHj7u0VvKvZI=
+		7qMDpPFV0vhlwOK11Ht7nbHclfk=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCPoweredBySonectView.nib/runtime.nib</key>
 		<data>
-		R1AbZsdAJUQCKkiDzXZobUJoQkc=
+		6lAnF7soZu5csbUb7ojh1hK4l5Q=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCReceiptAmountCell.nib</key>
 		<data>
-		AAaf0rkgcwKOwO+DIkopeVByWzk=
+		IEX17CubIouqlmBX7gQh7i2OtKg=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCReceiptBarcodeCell.nib</key>
 		<data>
-		hGlGXLlipk4aAtGeupNxz8fVBD8=
+		P2eFYpo7+ORVhXSCP+SAZ1iM3dE=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCReceiptBottomCell.nib</key>
 		<data>
-		MZ4wTb8tgbxnsHHxf1FtQtoyJ0o=
+		OBKVI+w9ZLZRcpFm8kLkqbQ+YxU=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCReceiptContactCell.nib</key>
 		<data>
-		42TA1a2I9Rg/05Cneff3Upi6BnA=
+		7dA8jPYqKP51cPlYngIbjDxVk4k=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCReceiptDateCell.nib</key>
 		<data>
-		+sUebXCta/J8WPaJjF3a7Yefdac=
+		k9EYgrXN2+KaX6jn6/TdM06ywHE=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCReceiptHeaderCell.nib</key>
 		<data>
-		9Ny1xTpgZzUKtDi4J0Q5ezetsQg=
+		mjmU5irYf5isYX+YB/5oqG9Li+M=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCReceiptMapButtonCell.nib</key>
 		<data>
-		DvrIMCaknvFEY1jOdH4TsXwtLnI=
+		tFMyAOgZFcMni3F2Gx7IrTg7iMI=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCReceiptOptionCell.nib</key>
 		<data>
-		41ub1CK72BBMcwzVfvQZp1JnJmI=
+		nSho1Iw4+fqnAQHMK+RgZ20kPPU=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCReceiptPaymentCell.nib</key>
 		<data>
-		lS4+U7B+o4AHx7W1rUpWVSe7+ho=
+		MlP2/vd2rTyNRVyAcu/HCmzMAQw=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCReceiptSlipCancel.nib/objects-11.0+.nib</key>
 		<data>
-		emk24BobpRed/vhBqAfD1S+lJPw=
+		qnyvvMfyoxfU9kIBgZi0O7TovfY=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCReceiptSlipCancel.nib/runtime.nib</key>
 		<data>
-		/Pd9aYhLRm8qzKxyfPwb8O6QrBE=
+		K5LNXbDjdWR94K3ZO3stRNZnNLQ=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCReceiptSlipEmail.nib/objects-11.0+.nib</key>
 		<data>
-		dX4665o1zwIeBdysgJSwgrFKqDs=
+		CqkexugfinobyKV5Q3PqTqP/8RY=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCReceiptSlipEmail.nib/runtime.nib</key>
 		<data>
-		bzhKTQK7Cyi1lx6LjkOHf+pg/Vs=
+		M5JWnB5uoR40BUNgbZOF086aBa0=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCReceiptSpacerCell.nib</key>
 		<data>
-		kqVldjXgcVeieqA8AMjVqZ8VAlQ=
+		uKxVLXU0plPLosckeRdfVoKYViY=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCReceiptViewController.nib/objects-11.0+.nib</key>
 		<data>
-		9guNhrcja9cXrRambgroviV7gvs=
+		E2gNqby8/vu3bJFNNG5kCnFdL6M=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCReceiptViewController.nib/runtime.nib</key>
 		<data>
-		4YXa/70WnBvyXawBTWn61K3YElk=
+		XW/d9uo5mSDgC3bo26lTO4Tmu0Q=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCReferralViewController.nib/objects-11.0+.nib</key>
 		<data>
-		OhwGkqMxfEPkXR6Fvouk9bFsAgo=
+		i/nXa9O6StQdSqaEpTjTZmi5mi8=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCReferralViewController.nib/runtime.nib</key>
 		<data>
-		sgQSKyBmOB6f7D35WLt21TOVWY0=
+		XonyUfKBkXfPu/LngHLysMbG3g4=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSendCashAddPaymentMethodCell.nib</key>
 		<data>
-		rjG65JrU0qNHsxbAHAlxCsSsbE0=
+		GdrftiuHBKyWV9be11j+Wv5rodA=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSendCashAmountCell.nib</key>
 		<data>
-		yCB8YRU2oR47CCqm/kRYNjaJfv8=
+		qsZa8NJpmc4wvRCZ6JGU+RLDOkI=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSendCashAmountPickerCell.nib</key>
 		<data>
-		P/hBefRgXYTOiLQilfU08P0LrOs=
+		Ay6HMdjdG2TuKmrIS3uqhZVCHg4=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSendCashPaymentMethodCell.nib</key>
 		<data>
-		ycrK3gFrnYC6EFgFSLLbTxwLVf8=
+		8WjQKuSeLb+DdoSa7A7aWWkNCaU=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSendCashPaymentMethodPickerCell.nib</key>
 		<data>
-		nlOUHCq2m2167BZF5rkQYbYS8fg=
+		zb0AxaGK20kcXvoHpZwsLDiip2s=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSendCashReceiverCell.nib</key>
 		<data>
-		h2DTG0ugZh1FBqjSsXcy1EmQmGk=
+		xosYyDSKNDyAJtvYUyOoMvd0o9A=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSendCashSelectPaymentMethodCell.nib</key>
 		<data>
-		EuzDTl83XckgsAdEEi0iZEQss7k=
+		IJNm+WIVsgohRQff3UHddPAuUq4=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSendCashViewController.nib/objects-11.0+.nib</key>
 		<data>
-		r9BH9Kok46zqfHIQsL2PYMqCuFA=
+		hZ9Tax/yHGpKGn+pkejrmZCLEfg=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSendCashViewController.nib/runtime.nib</key>
 		<data>
-		fwJMisnvAjBmmSLl1F5gDrAlrDI=
+		Ej3kwTSSwv7IQUTSPFfAAY6OvEc=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSettingsContactUsButton.nib/objects-11.0+.nib</key>
 		<data>
-		DbNKmvIIcMQyDwjsrywbLJH9SGo=
+		8VNcfxK3QYUMMzPDoLoOjgrh+LE=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSettingsContactUsButton.nib/runtime.nib</key>
 		<data>
-		ijUWdqEpLrdsG9YyDmDn3uYxlPA=
+		zJxTYR3WH4A6lOiNhz5AFDiDmyY=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSettingsEmailCell.nib</key>
 		<data>
-		MMrXibsSkofaSmeFaHU+rbglYas=
+		mWxrFI6i9MS5oEc/QyMo0LheSeo=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSettingsHeaderCell.nib</key>
 		<data>
-		hV3yv2xLKPp/1xUeyfsQ/049BQU=
+		Uo/f4Mri0UiRVdD1gfpUq6rZ/Xk=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSettingsLogoCell.nib</key>
 		<data>
-		vWzkQacSgXX3nSk1K4vq/TqozS0=
+		SMHlQcze9qcMhLe28M6+Y7utXhw=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSettingsTextCell.nib</key>
 		<data>
-		HlquIs307X3hrt7O8VcFYgD+DMM=
+		kYzbfmjFVvbHj1o7xAB4YADEo+c=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSettingsVersionCell.nib</key>
 		<data>
-		kbtQ3IHcyJ2JaDQoi6eu0CXn2Jk=
+		yNSY9eC3lUgxRp9NliZnr2lDVEY=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSettingsViewController.nib/objects-11.0+.nib</key>
 		<data>
-		UE5hvfeIZ2/xp83a42ErYr1ctVc=
+		DdWuWRu82wDH6yarDpDQaGKJKAw=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSettingsViewController.nib/runtime.nib</key>
 		<data>
-		23BlNhR7GcdJog0YOKzoQmjDeE0=
+		ainadA/iT+85NRTA2E6WDWkhUQA=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSonectViewController.nib</key>
 		<data>
-		lksBzww4DYVtJ0zk9sA/Qv+vGUY=
+		2mGYMPcYLPp0QPVbUAnhs/OzYOA=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCSpacerCell.nib</key>
 		<data>
-		lzvdsKbPqavRHOry8g6n1xMAEzQ=
+		Fw0m+0HYdxYQpZJLM6VkaAVWbVk=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCTermsViewController.nib/objects-11.0+.nib</key>
 		<data>
-		fgl3Ve8JzvWHJITvbsnxtGXuvTs=
+		zD8bYPgyc2/IQHTSYmTuC8fFwpA=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCTermsViewController.nib/runtime.nib</key>
 		<data>
-		+XiybC/aVqw9WytWaJCYfn/QmeM=
+		M1Qr6vj78QFrrx80aFB0w5f7ER0=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCTextInfoCell.nib</key>
 		<data>
-		/tmnfsxqafNSwKGJ7BFjRk2Risg=
+		24e/4Vh/Ty4W0od9RZzVgGW1BvY=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCTransactionHistoryCell.nib</key>
 		<data>
-		ftHpKJ0U6AQH9zMIgIyqRJuRdiw=
+		Vscb66RVuqBKL/9hXR+Ci1/KMy8=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCTransactionHistoryEmptyCell.nib</key>
 		<data>
-		IF6a9cWv5klSnKu5hFSBncKqdkM=
+		ZqnV7DSqSSFHAxxUlYTxYelfm9s=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCTransactionHistoryListViewController.nib/objects-11.0+.nib</key>
 		<data>
-		4WY0j6pLObA7symysd8/48w5JUs=
+		/wk2yfGyghkJreDYe/zbfRp9Y/0=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCTransactionHistoryListViewController.nib/runtime.nib</key>
 		<data>
-		AOvBbQYbY3EafyvcpbwAIxErQlI=
+		942BSofpn53xBHCRONW7XeauY/Y=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCTransactionHistoryMonthCell.nib</key>
 		<data>
-		QRldxETDZSbAR54LhnmwhZEuyZ0=
+		oDCqsji4fByo5mnIS+rFXn2jcqA=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCTransactionHistoryViewController.nib/objects-11.0+.nib</key>
 		<data>
-		24OA/Y9W+o/8RDbwspres/chOQ8=
+		NCcluVAIZlzLspLJj9oS/42O4jg=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCTransactionHistoryViewController.nib/runtime.nib</key>
 		<data>
-		i3hsUX73BfcWYLWms4+Kw0Af0/A=
+		aDLoDBTTXgTkwvCA7TP513x2xTQ=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCTransactionViewController.nib/objects-11.0+.nib</key>
 		<data>
-		mdiC5mHjpMq2/eJ0OWblN0AtUDM=
+		XFptx4rm1FHqwmorcdd+htPs7vk=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCTransactionViewController.nib/runtime.nib</key>
 		<data>
-		waK3RhkL2zVCtMq0SG0rh6RwgOQ=
+		ahp2BRNemnNtQh5kbJ2gzl9r9nI=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCTutorialPageViewController.nib/objects-11.0+.nib</key>
 		<data>
-		ke0Kz0HwpWMyTCRZEqvBtolvby8=
+		tO8/xZynQc7SkmQtlGGIjQF4M6A=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCTutorialPageViewController.nib/runtime.nib</key>
 		<data>
-		6UTP3KFWTcDWGoDu5Op0vB1zi/k=
+		vRr+e/mdAxOuHsGwPFDGe0GquDw=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCTutorialViewController.nib/objects-11.0+.nib</key>
 		<data>
-		g1+K5ECGY8MyP2OWa3gpNWOa0o8=
+		EfYxfxzur0Ak9Sx7uQ3+RE9XXec=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCTutorialViewController.nib/runtime.nib</key>
 		<data>
-		WnyP9fhWGFMNQL5asF/+uzJ523g=
+		ICcCe/U/j1PgGdwyWOduQMH8lQk=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCWithdrawAddPaymentMethodCell.nib</key>
 		<data>
-		ZqoLw/o0KUH9Bms9o+8J6OxvrKo=
+		2yqpepby/VpgSX33VzyO4OudbQ8=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCWithdrawPaymentMethodCell.nib</key>
 		<data>
-		i93kbPppcxdurvHxrGDwulVNFKQ=
+		ZRihyyQsjnLl/I11DnvkXvFkWRw=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCWithdrawPaymentOptionCell.nib</key>
 		<data>
-		AepISr8nf3zD9dZNy9gleRRzU/Y=
+		GXI2IuE3MnawffVq8nkFQqszue8=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCWithdrawViewController.nib/objects-11.0+.nib</key>
 		<data>
-		mW5Oko0SXOgZXodDhsHoen6B31w=
+		/NADMKUlB7+fM2oC3HEsdHq8YWM=
 		</data>
 		<key>Frameworks/Sonect.framework/SNCWithdrawViewController.nib/runtime.nib</key>
 		<data>
-		UBGZhiMfXJzQK4Mxp8r7tY1pCtM=
+		4EEXd9ArBMXE9pizUg1eekwJZjE=
 		</data>
 		<key>Frameworks/Sonect.framework/Sonect</key>
 		<data>
-		itaip2uyOPbSaVfDdGMI5q0qeKg=
+		B04gSrInY/bZPsfIsn/KiGnMJcE=
 		</data>
 		<key>Frameworks/Sonect.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Du6K4c1fh8cnq5D4y38fS5jw+Sg=
+		pPLhSrvt29F8n/ObQVeqL8T31Ak=
 		</data>
 		<key>Frameworks/Sonect.framework/de.lproj/Localizable.strings</key>
 		<dict>
@@ -598,7 +598,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5E2Kxfs6F2JHpLc0ESgcA+dYACQ=
+		WkGBWxE03WS5Nd5LpTg/UJJXao0=
 		</data>
 		<key>LaunchImage-1100-Landscape-2436h@3x.png</key>
 		<data>
@@ -674,7 +674,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		ouomNOEyWO+S4w0RvvG4Cwk7h9M=
+		2ufTAb9N4V4eyvOFVPXhWnlGTHo=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -682,7 +682,7 @@
 		</data>
 		<key>SonectConfiguration.plist</key>
 		<data>
-		GlVtlKsZ+szxo/4FnMU9lXgRyjo=
+		FuGtrSPZZii4l9dkUdqolvZXNCk=
 		</data>
 		<key>config.xml</key>
 		<data>
@@ -726,11 +726,11 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		6N81oMrjxVWSjXT72v9mT/RAR5U=
+		TxMDrEXvnqsHsERrwAHCgGDzPwQ=
 		</data>
 		<key>www/js/index.js</key>
 		<data>
-		Actp/ATVyZkaZosrm7ebZuxHbwk=
+		a+xKYXjJuSy38NWOV5/z7Cd02Ak=
 		</data>
 		<key>www/plugins/ch.sonect.sdk.cordova.plugin/www/SonectCordovaPlugin.js</key>
 		<data>
@@ -1007,22 +1007,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1iAeKTvjnLoe0nUXsqeU0I9Pylk=
+			vioAkOdKi5CWt3s7xIJnT5gmN80=
 			</data>
 			<key>hash2</key>
 			<data>
-			BQOioYcz/bs53nz+bdBH8gXPEJSmgEwXtXLWTPEroH8=
+			PPgBiTORDG0cnnhJGD25dr8XPaR0PDqSifkRlyoF464=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CqUYS3eqvB4zziJXIKOUlDyr+V4=
+			3KefrUvF3I2x8eDjV1oBRui/Vug=
 			</data>
 			<key>hash2</key>
 			<data>
-			84ADCyiVGOJCB5waO2YIOgmIotyM5caNcrbk0HnbKkw=
+			cY84WAs2zO4yXSthaVmyLCeyHvHuTS68KR5/dGOwRfQ=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -1040,44 +1040,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4LQCwL9n8LUGWl8iTbHtU5D4ZvI=
+			Q02BAHCVMr4ZN01zj4R3h2m0/zY=
 			</data>
 			<key>hash2</key>
 			<data>
-			nrlwXwjlv0F7qbZIOS884sM8AP2S7487ALbiVrUc0r0=
+			ngbhY34793tzIcUI0TfubRxsl+BQoyj6f+e+c9jalm8=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vTXlipH8YVC3QFcdbNVX6Z4FypE=
+			eHALJav0GGSTBmDwl97Eyx6DnW0=
 			</data>
 			<key>hash2</key>
 			<data>
-			uwMSaP8KalnqETtyjKZJjr2JZjAwWxHJabFOGAJd7rY=
+			dcMv271dDaaPjwonWYhxu79iOS9iChZkXRIZG5B44G4=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/Headers/SNCConfiguration.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mmxbfjETfd8S+69XWhB5p+UgOtc=
+			0awfNc/9iap2WAGaERmVSwgP0AU=
 			</data>
 			<key>hash2</key>
 			<data>
-			dTZqUmM5a9AeRPNYOijNzSuK4mV0/pvNHA1i1MHqNJE=
+			JanIrvlKaYUpc3GhdSjX2yYAC/wVyJm+ssyX2rZvk4k=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/Headers/SNCCredentials.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SN7Pf3RR3jl5ns2kRU0sc47Fcr8=
+			NeMobPZB3unjMRGcpIcRX573b6k=
 			</data>
 			<key>hash2</key>
 			<data>
-			p8+KJDrThtdnxQFoLNx3MADVXpgdpOVnzOu7r7YcfDw=
+			pAQaVuOKeRdtnSmiMLe6LRDC4Ooxac4EW3GA4hNZBvk=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/Headers/SNCPaymentContext.h</key>
@@ -1183,11 +1183,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			s5p5x2XvYTf270Z+naqrmO5+mJw=
+			yBbBee4DF+0XUuyPCnyyPToIziA=
 			</data>
 			<key>hash2</key>
 			<data>
-			SXKglW53YFPag3b3yA7l6Jsbf8v430sn+CIhcnfw8Dc=
+			Cl2gsdz9kUFN2qNkyXE71vE/AEX9Z33FPIw1qQEsOjw=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/Modules/module.modulemap</key>
@@ -1293,968 +1293,968 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KVxJneu9m8HUVPQx4qIaOiSmPzU=
+			9iOlXP2J3+wCrUw177PBOX2FrgM=
 			</data>
 			<key>hash2</key>
 			<data>
-			WXYZU3rDhWpHWFziZt9AETA8VRfvK1q/E3yM2aafnDo=
+			ByiZlXD2AjOZCOFtpN4aT/32rx2NWRR6zmbgFnZlMDs=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCATMDetailsCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iTz8p0sJKGBVp0kuljq76F5Mn7A=
+			hNmWii6KnTGPuGZTaoN71flTLFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			q6X7dVP6viFrae78IDWAFIt/UrpeVeil54Y2d961ZI4=
+			FsS2l3A3WJ4uO4zcrwH5heUw21IqtOpxeJpnBmCUoGM=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCATMDetailsViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IdiSbgozAcSp4bjt3QxDd+lVUQs=
+			uzuadw6+dQdlD7IsOepNZD9wzqQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			5Mbxbs/zkMrdIpI13XviPLvzJx0UWDvO5gE0S7Fh+BQ=
+			8KAg+9NoAJCF5rPxHysOpw30dBAKllMUNrVbTkti0U8=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCATMEmptyCategoryCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gma9NkoSKdMeL3Z7lqCZ2II/mPw=
+			1wYhTiZq5COUfuxugm8Edc1AD9c=
 			</data>
 			<key>hash2</key>
 			<data>
-			9nEokX60FifwnLk67hVxn9hogqsFXwTo14ipEbcc4J0=
+			gZt+LKLYaWm6rV5cOu2FgC5on/dusyKPBllJtK0qHX0=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCATMGroupDetailsViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RowXolEj/GAzTZKSazOHL+gklkE=
+			Rl9KUF25CflsyP6lLO/+RrKmO3c=
 			</data>
 			<key>hash2</key>
 			<data>
-			DVqaz5sXthHWrCo/amXly9eiqe5cO7iXcmBIFu1cx80=
+			dg4KMzWAhfy6qbBPTXcttFm3IXNuaat6KgaibNBhUcY=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCATMGroupDetailsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ywYIVMRRjRwDekkrF9aIqEYvAjw=
+			IEegzz2jGe9WmcfnKTTkop9gV5I=
 			</data>
 			<key>hash2</key>
 			<data>
-			ybCLmDQzr5oWwg9C2plTTmJe06I7XhYj9Lwy7DgbOKM=
+			oFvOGj7fgxPjCZeQL86gxJoz3F/bP8YfCWLyNhGoWA4=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCATMListViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cS8ugx9WIpmoXkOaUd7vP3lg2cg=
+			eRfO1UkE/QNNC9LzYlCX/V/0wiU=
 			</data>
 			<key>hash2</key>
 			<data>
-			lqx6/FB19dOqh1LGJ+T9gMV8jX1dersGsjF5g48BCWQ=
+			j5nwUTiKE+2m5c5J5tDS9Iycd0U3p0T/RamfzmiSuQ0=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCATMListViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hUbAwsQFCMdokD6WTlksCrGwDLA=
+			akH45sbl+vhz31P+hh4AyqpRk4w=
 			</data>
 			<key>hash2</key>
 			<data>
-			D55Khz9NTpquvQypFw71sSpob8OKfwPgsvBCy+gwH/o=
+			hhg+GWquAxoCa9tuR/Bd7a5UBTyfjd0TUw9UVwOivgw=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCAmountPickerView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eZKhVO+UhKEPH4jGNfnBFqohlSY=
+			cRIaXVZYowKhfW2btPYm3oOrrAs=
 			</data>
 			<key>hash2</key>
 			<data>
-			2cFKmGXQpTssDS8eBUJfK5U/X4TFQ0Y1tDKgWinySq4=
+			OTQUZAvvZxb6efC73RzmM91CvKmkVEXNqw6f+uSUmXg=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCAmountPickerView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QGHChQ+pUOez11FahICwQnGKwzM=
+			twLDZ1Hg5pVFh2YMD+uuJ3ZDqrI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q+sZwEnWMB72Awx5RphfaJ83dUMnJ+4dVsUH2vUnu8w=
+			zUB0MSB62xNlW7TC5XLXFE4MAd0rhwNBm2y0UjP1A+E=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCCollectionViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g01mWfu6DFdKrjCafq/y4TMyFVA=
+			+4B7PsTD4Lj1Rjp5rlBYRpPpxyc=
 			</data>
 			<key>hash2</key>
 			<data>
-			BeqQIQNHJNV2aAOSkUVd9Xq5BgBkzfAagDf+MLllswM=
+			1wxjgH02OnKmdXLj6znPoU47729FY5LlaKhhg7Hy+5U=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCCollectionViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			w1RrSnXndfMo37i6P5CJgdz6Bi4=
+			cW8U5ZIQAYhLVWxkgLiUs4t/jRA=
 			</data>
 			<key>hash2</key>
 			<data>
-			U4iDGmXDI3kJRYsyNhQR7XVV8bOowVpxZy4pui6Clkk=
+			sB+bpESXSpR2zvo0xRGTRuDZphiCw7RCwPstHh4cdBM=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCContactUsViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oXgQHvWFIp7enIJDJG8nz0BEDsU=
+			KR0P2y0w2JWfUODn3o/6ZBSmddc=
 			</data>
 			<key>hash2</key>
 			<data>
-			6OV1CzJJylQv7gWj7ZIJA+d0YCc3Tb1RPMuSFR1lBbU=
+			BvFWq57yMEMYwiUI0FKfCr3cx+2bkycrkYeW1pLlB24=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCContactUsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FZ1mx1BjfqJXEJrtquDwzZH0hrM=
+			UXDk6mdqLTnuu00bSdQZynDTmCk=
 			</data>
 			<key>hash2</key>
 			<data>
-			hvVcYKaR5oQpBySFUf1myvAq7pWjpsG9u9HqD9lCgUQ=
+			QrInhFIoCUVnI7dD7RiOFFINRtMsTeXP/rnQjOkp6uI=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCDashboardViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			21h3XAiYadIJh0DJsEk/qBRzmbA=
+			AgDYs4OvWCmmVFty4prgnxKvqoY=
 			</data>
 			<key>hash2</key>
 			<data>
-			O/uGq79dFQS0BXH1TCTeYTdQQkHCCXgG78XYq84WoU4=
+			9Ato4z3IgwyyDbGH5Isix/0d+nnwVrnZs4nBBr+Pozw=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCDashboardViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BzDnpglglELS9soduRcqMRrZtYw=
+			ZsbOPRxhgQC6ZpdDd7L0I2y2B5k=
 			</data>
 			<key>hash2</key>
 			<data>
-			p2y1m3dMC72UB0LIG6WkYr6BIdQkDnrSQ8NbBE9pD9A=
+			/fUBVQxInXr3lF0RyEpmrke/gRR3M19vTIcFS09SENc=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCImageCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lzgWY8d74JOmZZNdcQp2fZGpRKo=
+			XQKSa90g+eA9guFYnuCl6fhbRmg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fdo5bjXt6MbMnfQLkVaghECSL/wLv3bUrHkCID5vB7w=
+			QruFYzrOPFQZLXtfRRtME3W78Ur7e345kgyNHrAOJYs=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCLimitProgressCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Zvu/XAPdUYoPYUwpASJT2FxuNtw=
+			JbAJ4sdP4X+IWqmjz/j8l0J06R0=
 			</data>
 			<key>hash2</key>
 			<data>
-			xd4YNkHqPvNbRzxRCnDNO/hb4vgDkjxJIlNZBSyp6i0=
+			4+DKpilMQcew8JkuT1QDHkybb2RdbRmFaHmm2kw2hGY=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCMapDetailsViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f+aeTsICnkaEU/AauNgNN0NPRZk=
+			BptAoXQVqW//CWjl9bk/taS3ClQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			AWOsOUrzjf+83lf+C9oFtYeTmwyzXyzfvsgGC6MzVH0=
+			OMCaJmBiMQMiU6duMAvCvSaxtKwdrmOmnBLRlWonNbs=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCMapFilterViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M62qtGBlgpEJos2chQ8Kpv+rqMw=
+			uY3X17luhLyMaiqLkUt/u9oERkY=
 			</data>
 			<key>hash2</key>
 			<data>
-			+8DpcfFkXrrIqhBW086pytyK8iFD818lNbwlpxG88lc=
+			QzQ6hvLWsl+wxQfuHAss6agKdPkUb7MhyeYQO/CXcgo=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCMapFilterViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dyg9WPWbjC5YBF/E9q3EKNy1D3M=
+			RighKsc+Eo5fbSQMP0BshPrefo0=
 			</data>
 			<key>hash2</key>
 			<data>
-			qlvYeB0lQYD+/tVmsGL1dL5CAQHARrYGDsaKWFt0H5I=
+			TrDaYHADScCXWiorAAYXynQ74w6GVuY9tmuH+hFseDg=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCMapSearchMoreCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+YqnQW4cLnWdJNHJh5J0668voOM=
+			/qSfZYpqTDkO7pp8YXc4ZrC+RWs=
 			</data>
 			<key>hash2</key>
 			<data>
-			yRJ68eRJ/P3SKKrpwGWj8H6kZ5YYJx7Jc913CtojvBk=
+			NI73QiuuiDHRN1FdYIZYwA+VHdh+vWxde5mF33qe0BM=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCMapSearchResultCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YXq5JewzCnGVwf/pWTJgu6xL3gY=
+			9EW3zuyUtFkVtkuYJU1HMT2vuXQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			6hChT0XjmRt4eWWFAyow+nKPDLEuRkgdaZb3myksR5I=
+			9idn6x9cCk0Q97kJFvh+r2qUFTZjoxqtADDh7exZsKU=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCMapViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PQCN292YADNO1UYMvhN5XgWRchE=
+			k/YQM2u4yu8+ce/yUeviTsuk5dA=
 			</data>
 			<key>hash2</key>
 			<data>
-			fkZsmjrvRZ/PSuMpBVHthZ3d4fJzXXp/bhILHCjqT/M=
+			Ff3H3Nl5Jkm7oB4xBjfOOTl0w3JDhjSKQLHIJU5HqZw=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCMapViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Te1aLAjwaDLYABDMZDxKt38TaX4=
+			56wnQRPoBd4o+pJi+zFdfnib7p8=
 			</data>
 			<key>hash2</key>
 			<data>
-			AwFk0XdegDx+2JxFCvrNZjFKXHMZON3Vmu6eBwMsass=
+			4AI7ftLO6JHNktU2XaE2NLmtfqz6bI6HJjVgVwHSQ4I=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCPoweredBySonectView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pfTbSVWsEmgjq+lyHj7u0VvKvZI=
+			7qMDpPFV0vhlwOK11Ht7nbHclfk=
 			</data>
 			<key>hash2</key>
 			<data>
-			dIYcXXAdYQ9stAM6vv7FQZX4Ytu/c9L94nCUkcjYqkM=
+			axNW05+AcPKsfyEdBXsnqHY3ZUgaYqxlu0Hhoua6CfU=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCPoweredBySonectView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R1AbZsdAJUQCKkiDzXZobUJoQkc=
+			6lAnF7soZu5csbUb7ojh1hK4l5Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			dFD5Y4LwEmXY5JugXvNzG4EWf8anhLSNt0oG65bkCsA=
+			JGTPBlDfIR4YbxQaXmE3+dHpMfqxOM8AfOOwJxEZeuI=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCReceiptAmountCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AAaf0rkgcwKOwO+DIkopeVByWzk=
+			IEX17CubIouqlmBX7gQh7i2OtKg=
 			</data>
 			<key>hash2</key>
 			<data>
-			I4MSlX0wNN7KxOEr7SnzL6M6s2dch3AD1zUXmrl70NY=
+			boOaa3uH+S/RDkOesgw+QfOfeCDfbHYWztdzccFbZJM=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCReceiptBarcodeCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hGlGXLlipk4aAtGeupNxz8fVBD8=
+			P2eFYpo7+ORVhXSCP+SAZ1iM3dE=
 			</data>
 			<key>hash2</key>
 			<data>
-			l4ONzYNLheSK1QATyuJcxHxOaoVP8zcsMi1NPFoPuj0=
+			wJ1Pvplg2tFZpD/62J9gs3wFdMfAJsb+9RVvWhNL5+g=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCReceiptBottomCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MZ4wTb8tgbxnsHHxf1FtQtoyJ0o=
+			OBKVI+w9ZLZRcpFm8kLkqbQ+YxU=
 			</data>
 			<key>hash2</key>
 			<data>
-			dEaXOPguAatl8+NuA3q8TFPAsi43NsCi85/AksXYG5w=
+			Ik6GohZ7N2C/+q7++XwHZnzvFgGndiVPQVwEIL3wQyI=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCReceiptContactCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			42TA1a2I9Rg/05Cneff3Upi6BnA=
+			7dA8jPYqKP51cPlYngIbjDxVk4k=
 			</data>
 			<key>hash2</key>
 			<data>
-			NmwKVyQgM34Kzyd9s6VHAKML9IiPLqorEQ+ru6ZUhT4=
+			nFXyLmyWBv472srVgAYG6dspdus0kGHL90uy2Yd2Bv4=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCReceiptDateCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+sUebXCta/J8WPaJjF3a7Yefdac=
+			k9EYgrXN2+KaX6jn6/TdM06ywHE=
 			</data>
 			<key>hash2</key>
 			<data>
-			N+g4u/jL6Na0yCyj/G54J+a1mWeq4aiSQc709IniiPk=
+			qT5VJMJyHql0FVr53utLALF6pw3M4cwUAcaHYnqsnf8=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCReceiptHeaderCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9Ny1xTpgZzUKtDi4J0Q5ezetsQg=
+			mjmU5irYf5isYX+YB/5oqG9Li+M=
 			</data>
 			<key>hash2</key>
 			<data>
-			7zSEjQC1Y++xxN6vMkCkfy84AT7WY8Hi811RBmuSlko=
+			OxuYdECN0PSYLDwuHGDzbcZkp36kUFkP9/RyHCjF6AE=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCReceiptMapButtonCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DvrIMCaknvFEY1jOdH4TsXwtLnI=
+			tFMyAOgZFcMni3F2Gx7IrTg7iMI=
 			</data>
 			<key>hash2</key>
 			<data>
-			p/vpq9+kh6SFOW3/6b7Y6N6j95dHFrGO2nkLUcq8+8k=
+			SboGWTvMl866Bx+W4Xf4tsXJJ41sd3wl6F+7AON73Pc=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCReceiptOptionCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			41ub1CK72BBMcwzVfvQZp1JnJmI=
+			nSho1Iw4+fqnAQHMK+RgZ20kPPU=
 			</data>
 			<key>hash2</key>
 			<data>
-			9+DeiMGKA6F/ALwTvos6gS9yZy3S1VlIos/HbzmbIfg=
+			DOcNyQZGJi0+fB5UrRO+uHLMCeG9FekHGBJ4JDWWzsc=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCReceiptPaymentCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lS4+U7B+o4AHx7W1rUpWVSe7+ho=
+			MlP2/vd2rTyNRVyAcu/HCmzMAQw=
 			</data>
 			<key>hash2</key>
 			<data>
-			OIU1cxR71CO7kK7uh1QDUwduG2eA4qQXt9adruHbBNc=
+			cg9WQsuB0lPpRSwaVQPZQHARRcK0BLnNJ4xDyzhK0S8=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCReceiptSlipCancel.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			emk24BobpRed/vhBqAfD1S+lJPw=
+			qnyvvMfyoxfU9kIBgZi0O7TovfY=
 			</data>
 			<key>hash2</key>
 			<data>
-			SRyX+1CwdMBbxIS+cdxOrph4WuP8llUMdo00SiFHp1w=
+			CmE5BP9pH6ki0fmWYR1xaQut2LPZIg3a6wCZBdghqjo=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCReceiptSlipCancel.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/Pd9aYhLRm8qzKxyfPwb8O6QrBE=
+			K5LNXbDjdWR94K3ZO3stRNZnNLQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			XpQnvV6vGxX0YPxWP2somH0Icl4WOTvu5mPr7AlMgU8=
+			vH1tBA9WxJ4mF9tDlBZkXOzGCGbdr4fh5NmpHSzaFYM=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCReceiptSlipEmail.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dX4665o1zwIeBdysgJSwgrFKqDs=
+			CqkexugfinobyKV5Q3PqTqP/8RY=
 			</data>
 			<key>hash2</key>
 			<data>
-			yTt6b1KxMkZFxB+XhF77FIhLwLBgT9K0I/7zPtPFX5U=
+			pEPSRs0DEAz5vkDqPO/3JDfM2QcRvwJr8Mk8hjmT67E=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCReceiptSlipEmail.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bzhKTQK7Cyi1lx6LjkOHf+pg/Vs=
+			M5JWnB5uoR40BUNgbZOF086aBa0=
 			</data>
 			<key>hash2</key>
 			<data>
-			11+wyzYc1nujKma5QpTji8WnORni+qivuWeTnaH8IBw=
+			M90ZC7umap5Gt9YUp5RyHGLit9kasUHqv3es2hB/Gfg=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCReceiptSpacerCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kqVldjXgcVeieqA8AMjVqZ8VAlQ=
+			uKxVLXU0plPLosckeRdfVoKYViY=
 			</data>
 			<key>hash2</key>
 			<data>
-			iN2uzFaiCWi9bVJKxCt2uZTdV7Vm0IGRwm5Gtuc+/3U=
+			3B1zP/llJWZThLFi15S7H4GqVF+4zlM3qSmOkxoz+Ls=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCReceiptViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9guNhrcja9cXrRambgroviV7gvs=
+			E2gNqby8/vu3bJFNNG5kCnFdL6M=
 			</data>
 			<key>hash2</key>
 			<data>
-			HbHPSgK10+BBb/mOZPmUJrPR3gqOBzuHGtLpGQI78pE=
+			URGkFzRcXzYKZzTC9Cbj2DOVicEIACh2ZpjSzW9KqE4=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCReceiptViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4YXa/70WnBvyXawBTWn61K3YElk=
+			XW/d9uo5mSDgC3bo26lTO4Tmu0Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			IMO1Mi4QW9nNUUNMIyqQh/CweIL2T/Tv1H9UhREYA7A=
+			R3JGPF33n/zzT8zTue5xv1lY1FV3GL44xAoxkk19FTM=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCReferralViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OhwGkqMxfEPkXR6Fvouk9bFsAgo=
+			i/nXa9O6StQdSqaEpTjTZmi5mi8=
 			</data>
 			<key>hash2</key>
 			<data>
-			X1WD9pwzxepwtYe6idp7GasOAdPZUMLsEXOyJI0NueQ=
+			2xwUqtP8dlCs5JBtoOLiOQIQjw5eJrO3uBGRKLjQ/nc=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCReferralViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sgQSKyBmOB6f7D35WLt21TOVWY0=
+			XonyUfKBkXfPu/LngHLysMbG3g4=
 			</data>
 			<key>hash2</key>
 			<data>
-			I+9zYk4UBbkRiKqm56OUqNgp+YmvDCeZsR5fZYTIpxQ=
+			wwF6R/dHeT76SXUt+AlxkrdElNpzPUwb1W+1XVmFT0s=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSendCashAddPaymentMethodCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rjG65JrU0qNHsxbAHAlxCsSsbE0=
+			GdrftiuHBKyWV9be11j+Wv5rodA=
 			</data>
 			<key>hash2</key>
 			<data>
-			6HtYWFcTrCMbk5OXzvUUAjl1H9FhTyFG65u/cBSaQh4=
+			8cvdeUClXX302INXMsBS8URbUfiCwuVjAmuUDA+vHtY=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSendCashAmountCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yCB8YRU2oR47CCqm/kRYNjaJfv8=
+			qsZa8NJpmc4wvRCZ6JGU+RLDOkI=
 			</data>
 			<key>hash2</key>
 			<data>
-			uEydfUZtm+4V4vYVOqqusm9AqmLaTCwzwTFhXacaIMg=
+			xe+/s2Gw/MMbmXLhqbdDLKKTKxDYFRT+yfDokESlWPQ=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSendCashAmountPickerCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			P/hBefRgXYTOiLQilfU08P0LrOs=
+			Ay6HMdjdG2TuKmrIS3uqhZVCHg4=
 			</data>
 			<key>hash2</key>
 			<data>
-			pMTfY3+9fmxiZ9xqS3iddRVq5dG15TgX1opNu6itEAQ=
+			aWJGHOi5heztJSsPB4fg9w/5ZzUnqYXNnvLabC3NECM=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSendCashPaymentMethodCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ycrK3gFrnYC6EFgFSLLbTxwLVf8=
+			8WjQKuSeLb+DdoSa7A7aWWkNCaU=
 			</data>
 			<key>hash2</key>
 			<data>
-			McA/sMUoXrBoawjaYXy4GQQcH/xIdG0vq2+e+nhswVU=
+			ze7CDPUqDPISDFI4t7DDIdYOmxhn5T9iCMrmsZsOq80=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSendCashPaymentMethodPickerCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nlOUHCq2m2167BZF5rkQYbYS8fg=
+			zb0AxaGK20kcXvoHpZwsLDiip2s=
 			</data>
 			<key>hash2</key>
 			<data>
-			7Q/nyW9hH5PoWalGKO3RZSzDxNQ7DMpDnwdv3XRNK5Q=
+			SYldKJ9KkDe3mYh6AGUbfhBo/aTRtkwVCJaOHMtE3Kg=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSendCashReceiverCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			h2DTG0ugZh1FBqjSsXcy1EmQmGk=
+			xosYyDSKNDyAJtvYUyOoMvd0o9A=
 			</data>
 			<key>hash2</key>
 			<data>
-			NtRMD/qJpgU8mtgg8vzkXV+YIQgcj7emuWr6v6VBoR8=
+			jz0GbjJ0kZ2Q+6q8JRtCEzRm1RpP0SHWwOp0h4XBZiw=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSendCashSelectPaymentMethodCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EuzDTl83XckgsAdEEi0iZEQss7k=
+			IJNm+WIVsgohRQff3UHddPAuUq4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xucfn8D5g3fdzOqdDvXfqOFJTfrGcpBMLOME0Ev8Byo=
+			f8QP4IX8l0qTuFzO/p21GW4fWL+5VeZ4TS5gRE6q20U=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSendCashViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			r9BH9Kok46zqfHIQsL2PYMqCuFA=
+			hZ9Tax/yHGpKGn+pkejrmZCLEfg=
 			</data>
 			<key>hash2</key>
 			<data>
-			L9gPb+TMMvGeShnk3YyQPoKrpP6L5McnwX53nR64+No=
+			m4uQcwM8L58AK81ngsP4xqvkIxhAhDHfd61SH97mAB4=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSendCashViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fwJMisnvAjBmmSLl1F5gDrAlrDI=
+			Ej3kwTSSwv7IQUTSPFfAAY6OvEc=
 			</data>
 			<key>hash2</key>
 			<data>
-			m9l6hsIPoGm0xrm0Ysddi1BJX/Y0h8pk1IY2/MbOnEU=
+			Djkmi8K2PAkHr1oGh0SdER9WlbhWc5zV7T2o61ePMK0=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSettingsContactUsButton.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DbNKmvIIcMQyDwjsrywbLJH9SGo=
+			8VNcfxK3QYUMMzPDoLoOjgrh+LE=
 			</data>
 			<key>hash2</key>
 			<data>
-			gKreLnDmmjj59qvDOpnmI3ZQxIVUwEPpyuWpSoo1Qwo=
+			sOtCLjhw11EBKv2x9Y3bTuxysBZ5FqKuKDslAbTDMkA=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSettingsContactUsButton.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ijUWdqEpLrdsG9YyDmDn3uYxlPA=
+			zJxTYR3WH4A6lOiNhz5AFDiDmyY=
 			</data>
 			<key>hash2</key>
 			<data>
-			jUYWYMY9SaO3M9wvveJylrm0ngMpHI9nQWl85ECT2Qc=
+			NZBiRuEvmpyUYTn+hrZsIA/5ty51Ru9qJQ+dV/RbQew=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSettingsEmailCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MMrXibsSkofaSmeFaHU+rbglYas=
+			mWxrFI6i9MS5oEc/QyMo0LheSeo=
 			</data>
 			<key>hash2</key>
 			<data>
-			1cuZngiGn5ExqVIHataODbEU7V4DUoMzYPk97+mnUew=
+			Umi8e9un13oYYBhLOdZ9VB8sMGa72WOmURWZhuKYbZA=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSettingsHeaderCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hV3yv2xLKPp/1xUeyfsQ/049BQU=
+			Uo/f4Mri0UiRVdD1gfpUq6rZ/Xk=
 			</data>
 			<key>hash2</key>
 			<data>
-			zVtLzXFOT9N1iVUBuNQF3d1uvahaG8NKHfiFoDpYIeY=
+			mrqG0XPRpFSpDftVJ+H5hs4cKfkQxUbjvCO8MIkkolE=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSettingsLogoCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vWzkQacSgXX3nSk1K4vq/TqozS0=
+			SMHlQcze9qcMhLe28M6+Y7utXhw=
 			</data>
 			<key>hash2</key>
 			<data>
-			29dNqIxlNHXFBziZgeaLfLbQThElIDgvkUoozSrwlxY=
+			Q2UA40ayBKoYjzrQsFxXXbV2TjNF2MWoU9b+V+utS1M=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSettingsTextCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HlquIs307X3hrt7O8VcFYgD+DMM=
+			kYzbfmjFVvbHj1o7xAB4YADEo+c=
 			</data>
 			<key>hash2</key>
 			<data>
-			eqr21Ku79+L32J4g4a4zSWRPoMc181XPbP4C1IbfX2E=
+			n9bZ/ccE/lhaKJWL50eoluWj7dX/3NjLe0ENH7NWLII=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSettingsVersionCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kbtQ3IHcyJ2JaDQoi6eu0CXn2Jk=
+			yNSY9eC3lUgxRp9NliZnr2lDVEY=
 			</data>
 			<key>hash2</key>
 			<data>
-			NSu5cHkfDoLrxFchDO3x8XZOy89Xji9mTPOyHyOLsmI=
+			w4iX3lgqCR1sMCSPv8hD5NPFWhukm5YO5Yad820ay2A=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSettingsViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UE5hvfeIZ2/xp83a42ErYr1ctVc=
+			DdWuWRu82wDH6yarDpDQaGKJKAw=
 			</data>
 			<key>hash2</key>
 			<data>
-			WiaCcDCm7P8RTm2MKsnFpSmyMh5L6rpywOBT9pvzfJQ=
+			CQ5z5TokdpNpvWSQFm+hATRHLhutWlnuNoTJFO3d1Ps=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSettingsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			23BlNhR7GcdJog0YOKzoQmjDeE0=
+			ainadA/iT+85NRTA2E6WDWkhUQA=
 			</data>
 			<key>hash2</key>
 			<data>
-			V1MtbBAzMygXGwtzDtQSCubeOcBICnihSm+YrFQ4ZZE=
+			/L8U0B39vAT2NGCQWkhJj4mtmhmvK3OhCLhGniLGals=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSonectViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lksBzww4DYVtJ0zk9sA/Qv+vGUY=
+			2mGYMPcYLPp0QPVbUAnhs/OzYOA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fv5rHvX2mUpmiYWzH9eptVr8A3uPZViFWNCbk1PFON4=
+			z7YJbTJrQESzwaNCd7folOUHC8QxhvXPgqrm3w71LUA=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCSpacerCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lzvdsKbPqavRHOry8g6n1xMAEzQ=
+			Fw0m+0HYdxYQpZJLM6VkaAVWbVk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y6yb+PGy03EpbyReIW8GRZ4kp4W/y+8zfqFzFuHEwFc=
+			aToq4w+9+cpTbaiHl39YAnIU58nsB6NoC3oW0emy+qk=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCTermsViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fgl3Ve8JzvWHJITvbsnxtGXuvTs=
+			zD8bYPgyc2/IQHTSYmTuC8fFwpA=
 			</data>
 			<key>hash2</key>
 			<data>
-			/p/gcGjfobpeL4DqNqn+fqvKLF2yR3RJvkP0DLySCrg=
+			sic30khoVz1788IxAZyWSTCWuh+z+Vx8yNzNSKTVtRY=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCTermsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+XiybC/aVqw9WytWaJCYfn/QmeM=
+			M1Qr6vj78QFrrx80aFB0w5f7ER0=
 			</data>
 			<key>hash2</key>
 			<data>
-			kjPJDpkU+gIENHG9MEqiaCbk9LHGp9snBRP2excS/hY=
+			3h4j8ki9JfXuABZfZ47GDwr3KZQ8t+7Y4ZtNuKe50Hg=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCTextInfoCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/tmnfsxqafNSwKGJ7BFjRk2Risg=
+			24e/4Vh/Ty4W0od9RZzVgGW1BvY=
 			</data>
 			<key>hash2</key>
 			<data>
-			2FoIwuR7Ei1gQrFHbBTGLGweh8yo3KE32OcAl1Z6Lis=
+			otWYOUgB9k09TZgX4agY0pfXbcKuzChER3k4yE91aD4=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCTransactionHistoryCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ftHpKJ0U6AQH9zMIgIyqRJuRdiw=
+			Vscb66RVuqBKL/9hXR+Ci1/KMy8=
 			</data>
 			<key>hash2</key>
 			<data>
-			/P67LXfV4L4NzqCtDx3y7m93GTnMgsjdY2iLPq2nKkQ=
+			dpfaDqgK4/9wIFzNTSSnNwzjL66oJCWYCD1Y/13m/+U=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCTransactionHistoryEmptyCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IF6a9cWv5klSnKu5hFSBncKqdkM=
+			ZqnV7DSqSSFHAxxUlYTxYelfm9s=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ig6Db/eT1BTRBn2AIWCuG0IFGlpw+/zZQWV8OGJORK4=
+			xxKipEpuGMmDzKdIorSPH6vT47OuoQ4StxTQGIOIrjM=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCTransactionHistoryListViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4WY0j6pLObA7symysd8/48w5JUs=
+			/wk2yfGyghkJreDYe/zbfRp9Y/0=
 			</data>
 			<key>hash2</key>
 			<data>
-			6/4xj5bYN9hGJWylQZuTKxIRgltWJYurdaqmwF3B0SQ=
+			mdLXDE4qFWKJb6zT7Ood61lUUl6j8O+I3v5qUe/AgbE=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCTransactionHistoryListViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AOvBbQYbY3EafyvcpbwAIxErQlI=
+			942BSofpn53xBHCRONW7XeauY/Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xy03AA71CKsn96UeKRTMY+lRVQpYhJA6TgSAY2Wevjw=
+			iTqkTuduUP4vxPpcsK4cc2QsU4yTxfz4gSQHsdiwBl8=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCTransactionHistoryMonthCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QRldxETDZSbAR54LhnmwhZEuyZ0=
+			oDCqsji4fByo5mnIS+rFXn2jcqA=
 			</data>
 			<key>hash2</key>
 			<data>
-			qEYEYlQ6MqYpz1mlL771AKnGv6kwD/QOYbT1LBvd5Xk=
+			dKeCXPUTXqbqd5zBpCfeFtS5KGMSCfhF2Gj/zqeaoOY=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCTransactionHistoryViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			24OA/Y9W+o/8RDbwspres/chOQ8=
+			NCcluVAIZlzLspLJj9oS/42O4jg=
 			</data>
 			<key>hash2</key>
 			<data>
-			y3PIOzKk4Z1jHPIxAdzqC+D3+38LVYsVZu6Q16P6ec8=
+			Wn9VZkySdeiSufUkTQ+/2bN+QCet5gaZs+9LwnktQ9c=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCTransactionHistoryViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			i3hsUX73BfcWYLWms4+Kw0Af0/A=
+			aDLoDBTTXgTkwvCA7TP513x2xTQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			zf6PJhfQMb2QzNTiMNdkrqLQnXcyPzqmWg9JsDGLHNw=
+			+YVwqRUt1VINqiL4hnMuXVuK+w8rZ2jdSZI6F0Y+PQo=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCTransactionViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mdiC5mHjpMq2/eJ0OWblN0AtUDM=
+			XFptx4rm1FHqwmorcdd+htPs7vk=
 			</data>
 			<key>hash2</key>
 			<data>
-			2Niq3S9TksVCds641vNCJWbcCtbsfOyPCq7+joh2j/k=
+			bqT7FuhEes9KlJDVmehA4zF4KL4xxJemwOEa9JdsQQw=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCTransactionViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			waK3RhkL2zVCtMq0SG0rh6RwgOQ=
+			ahp2BRNemnNtQh5kbJ2gzl9r9nI=
 			</data>
 			<key>hash2</key>
 			<data>
-			wsxHMWX4rlFkcXBrEFaUCsNiDeiDEBfbQ0pMXqZUKT4=
+			7A8dnwPG5XTfhN6r46bMxozwaZNEsTliSLoUziLyAlY=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCTutorialPageViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ke0Kz0HwpWMyTCRZEqvBtolvby8=
+			tO8/xZynQc7SkmQtlGGIjQF4M6A=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y8OzRD4Hk76KMfcl9YAeE1B+4ivOlAaup41K1NBibfo=
+			UkhswK2E+nm3+QGTsBWPS0dXnCbyvQWp84LuWld4mF4=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCTutorialPageViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6UTP3KFWTcDWGoDu5Op0vB1zi/k=
+			vRr+e/mdAxOuHsGwPFDGe0GquDw=
 			</data>
 			<key>hash2</key>
 			<data>
-			F4DqwwUQS9IE0yxMl6PXpkb6AUjLXFdi9mRkRB94UHw=
+			1jlEks7hSh/PyPxeuSim240e7mhmnzxazixC85LWkpw=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCTutorialViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g1+K5ECGY8MyP2OWa3gpNWOa0o8=
+			EfYxfxzur0Ak9Sx7uQ3+RE9XXec=
 			</data>
 			<key>hash2</key>
 			<data>
-			JxWLrde5iqw5qmIVooA4mTzzWv9pN+Dl0AscyyTvFL0=
+			zVVrbMGLxNgmdqiX1fRnheXEa/iT5xTXBk6Plh2QAzE=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCTutorialViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WnyP9fhWGFMNQL5asF/+uzJ523g=
+			ICcCe/U/j1PgGdwyWOduQMH8lQk=
 			</data>
 			<key>hash2</key>
 			<data>
-			VyeePCgTlfygtNeBcZNVZhmkQlDDuRLR5fY7Ts7ko3g=
+			yCJhlsRLxoykF6MAlGuCD7EbVY73I94IFhygjDZEKKQ=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCWithdrawAddPaymentMethodCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZqoLw/o0KUH9Bms9o+8J6OxvrKo=
+			2yqpepby/VpgSX33VzyO4OudbQ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			+jq408iDaqevjG3Hcqnqm3LceRqwBrQdY+wVX+xhb6g=
+			4KEclPlL4MYK2x6NeuBduVuZmSC2dzH4RFPNBAUhq/o=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCWithdrawPaymentMethodCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			i93kbPppcxdurvHxrGDwulVNFKQ=
+			ZRihyyQsjnLl/I11DnvkXvFkWRw=
 			</data>
 			<key>hash2</key>
 			<data>
-			9+bE3raMeAV2oaoikyjHpfMGMxSD4+V0M5xWwvx48Ow=
+			dW5DWPTGWjXfGImiGuxofI4GI6di5NkZ4Vhki7knlWo=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCWithdrawPaymentOptionCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AepISr8nf3zD9dZNy9gleRRzU/Y=
+			GXI2IuE3MnawffVq8nkFQqszue8=
 			</data>
 			<key>hash2</key>
 			<data>
-			PV6sZN5ccx5fY8AjYFdTP1m4KX/k17/ojVpvopDLmHo=
+			6bXy0q8iQb4jUnfanfyfp0iSCKsFpqNjyIlMe+eTaAI=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCWithdrawViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mW5Oko0SXOgZXodDhsHoen6B31w=
+			/NADMKUlB7+fM2oC3HEsdHq8YWM=
 			</data>
 			<key>hash2</key>
 			<data>
-			3JgSKWR/9J4HQZkQRPvZv9X3qbh+ZzcsneWIJcoCP1g=
+			ydQSWjt9aBL5mFzrP1sPX5WquL6DbZP9AObqQp5e07o=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/SNCWithdrawViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UBGZhiMfXJzQK4Mxp8r7tY1pCtM=
+			4EEXd9ArBMXE9pizUg1eekwJZjE=
 			</data>
 			<key>hash2</key>
 			<data>
-			aWCoez/VdiSqyzZLGwcRNE+5tvK8VU1Elp64NDdogyY=
+			/ZenPlH7eKFp8Kvc4Zdbu6iQccp0Da4uxE7w24SqfGo=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/Sonect</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			itaip2uyOPbSaVfDdGMI5q0qeKg=
+			B04gSrInY/bZPsfIsn/KiGnMJcE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Crx+rLpYN5dRO8ze3ywqYnp4fL2Hdka4sexMJF9bv8g=
+			tqVLGDvjhO0zpc3DkIzgmBgWv0NWLvz0noYkXfA3C7o=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Du6K4c1fh8cnq5D4y38fS5jw+Sg=
+			pPLhSrvt29F8n/ObQVeqL8T31Ak=
 			</data>
 			<key>hash2</key>
 			<data>
-			eL6eLu46xmrIqwa0DqGPzU1zHP/DUBMBjKzKgxa7TYc=
+			M/v16/F8XsD4HOz3/4J+LbBAL2McI7fBaTCTg/7xDz8=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/de.lproj/Localizable.strings</key>
@@ -2522,22 +2522,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ouomNOEyWO+S4w0RvvG4Cwk7h9M=
+			2ufTAb9N4V4eyvOFVPXhWnlGTHo=
 			</data>
 			<key>hash2</key>
 			<data>
-			YGPpTIkXg9ud7axvZH9zOEKJLf6u8dyE8WBhYvBsj8k=
+			q1Se9usxzkEssrXwQs34xGN3yHk3YfYL0/V53sHfB84=
 			</data>
 		</dict>
 		<key>SonectConfiguration.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GlVtlKsZ+szxo/4FnMU9lXgRyjo=
+			FuGtrSPZZii4l9dkUdqolvZXNCk=
 			</data>
 			<key>hash2</key>
 			<data>
-			/e6AkkmAc/EBH+ytONlbGQ2DCOpwGGPPbV9e4x568k4=
+			Fpa1Du8Em08ahGqt+aZ4+nPswNwg8U0PWN7e/7R8CYs=
 			</data>
 		</dict>
 		<key>config.xml</key>
@@ -2654,22 +2654,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6N81oMrjxVWSjXT72v9mT/RAR5U=
+			TxMDrEXvnqsHsERrwAHCgGDzPwQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			z0+36Wg6tfRa2mLyua/V4YNMPsOBKsEJheS9EFPb9As=
+			q2oEaszBSGZz7CvezV3w4Oe9rO9BMydNcuCrttnmEBc=
 			</data>
 		</dict>
 		<key>www/js/index.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Actp/ATVyZkaZosrm7ebZuxHbwk=
+			a+xKYXjJuSy38NWOV5/z7Cd02Ak=
 			</data>
 			<key>hash2</key>
 			<data>
-			GNEzGIHTo9JYI4zjjDv0IRDWHvlX8ncZYlhkzMGlPpk=
+			faf3w8q3LcSyeIuHmFVodEuM1aKlOOJboDgNtqznQ2o=
 			</data>
 		</dict>
 		<key>www/plugins/ch.sonect.sdk.cordova.plugin/www/SonectCordovaPlugin.js</key>

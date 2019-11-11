@@ -16,11 +16,16 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
 var app = {
+
+paymentUniqueIdentifier: null,    
+
     // Application Constructor
 initialize: function() {
     document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
     document.getElementById('openSonectButton').addEventListener('click', this.openSonect);
+    document.getElementById('paySonectButton').addEventListener('click', this.paySonect);
 },
 
     // deviceready Event Handler
@@ -46,7 +51,7 @@ receivedEvent: function(id) {
 openSonect: function() {
     let credentials = {
         token: "NWMzMjMxMjAtNTAyNy0xMWU4LWFkM2YtN2JlN2MyNTFmYzYxOmI2NDQwN2I0MDlhYmJjNDI2OTc3MWNiZDFmN2MyOGRiZDQ5ODI3MGRlZmZmM2E2MDZmNWY0ZjJkMjdhNGUwN2E=",
-        userId: "user1",
+        userId: "etLiIhOADD3F7EUZgdDackmmZbRji5",
         signature: "3stZup/AJQs3Y7EjHNEwOOVbCNc8A6cJ58YqlhDgt0Y="
     };
 
@@ -62,43 +67,63 @@ openSonect: function() {
     };
 
     let paymentMethods = [
-                          {
-                          uniqueIdentifier: "IBAN_1",
-                          name: "My Bank",
-                          detailDescription: "Balance: 20CHF",
-                          image: "Bank"
-                          },
+        {
+        uniqueIdentifier: "IBAN_1",
+        name: "My Bank",
+        detailDescription: "Balance: 20CHF",
+        image: "Bank"
+        },
     ];
 
     sonect.present(credentials, paymentMethods, theme,
-                   function(uniqueIdentifier, balanceCallback) {
-                   //This method should check against the bank balance and return a balance.
-                   let balance = {
-                        uniqueIdentifier: uniqueIdentifier,
-                        value: "20.00",
-                        currency: "CHF"
-                   };
-                   balanceCallback(balance);
-                   },
-                   function(uniqueIdentifier, value, currency, paymentCallback) {
-                   //This method should initiate bank payment and return a payment reference as a string.
-                   let paymentReference = {
-                        uniqueIdentifier: uniqueIdentifier,
-                        paymentReference: "PAYMENT_REFERENCE"
-                   };
-                   paymentCallback(paymentReference);
-                   },
-                   function(msg) {
-                   document
-                   .getElementById('deviceready')
-                   .querySelector('.received')
-                   .innerHTML = msg;
-                   },
-                   function(err) {
-                   document
-                   .getElementById('deviceready')
-                   .innerHTML = '<p class="event received">' + err + '</p>';
-                   })
+        function(uniqueIdentifier, balanceCallback) {
+        //This method should check against the bank balance and return a balance.
+            let balance = {
+                uniqueIdentifier: uniqueIdentifier,
+                value: "100.00",
+                currency: "CHF"
+            };
+            balanceCallback(balance);
+        },
+        function(uniqueIdentifier, value, currency, paymentCallback) {
+        //This method should initiate bank payment and return a payment reference as a string.
+            // let paymentReference = {
+            //     uniqueIdentifier: uniqueIdentifier,
+            //     paymentReference: "PAYMENT_REFERENCE"
+            // };
+            
+            // paymentCallback([]);
+            sonect.hide(null, null);
+            app.paymentUniqueIdentifier = uniqueIdentifier;
+        },
+        function(msg) {
+            document
+            .getElementById('deviceready')
+            .querySelector('.received')
+            .innerHTML = msg;
+        },
+        function(err) {
+            document
+            .getElementById('deviceready')
+            .innerHTML = '<p class="event received">' + err + '</p>';
+        }
+    )
+},
+
+paySonect: function() {
+    let paymentReference = {
+        uniqueIdentifier: this.paymentUniqueIdentifier,
+        paymentReference: "PAYMENT_REFERENCE"
+    };
+
+    console.log("PAY");
+    console.log(paymentReference);
+    sonect.pay(paymentReference, 
+        function(msg) {
+        },
+        function(err) {
+        }
+    );
 }
 };
 

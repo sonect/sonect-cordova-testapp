@@ -20,6 +20,22 @@
 
 @end
 
+@interface SNCSonect (Cordova)
+
+/**
+ Present the transaction metadata, retrieved after the session has been started once.
+
+ @param transactionMetadata transaction metadata.
+ */
++ (void)presentWithTransactionMetadata:(id <SNCTransactionMetadata>)transactionMetadata;
+
+/**
+ Dismiss the SDK
+ */
++ (void)dismiss;
+
+@end
+
 @interface PaymentMethod: NSObject <SNCPaymentMethod>
 @property (nonatomic, weak) id <CDVCommandDelegate> commandDelegate;
 @property (nonatomic, copy) SNCPaymentMethodAvailabilityHandler availabilityHandler;
@@ -97,14 +113,14 @@
     self.availabilityHandler(YES, nil);
 }
 
-- (void)updateWithPaymentReference:(NSString *)paymentReference {
+- (void)payWithPaymentReference:(NSString *)paymentReference {
     if (!self.requestedAmount || !self.paymentHandler) {
         return;
     }
 
     SNCBankTransactionMetadata *metadata = [SNCBankTransactionMetadata transactionMetadataWithAmount:self.requestedAmount
                                                                                     paymentReference:paymentReference];
-    self.paymentHandler(metadata, nil, SNCPaymentStatusPending);
+    [SNCSonect presentWithTransactionMetadata:metadata];
 }
 
 @end
@@ -194,7 +210,11 @@
     NSParameterAssert(paymentReference);
 
     PaymentMethod *paymentMethod = [self paymentMethodWithUniqueIdentifier:uniqueIdentifier];
-    [paymentMethod updateWithPaymentReference:paymentReference];
+    [paymentMethod payWithPaymentReference:paymentReference];
+}
+
+- (void)hideSdk:(CDVInvokedUrlCommand *)command {
+    [SNCSonect dismiss];
 }
 
 - (void)updateBalance:(CDVInvokedUrlCommand*)command {

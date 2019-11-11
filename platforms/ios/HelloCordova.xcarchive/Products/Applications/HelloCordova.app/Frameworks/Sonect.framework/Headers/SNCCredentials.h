@@ -28,23 +28,16 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, copy, readonly) NSString* signature;
 
 /**
- A domain.
- */
-@property(nonatomic, copy, readonly) NSString* domain;
-
-/**
  Creates credentials to authenticate the SDK.
 
  @param sdkToken an sdk token.
  @param userId a user id.
  @param signature a signature.
- @param domain a domain.
  @return credentials.
  */
 - (instancetype)initWithSdkToken:(NSString *)sdkToken
                           userId:(NSString *)userId
-                       signature:(NSString *)signature
-                          domain:(NSString *)domain;
+                       signature:(NSString *)signature;
 
 @end
 
