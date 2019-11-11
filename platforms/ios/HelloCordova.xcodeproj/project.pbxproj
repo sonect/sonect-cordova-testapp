@@ -14,10 +14,10 @@
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 		96A4C5B922FAE105007B8F11 /* SonectConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96A4C5B722FAE105007B8F11 /* SonectConfiguration.plist */; };
-		6233B1D3A78F4D7E9EDD6D9D /* SonectCordovaPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAD59D9374D4B178FBC6571 /* SonectCordovaPlugin.m */; };
-		CDCFC333913C4EAB82BEFB04 /* Sonect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95D92BC2183420E9DFFD279 /* Sonect.framework */; };
-		79E17B936AA046F6805F8014 /* Sonect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9EE904EF6F4A909F1112EF /* Sonect.framework */; };
-		001B9334CA95476B9EC48BFA /* Sonect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9EE904EF6F4A909F1112EF /* Sonect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D99A88F43BB541D39BC7C977 /* SonectCordovaPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C20FAAD762AB4AF0AC7BE86C /* SonectCordovaPlugin.m */; };
+		86FC4A0E3304429E8A5923A8 /* Sonect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2D25167E674C4CA559CFB9 /* Sonect.framework */; };
+		ED913B6ACEC54D0CA4F1DB56 /* Sonect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921C239775A4E1CB080AF0E /* Sonect.framework */; };
+		4F2302C523FD45D68BED39C3 /* Sonect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F921C239775A4E1CB080AF0E /* Sonect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				671EC226005B4341BCAC6138 /* Sonect.framework in Embed Frameworks */,
 				001B9334CA95476B9EC48BFA /* Sonect.framework in Embed Frameworks */,
+				410253D9B6C84EFC98320FCA /* Sonect.framework in Embed Frameworks */,
+				4F2302C523FD45D68BED39C3 /* Sonect.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,10 +82,10 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = HelloCordova/config.xml; sourceTree = "<group>"; };
-		AAAD59D9374D4B178FBC6571 /* SonectCordovaPlugin.m */ = {isa = PBXFileReference; name = "SonectCordovaPlugin.m"; path = "ch.sonect.sdk.cordova.plugin/SonectCordovaPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		D95D92BC2183420E9DFFD279 /* Sonect.framework */ = {isa = PBXFileReference; name = "Sonect.framework"; path = "System/Library/Frameworks/Sonect.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		3654CE8D6BBF432B96D7D62E /* SonectCordovaPlugin.h */ = {isa = PBXFileReference; name = "SonectCordovaPlugin.h"; path = "ch.sonect.sdk.cordova.plugin/SonectCordovaPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		3E9EE904EF6F4A909F1112EF /* Sonect.framework */ = {isa = PBXFileReference; name = "Sonect.framework"; path = "HelloCordova/Plugins/ch.sonect.sdk.cordova.plugin/Sonect.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		C20FAAD762AB4AF0AC7BE86C /* SonectCordovaPlugin.m */ = {isa = PBXFileReference; name = "SonectCordovaPlugin.m"; path = "ch.sonect.sdk.cordova.plugin/SonectCordovaPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		FC2D25167E674C4CA559CFB9 /* Sonect.framework */ = {isa = PBXFileReference; name = "Sonect.framework"; path = "System/Library/Frameworks/Sonect.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		10E52CE79A05465B973E4B1C /* SonectCordovaPlugin.h */ = {isa = PBXFileReference; name = "SonectCordovaPlugin.h"; path = "ch.sonect.sdk.cordova.plugin/SonectCordovaPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F921C239775A4E1CB080AF0E /* Sonect.framework */ = {isa = PBXFileReference; name = "Sonect.framework"; path = "HelloCordova/Plugins/ch.sonect.sdk.cordova.plugin/Sonect.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +94,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
-				CDCFC333913C4EAB82BEFB04 /* Sonect.framework in Frameworks */,
+				86FC4A0E3304429E8A5923A8 /* Sonect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,8 +166,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D95D92BC2183420E9DFFD279 /* Sonect.framework */,
-				3E9EE904EF6F4A909F1112EF /* Sonect.framework */,
+				FC2D25167E674C4CA559CFB9 /* Sonect.framework */,
+				F921C239775A4E1CB080AF0E /* Sonect.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,8 +194,8 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				AAAD59D9374D4B178FBC6571 /* SonectCordovaPlugin.m */,
-				3654CE8D6BBF432B96D7D62E /* SonectCordovaPlugin.h */,
+				C20FAAD762AB4AF0AC7BE86C /* SonectCordovaPlugin.m */,
+				10E52CE79A05465B973E4B1C /* SonectCordovaPlugin.h */,
 			);
 			name = Plugins;
 			path = HelloCordova/Plugins;
@@ -241,6 +242,7 @@
 				LastUpgradeCheck = 510;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = VJ8Q6FKHZ8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -325,7 +327,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				6233B1D3A78F4D7E9EDD6D9D /* SonectCordovaPlugin.m in Sources */,
+				D99A88F43BB541D39BC7C977 /* SonectCordovaPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,8 +352,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = VJ8Q6FKHZ8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"HelloCordova/Plugins/ch.sonect.sdk.cordova.plugin\"",
+					"\"HelloCordova/Plugins/ch.sonect.sdk.cordova.plugin\"",
 					"\"HelloCordova/Plugins/ch.sonect.sdk.cordova.plugin\"",
 					"\"HelloCordova/Plugins/ch.sonect.sdk.cordova.plugin\"",
 					"\"HelloCordova/Plugins/ch.sonect.sdk.cordova.plugin\"",
@@ -391,8 +396,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = VJ8Q6FKHZ8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"HelloCordova/Plugins/ch.sonect.sdk.cordova.plugin\"",
+					"\"HelloCordova/Plugins/ch.sonect.sdk.cordova.plugin\"",
 					"\"HelloCordova/Plugins/ch.sonect.sdk.cordova.plugin\"",
 					"\"HelloCordova/Plugins/ch.sonect.sdk.cordova.plugin\"",
 					"\"HelloCordova/Plugins/ch.sonect.sdk.cordova.plugin\"",

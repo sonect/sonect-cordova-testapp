@@ -73,3 +73,28 @@ openSonect: function() {
 }
 };
 ```
+
+## Platform specific configuration
+### iOS
+To configure the iOS SDK do the following steps: 
+- `open YOUR_CORDOVA_APP/platforms/ios/YOUR_PROJECT.workspace` in Xcode
+- in Xcode, right click on the Resources folder and pick `New File...` from the menu
+- pick `Property List`, and name it `SonectConfiguration`
+- enter the values as following
+```
+<dict>
+	<key>SonectAlpha2CountryCode</key>
+	<string>ch</string>
+	<key>SonectCurrency</key>
+	<string>CHF</string>
+	<key>SonectDefaultWithdrawAmountIndex</key>
+	<integer>2</integer>
+	<key>SonectAllowedCountryCodes</key>
+	<array>
+		<integer>41</integer>
+	</array>
+	<key>SonectEnvironment</key>
+	<string>TEST</string>
+</dict>
+```
+- to change to `PROD` environment, remove the `SonectEnvironment` key. 

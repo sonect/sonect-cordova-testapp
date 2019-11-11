@@ -45,9 +45,9 @@ receivedEvent: function(id) {
 
 openSonect: function() {
     let credentials = {
-        token: "NDhkOGNiNTAtYjliNC0xMWU5LWJlNGMtNWRiNTMyOGNhZmE0OmY4ZWFhYzNlMGQyNjE5MjhiZGI5ZjQxNTk3NGVkMTU4MjA0YjQ5NTVhNzdjMDZiZTA1YTBjZWI3Nzk2NzExYzg=",
+        token: "ODQ2N2U4MjAtOTNmYS0xMWU5LWJkYjctM2Y3YjcwYzRiNmZlOjhlMDQ5MTMwYjY1MzM3NDdkZGQ4YmQzNjEzYzQ5YWVlNTFkZTE0YzkyNWNmY2RjNDllMGU2NGMwYmRhMmRiYTY=",
         userId: "user1",
-        signature: "sUFLKPul8oTJZjBH/XvVhEv43zHs/F8fUbKuVEB0SFo="
+        signature: "OT5OlqiiaA83Tpj654ZCeH/wvopOnIEfWPqif9tJltc="
     };
 
     let theme = {
@@ -62,44 +62,44 @@ openSonect: function() {
     };
 
     let paymentMethods = [
-                          {
-                          uniqueIdentifier: "IBAN_1",
-                          name: "My Bank",
-                          detailDescription: "Balance: 20CHF",
-                          image: "Bank"
-                          },
+        {
+        uniqueIdentifier: "IBAN_1",
+        name: "My Bank",
+        detailDescription: "Balance: 20CHF",
+        image: "Bank"
+        },
     ];
 
     sonect.present(credentials, paymentMethods, theme,
-                   function(uniqueIdentifier, balanceCallback) {
-                   //This method should check against the bank balance and return a balance.
-                   let balance = {
-                        uniqueIdentifier: uniqueIdentifier,
-                        value: "20.00",
-                        currency: "CHF"
-                   };
-                   balanceCallback(balance);
-                   },
-                   function(uniqueIdentifier, value, currency, paymentCallback) {
-                   //This method should initiate bank payment and return a payment reference as a string.
-                   let paymentReference = {
-                        uniqueIdentifier: uniqueIdentifier,
-                        paymentReference: "PAYMENT_REFERENCE"
-                   };
-                   paymentCallback(paymentReference);
-                   },
-                   function(msg) {
-                   document
-                   .getElementById('deviceready')
-                   .querySelector('.received')
-                   .innerHTML = msg;
-                   },
-                   function(err) {
-                   document
-                   .getElementById('deviceready')
-                   .innerHTML = '<p class="event received">' + err + '</p>';
-                   })
-}
+        function(uniqueIdentifier, balanceCallback) {
+        //This method should check against the bank balance and return a balance.
+            let balance = {
+                uniqueIdentifier: uniqueIdentifier,
+                value: "20.00",
+                currency: "CHF"
+            };
+            balanceCallback(balance);
+        },
+        function(uniqueIdentifier, value, currency, paymentCallback) {
+        //This method should initiate bank payment and return a payment reference as a string.
+            let paymentReference = {
+                uniqueIdentifier: uniqueIdentifier,
+                paymentReference: "PAYMENT_REFERENCE"
+            };
+            paymentCallback(paymentReference);
+        },
+        function(msg) {
+            document
+            .getElementById('deviceready')
+            .querySelector('.received')
+            .innerHTML = msg;
+        },
+        function(err) {
+            document
+            .getElementById('deviceready')
+            .innerHTML = '<p class="event received">' + err + '</p>';
+        })
+    }
 };
 
 app.initialize();

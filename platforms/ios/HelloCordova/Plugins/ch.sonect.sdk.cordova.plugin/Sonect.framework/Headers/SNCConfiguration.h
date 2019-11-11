@@ -36,6 +36,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) NSUInteger defaultWithdrawAmountIndex;
 
 /**
+ This value determines if upon opening the SDK, the user should be presented with an
+ active transaction.
+ @default NO
+ */
+@property (nonatomic, readonly) BOOL shouldPresentTransactionIfAvailable;
+
+/**
  Initializes the configuration with a designated configuration plist file.
 
  @param filePath a file path.
