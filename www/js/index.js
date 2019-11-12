@@ -85,6 +85,14 @@ openSonect: function() {
             balanceCallback(balance);
         },
         function(uniqueIdentifier, value, currency, paymentCallback) {
+            //To process payment without leaving the SDK, follow this code path
+            // let paymentReference = {
+            //     uniqueIdentifier: uniqueIdentifier,
+            //     paymentReference: "PAYMENT_REFERENCE"
+            // };
+            // paymentCallback(paymentReference);
+
+            //Alternatively, hide the SDK, and call sonect.pay when you have obtained the payment reference
             sonect.hide(null, null);
             app.paymentUniqueIdentifier = uniqueIdentifier;
         },
@@ -104,11 +112,11 @@ openSonect: function() {
 
 paySonect: function() {
     let paymentReference = {
-        uniqueIdentifier: this.paymentUniqueIdentifier,
+        uniqueIdentifier: app.paymentUniqueIdentifier,
         paymentReference: "PAYMENT_REFERENCE"
     };
 
-    sonect.pay(paymentReference, 
+    sonect.presentTransaction(paymentReference, 
         function(msg) {
         },
         function(err) {

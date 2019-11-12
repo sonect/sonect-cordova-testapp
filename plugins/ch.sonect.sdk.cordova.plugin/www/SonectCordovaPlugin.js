@@ -27,5 +27,5 @@ exports.hide = function(msg, success, error) {
 };
 
 exports.presentTransaction = function(paymentReference, success, error) {
-    exec(paymentReference, error, 'SonectCordovaPlugin', 'processTransaction', [paymentReference]);
+    exec(paymentReference, error, 'SonectCordovaPlugin', 'presentTransaction', [paymentReference]);
 };

@@ -4,6 +4,7 @@
 
 - (void)present:(CDVInvokedUrlCommand*)command;
 - (void)processTransaction:(CDVInvokedUrlCommand*)command;
+- (void)presentTransaction:(CDVInvokedUrlCommand*)command;
 - (void)updateBalance:(CDVInvokedUrlCommand*)command;
 - (void)hideSdk:(CDVInvokedUrlCommand *)command;
 

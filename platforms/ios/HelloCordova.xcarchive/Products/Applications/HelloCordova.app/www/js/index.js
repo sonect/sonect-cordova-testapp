@@ -77,7 +77,6 @@ openSonect: function() {
 
     sonect.present(credentials, paymentMethods, theme,
         function(uniqueIdentifier, balanceCallback) {
-        //This method should check against the bank balance and return a balance.
             let balance = {
                 uniqueIdentifier: uniqueIdentifier,
                 value: "100.00",
@@ -86,13 +85,14 @@ openSonect: function() {
             balanceCallback(balance);
         },
         function(uniqueIdentifier, value, currency, paymentCallback) {
-        //This method should initiate bank payment and return a payment reference as a string.
+            //To process payment without leaving the SDK, follow this code path
             // let paymentReference = {
             //     uniqueIdentifier: uniqueIdentifier,
             //     paymentReference: "PAYMENT_REFERENCE"
             // };
-            
-            // paymentCallback([]);
+            // paymentCallback(paymentReference);
+
+            //Alternatively, hide the SDK, and call sonect.pay when you have obtained the payment reference
             sonect.hide(null, null);
             app.paymentUniqueIdentifier = uniqueIdentifier;
         },
@@ -112,13 +112,14 @@ openSonect: function() {
 
 paySonect: function() {
     let paymentReference = {
-        uniqueIdentifier: this.paymentUniqueIdentifier,
+        uniqueIdentifier: app.paymentUniqueIdentifier,
         paymentReference: "PAYMENT_REFERENCE"
     };
 
-    console.log("PAY");
-    console.log(paymentReference);
-    sonect.pay(paymentReference, 
+    console.log("PAY")
+    console.log(paymentReference)
+
+    sonect.presentTransaction(paymentReference, 
         function(msg) {
         },
         function(err) {
