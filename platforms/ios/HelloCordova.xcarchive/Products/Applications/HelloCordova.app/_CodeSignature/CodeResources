@@ -102,11 +102,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		vioAkOdKi5CWt3s7xIJnT5gmN80=
+		aKP89DP6JNIXOlGqAQghv1FXN9k=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		3KefrUvF3I2x8eDjV1oBRui/Vug=
+		yKuyy9Cjfwogq+HziiHAAUf3bf4=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		Q02BAHCVMr4ZN01zj4R3h2m0/zY=
+		Kf1GzAJcGgXM7MCfeUKlq9Yuh7M=
 		</data>
 		<key>Frameworks/Sonect.framework/Assets.car</key>
 		<data>
@@ -550,7 +550,7 @@
 		</data>
 		<key>Frameworks/Sonect.framework/Sonect</key>
 		<data>
-		B04gSrInY/bZPsfIsn/KiGnMJcE=
+		cXhkoHRvO+kdRBm/3uAYofJ2/PE=
 		</data>
 		<key>Frameworks/Sonect.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -674,7 +674,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		2ufTAb9N4V4eyvOFVPXhWnlGTHo=
+		fzA9CXkGsbuX2ohPTYCU7/QOC4Y=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -730,11 +730,11 @@
 		</data>
 		<key>www/js/index.js</key>
 		<data>
-		a+xKYXjJuSy38NWOV5/z7Cd02Ak=
+		84AAo9usmPr6BXfTd4SLgN+wKuk=
 		</data>
 		<key>www/plugins/ch.sonect.sdk.cordova.plugin/www/SonectCordovaPlugin.js</key>
 		<data>
-		YyrNqbk+xwr3H/uNu5B/eWjk3qE=
+		6MLBTpHr3bYv0EgbWhmfgnaG4Ro=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1007,22 +1007,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vioAkOdKi5CWt3s7xIJnT5gmN80=
+			aKP89DP6JNIXOlGqAQghv1FXN9k=
 			</data>
 			<key>hash2</key>
 			<data>
-			PPgBiTORDG0cnnhJGD25dr8XPaR0PDqSifkRlyoF464=
+			EVeFLYy+L0CvzXWPeXE+sWR3YjuGvzBHYLsPQWmCXa0=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3KefrUvF3I2x8eDjV1oBRui/Vug=
+			yKuyy9Cjfwogq+HziiHAAUf3bf4=
 			</data>
 			<key>hash2</key>
 			<data>
-			cY84WAs2zO4yXSthaVmyLCeyHvHuTS68KR5/dGOwRfQ=
+			qiRsYrSnxLh1B/AEgmN3t78K65qVUiR1+fv0YQsvKFI=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -1040,11 +1040,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q02BAHCVMr4ZN01zj4R3h2m0/zY=
+			Kf1GzAJcGgXM7MCfeUKlq9Yuh7M=
 			</data>
 			<key>hash2</key>
 			<data>
-			ngbhY34793tzIcUI0TfubRxsl+BQoyj6f+e+c9jalm8=
+			N8fM78Cphs2r5yhJtYzhs5bw+ZUaAdhYzhJuLwmNWUA=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/Assets.car</key>
@@ -2239,11 +2239,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			B04gSrInY/bZPsfIsn/KiGnMJcE=
+			cXhkoHRvO+kdRBm/3uAYofJ2/PE=
 			</data>
 			<key>hash2</key>
 			<data>
-			tqVLGDvjhO0zpc3DkIzgmBgWv0NWLvz0noYkXfA3C7o=
+			8WqKfn5YxO3NNo4knZpExopxM4YSsUFlFKps/SoiIQs=
 			</data>
 		</dict>
 		<key>Frameworks/Sonect.framework/_CodeSignature/CodeResources</key>
@@ -2522,11 +2522,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2ufTAb9N4V4eyvOFVPXhWnlGTHo=
+			fzA9CXkGsbuX2ohPTYCU7/QOC4Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			q1Se9usxzkEssrXwQs34xGN3yHk3YfYL0/V53sHfB84=
+			BvDayCuejcCZII0Qe5vYd+AZXs1mg1vTbT9ctDCi2Rw=
 			</data>
 		</dict>
 		<key>SonectConfiguration.plist</key>
@@ -2665,22 +2665,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a+xKYXjJuSy38NWOV5/z7Cd02Ak=
+			84AAo9usmPr6BXfTd4SLgN+wKuk=
 			</data>
 			<key>hash2</key>
 			<data>
-			faf3w8q3LcSyeIuHmFVodEuM1aKlOOJboDgNtqznQ2o=
+			SP75J9ND+5fqRQfP9byixpeWd2+P1YOTSGSaOVkDgOQ=
 			</data>
 		</dict>
 		<key>www/plugins/ch.sonect.sdk.cordova.plugin/www/SonectCordovaPlugin.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YyrNqbk+xwr3H/uNu5B/eWjk3qE=
+			6MLBTpHr3bYv0EgbWhmfgnaG4Ro=
 			</data>
 			<key>hash2</key>
 			<data>
-			noQCAc9vof1UeLU4NZy9z928TS8Tobjcug9kdzmC1Zo=
+			qcToFGkkmj/agLL5GNneQKxvLxw5z5BvNe75VF+yFjw=
 			</data>
 		</dict>
 	</dict>
