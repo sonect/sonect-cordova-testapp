@@ -95,7 +95,7 @@
 
     NSError *error = nil;
     NSComparisonResult comparisonResult = [self.requestedAmount compare:balanceAmount
-                                                 error:&error];
+                                                                  error:&error];
     if (error) {
         self.availabilityHandler(NO, error);
         return;
@@ -121,6 +121,16 @@
     SNCBankTransactionMetadata *metadata = [SNCBankTransactionMetadata transactionMetadataWithAmount:self.requestedAmount
                                                                                     paymentReference:paymentReference];
     [SNCSonect presentWithTransactionMetadata:metadata];
+}
+
+- (void)processWithPaymentReference:(NSString *)paymentReference {
+    if (!self.requestedAmount || !self.paymentHandler) {
+        return;
+    }
+
+    SNCBankTransactionMetadata *metadata = [SNCBankTransactionMetadata transactionMetadataWithAmount:self.requestedAmount
+                                                                                    paymentReference:paymentReference];
+    self.paymentHandler(metadata, nil, SNCPaymentStatusPending);
 }
 
 @end
@@ -200,7 +210,7 @@
     return paymentMethods.copy;
 }
 
-- (void)processTransaction:(CDVInvokedUrlCommand*)command {
+- (void)presentTransaction:(CDVInvokedUrlCommand*)command {
     NSDictionary *paymentDictionary = [command.arguments objectAtIndex:0];
 
     NSString *uniqueIdentifier = paymentDictionary[@"uniqueIdentifier"];
@@ -211,6 +221,19 @@
 
     PaymentMethod *paymentMethod = [self paymentMethodWithUniqueIdentifier:uniqueIdentifier];
     [paymentMethod payWithPaymentReference:paymentReference];
+}
+
+- (void)processTransaction:(CDVInvokedUrlCommand*)command {
+    NSDictionary *paymentDictionary = [command.arguments objectAtIndex:0];
+
+    NSString *uniqueIdentifier = paymentDictionary[@"uniqueIdentifier"];
+    NSString *paymentReference = paymentDictionary[@"paymentReference"];
+
+    NSParameterAssert(uniqueIdentifier);
+    NSParameterAssert(paymentReference);
+
+    PaymentMethod *paymentMethod = [self paymentMethodWithUniqueIdentifier:uniqueIdentifier];
+    [paymentMethod processWithPaymentReference:paymentReference];
 }
 
 - (void)hideSdk:(CDVInvokedUrlCommand *)command {
