@@ -8,10 +8,10 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+      "PACKAGE_NAME": "ch.sonect.app.cordova.test"
     },
     "ch.sonect.sdk.cordova.plugin": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+      "PACKAGE_NAME": "ch.sonect.app.cordova.test"
     }
   },
   "dependent_plugins": {}

@@ -50,9 +50,9 @@ receivedEvent: function(id) {
 
 openSonect: function() {
     let credentials = {
-        token: "NWMzMjMxMjAtNTAyNy0xMWU4LWFkM2YtN2JlN2MyNTFmYzYxOmI2NDQwN2I0MDlhYmJjNDI2OTc3MWNiZDFmN2MyOGRiZDQ5ODI3MGRlZmZmM2E2MDZmNWY0ZjJkMjdhNGUwN2E=",
+        token: "NGE1ODA5NjAtMDdiNS0xMWVhLWIyNzQtYjllZDdhMjk4ZTI5OjAzNjE4YWVjYTM1YzZmZDZlM2Q4YWExYTFjZTYwZWZlNTczZTY2NTNjNzMyMWMzYzVhMDliNDEzODQ3OThhZjg=",
         userId: "etLiIhOADD3F7EUZgdDackmmZbRji5",
-        signature: "3stZup/AJQs3Y7EjHNEwOOVbCNc8A6cJ58YqlhDgt0Y="
+        signature: "WvbubBK85F6yDYddG8wb9iVCmjbZQqaDeVeGKsQoe1c="
     };
 
     let theme = {
@@ -71,11 +71,14 @@ openSonect: function() {
         uniqueIdentifier: "IBAN_1",
         name: "My Bank",
         detailDescription: "Balance: 20CHF",
+        funds: 20.0,
         image: "Bank"
         },
     ];
 
-    sonect.present(credentials, paymentMethods, theme,
+    sonect.init(credentials, paymentMethods, theme);
+
+    sonect.present(
         function(uniqueIdentifier, balanceCallback) {
             let balance = {
                 uniqueIdentifier: uniqueIdentifier,
@@ -112,6 +115,8 @@ openSonect: function() {
 
 paySonect: function() {
     let paymentReference = {
+        value: "20.00",
+        currency: "CHF",
         uniqueIdentifier: app.paymentUniqueIdentifier,
         paymentReference: "PAYMENT_REFERENCE"
     };

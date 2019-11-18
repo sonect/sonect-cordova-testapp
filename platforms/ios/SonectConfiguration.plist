@@ -16,6 +16,6 @@
 		<integer>1</integer>
 	</array>
 	<key>SonectEnvironment</key>
-	<string>TEST</string>
+	<string>DEV</string>
 </dict>
 </plist>
