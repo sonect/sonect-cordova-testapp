@@ -1,0 +1,23 @@
+repositories{   
+  google()
+  jcenter()
+  mavenLocal()
+  maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+   implementation ('com.github.sonect:android-user-sdk:1.0.10') {
+       exclude group: "idenfySdk"
+       exclude group: "io.anyline"
+   }
+}
+
+android {
+  packagingOptions {
+    exclude 'META-INF/NOTICE'
+    exclude 'META-INF/LICENSE'
+  }
+  defaultConfig {
+        multiDexEnabled true
+    }
+}
