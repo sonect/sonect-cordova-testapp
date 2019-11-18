@@ -137,11 +137,14 @@
 
 @interface SonectCordovaPlugin () <SNCSonectPaymentDataSource>
 @property (nonatomic) NSArray *paymentMethods;
+@property (nonatomic, strong) SNCCredentials *credentials;
+@property (nonatomic, strong) SNCConfiguration *configuration;
+
 @end
 
 @implementation SonectCordovaPlugin
 
-- (void)present:(CDVInvokedUrlCommand*)command {
+- (void)init:(CDVInvokedUrlCommand*)command {
     CDVPluginResult* pluginResult = nil;
 
     NSDictionary *credentialsDictionary = [command.arguments objectAtIndex:0];
@@ -158,23 +161,25 @@
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR];
     }
     else {
-        SNCCredentials *credentials = [[SNCCredentials alloc] initWithSdkToken:sdkTokenValue
+        self.credentials = [[SNCCredentials alloc] initWithSdkToken:sdkTokenValue
                                                                         userId:userIdValue
                                                                      signature:signatureValue];
 
-        SNCConfiguration *configuration = [SNCConfiguration defaultConfiguration];
-
-        [SNCSonect presentWithCredentials:credentials
-                            configuration:configuration
-                 presentingViewController:self.viewController];
-
-        SNCSonect.paymentDataSource = self;
+        self.configuration = [SNCConfiguration defaultConfiguration];
 
         self.paymentMethods = [self makePaymentMethods:paymentMethodDictionaries];
         [self applyTheme:themeDictionary];
     }
 
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+}
+
+- (void)present:(CDVInvokedUrlCommand*)command {
+        [SNCSonect presentWithCredentials:self.credentials
+                            configuration:self.configuration
+                 presentingViewController:self.viewController];
+
+        SNCSonect.paymentDataSource = self;
 }
 
 - (void)applyTheme:(NSDictionary *)themeDictionary {

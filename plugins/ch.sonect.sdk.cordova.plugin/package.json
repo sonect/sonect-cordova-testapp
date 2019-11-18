@@ -1,62 +1,17 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "F:\\workspace\\sonect\\sonect-cordova-plugin",
-        "scope": null,
-        "escapedName": null,
-        "name": null,
-        "rawSpec": "F:\\workspace\\sonect\\sonect-cordova-plugin",
-        "spec": "F:\\workspace\\sonect\\sonect-cordova-plugin",
-        "type": "directory"
-      },
-      "F:\\workspace\\sonect\\sonect-cordova-testapp"
-    ]
-  ],
-  "_from": "..\\sonect-cordova-plugin",
-  "_id": "ch.sonect.sdk.cordova.plugin@0.0.1",
-  "_inCache": true,
-  "_location": "/ch.sonect.sdk.cordova.plugin",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "F:\\workspace\\sonect\\sonect-cordova-plugin",
-    "scope": null,
-    "escapedName": null,
-    "name": null,
-    "rawSpec": "F:\\workspace\\sonect\\sonect-cordova-plugin",
-    "spec": "F:\\workspace\\sonect\\sonect-cordova-plugin",
-    "type": "directory"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "file:..\\sonect-cordova-plugin",
-  "_shasum": "f0f5aaa7e849f963fc9df493a3a3dc98f282c46b",
-  "_shrinkwrap": null,
-  "_spec": "F:\\workspace\\sonect\\sonect-cordova-plugin",
-  "_where": "F:\\workspace\\sonect\\sonect-cordova-testapp",
-  "author": {
-    "name": "\"Sonect\""
-  },
+  "name": "ch.sonect.sdk.cordova.plugin",
+  "version": "0.0.1",
+  "description": "\"SonectSDK Cordova Plugin\"",
   "cordova": {
     "id": "ch.sonect.sdk.cordova.plugin",
     "platforms": [
       "ios"
     ]
   },
-  "dependencies": {},
-  "description": "\"SonectSDK Cordova Plugin\"",
-  "devDependencies": {},
-  "gitHead": "80f090fd3b24cbb43e05ac6467a49ed149326422",
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios"
   ],
-  "license": "ISC",
-  "name": "ch.sonect.sdk.cordova.plugin",
-  "optionalDependencies": {},
-  "readme": "# sonect-cordova-plugin\r\nThis is the repo for Cordova SDK\r\n\r\n## Installation\r\nTo integrate the plugin: \r\n- clone repo to `YOUR_DIRECTORY`\r\n- `cordova plugin add YOUR_DIRECTORY`\r\n\r\n## Integration\r\nTo initialize and present the plugin add the following to your .js codebase. \r\nAdditional documentation regarding credentials, themeing and \r\npayment methods is available [here](https://github.com/sonect/sonect-sdk-ios)\r\n\r\nCheck out the [Sample App](https://github.com/sonect/sonect-cordova-testapp) for an in depth implementation example. \r\n\r\n```\r\nopenSonect: function() {\r\n    let credentials = {\r\n        token: \"YOUR_TOKEN_HERE\",\r\n        userId: \"YOUR_USER_ID_HERE\",\r\n        signature: \"YOUR_SIGNATURE_HERE\"\r\n    };\r\n\r\n    let theme = {\r\n        \"type\": \"light\",\r\n        \"detailColor1\": \"048b54\",\r\n        \"detailColor2\": \"048b54\",\r\n        \"detailColor3\": \"048b54\",\r\n        \"detailColor4\": \"048b54\",\r\n        \"detailColor5\": \"048b54\",\r\n        \"navigationBarTintColor\": \"048b54\",\r\n        \"navigationBarTitleImage\": \"Bank\"\r\n    };\r\n\r\n    let paymentMethods = [\r\n                          {\r\n                          uniqueIdentifier: \"IBAN_1\",\r\n                          name: \"My Bank\",\r\n                          detailDescription: \"Balance: 20CHF\",\r\n                          image: \"Bank\"\r\n                          },\r\n    ];\r\n\r\n    sonect.present(credentials, paymentMethods, theme,\r\n                   function(uniqueIdentifier, balanceCallback) {\r\n                   //This method should check against the bank balance and return a balance.\r\n                   let balance = {\r\n                        uniqueIdentifier: uniqueIdentifier,\r\n                        value: \"20.00\",\r\n                        currency: \"CHF\"\r\n                   };\r\n                   balanceCallback(balance);\r\n                   },\r\n                   function(uniqueIdentifier, value, currency, paymentCallback) {\r\n                   //This method should initiate bank payment and return a payment reference as a string.\r\n                   let paymentReference = {\r\n                        uniqueIdentifier: uniqueIdentifier,\r\n                        paymentReference: \"PAYMENT_REFERENCE\"\r\n                   };\r\n                   paymentCallback(paymentReference);\r\n                   },\r\n                   function(msg) {\r\n                   document\r\n                   .getElementById('deviceready')\r\n                   .querySelector('.received')\r\n                   .innerHTML = msg;\r\n                   },\r\n                   function(err) {\r\n                   document\r\n                   .getElementById('deviceready')\r\n                   .innerHTML = '<p class=\"event received\">' + err + '</p>';\r\n                   })\r\n}\r\n};\r\n```\r\n\r\n## Platform specific configuration\r\n### iOS\r\nTo configure the iOS SDK do the following steps: \r\n- `open YOUR_CORDOVA_APP/platforms/ios/YOUR_PROJECT.workspace` in Xcode\r\n- in Xcode, right click on the Resources folder and pick `New File...` from the menu\r\n- pick `Property List`, and name it `SonectConfiguration`\r\n- enter the values as following\r\n```\r\n<dict>\r\n\t<key>SonectAlpha2CountryCode</key>\r\n\t<string>ch</string>\r\n\t<key>SonectCurrency</key>\r\n\t<string>CHF</string>\r\n\t<key>SonectDefaultWithdrawAmountIndex</key>\r\n\t<integer>2</integer>\r\n\t<key>SonectAllowedCountryCodes</key>\r\n\t<array>\r\n\t\t<integer>41</integer>\r\n\t</array>\r\n\t<key>SonectEnvironment</key>\r\n\t<string>TEST</string>\r\n</dict>\r\n```\r\n- to change to `PROD` environment, remove the `SonectEnvironment` key. \r\n",
-  "readmeFilename": "README.md",
-  "version": "0.0.1"
+  "author": "\"Sonect\"",
+  "license": "ISC"
 }
