@@ -14,7 +14,6 @@ import java.util.ArrayList;
 public class SonectCordovaPlugin extends CordovaPlugin {
     @Override
     public boolean execute(String action, CordovaArgs args, CallbackContext callbackContext) throws JSONException {
-        Log.e("!@# action performed: ", action);
         if ("present".equalsIgnoreCase(action)) {
             processPresentCommand(args);
         }
