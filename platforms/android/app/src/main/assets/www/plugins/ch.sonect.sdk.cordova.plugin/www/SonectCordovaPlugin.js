@@ -4,10 +4,10 @@ var exec = require('cordova/exec');
 var payInternal = null;
 var checkBalanceInternal = null;
 
-exports.present = function(credentials, paymentMethods, theme, checkBalance, pay, success, error) {
+exports.present = function(credentials, paymentMethods, theme, paymentReference, checkBalance, pay, success, error) {
     this.payInternal = pay;
     this.checkBalanceInternal = checkBalance;
-    exec(success, error, 'SonectCordovaPlugin', 'present', [credentials, paymentMethods, theme]);
+    exec(success, error, 'SonectCordovaPlugin', 'present', [credentials, paymentMethods, theme, paymentReference]);
 };
 
 exports.checkBalance = function(uniqueIdentifier, success, error) {
