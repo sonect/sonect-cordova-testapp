@@ -378,7 +378,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)/Plugins/ch.sonect.sdk.cordova.plugin/lib\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)/Plugins/ch.sonect.sdk.cordova.plugin/lib\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = hellocordova.sonect.ch;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.sonect.app.cordova.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -413,7 +413,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)/Plugins/ch.sonect.sdk.cordova.plugin/lib\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)/Plugins/ch.sonect.sdk.cordova.plugin/lib\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = hellocordova.sonect.ch;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.sonect.app.cordova.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
