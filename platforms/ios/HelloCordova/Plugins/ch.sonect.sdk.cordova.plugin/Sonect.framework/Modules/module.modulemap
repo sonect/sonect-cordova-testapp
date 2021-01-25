@@ -4,3 +4,8 @@ framework module Sonect {
   export *
   module * { export * }
 }
+
+module Sonect.Swift {
+    header "Sonect-Swift.h"
+    requires objc
+}

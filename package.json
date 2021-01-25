@@ -1,5 +1,5 @@
 {
-  "name": "helloworld",
+  "name": "hellocordova.sonect.ch",
   "displayName": "HelloCordova",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
@@ -12,13 +12,10 @@
   ],
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
-  "dependencies": {
-    "ch.sonect.sdk.cordova.plugin": "file:../SonectCordovaPlugin",
-    "cordova-android": "^8.0.0",
-    "cordova-ios": "^5.0.1"
-  },
   "devDependencies": {
-    "cordova-plugin-whitelist": "^1.3.3"
+    "ch.sonect.sdk.cordova.plugin": "file:../sonect-cordova-plugin",
+    "cordova-ios": "^6.1.1",
+    "cordova-plugin-whitelist": "^1.3.4"
   },
   "cordova": {
     "plugins": {
@@ -26,8 +23,7 @@
       "ch.sonect.sdk.cordova.plugin": {}
     },
     "platforms": [
-      "ios",
-      "android"
+      "ios"
     ]
   }
 }

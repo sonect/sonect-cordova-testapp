@@ -10,9 +10,10 @@
 #define SNCPaymentContext_h
 
 typedef NS_ENUM(NSUInteger, SNCPaymentContext) {
-    SNCPaymentContextUnknown = 0,
+    SNCPaymentContextCommon = 0,
     SNCPaymentContextWithdraw = 1,
-    SNCPaymentContextSendCash = 2
+    SNCPaymentContextSendCash = 2,
+    SNCPaymentContextTopup = 3
 };
 
 #endif /* SNCPaymentContext_h */

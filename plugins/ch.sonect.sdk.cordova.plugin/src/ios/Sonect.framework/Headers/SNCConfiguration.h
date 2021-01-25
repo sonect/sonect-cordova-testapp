@@ -10,12 +10,25 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef enum : NSUInteger {
+    SNCCodeTypeBarcode = 0,
+    SNCCodeTypeQR = 1,
+} SNCCodeType;
+
+@class SNCAttributes;
 @interface SNCConfiguration : NSObject
 
 /**
- A 2 digit ISO country code i.e. "ch" for Switzerland
+ A 2 digit ISO country code i.e. "CH" for Switzerland
  */
-@property (nonatomic, nullable, copy, readonly) NSString* alpha2CountryCode;
+@property (nonatomic, copy, readonly) NSString* alpha2CountryCode;
+
+/**
+ Set allowed country codes.
+ Example: would be US and Switzerland
+ @[@1, @41]
+ */
+@property (nonatomic, copy, readonly) NSArray <NSNumber *> *allowedCountryCodes;
 
 /**
  The user's preferred currency i.e. "CHF" for Swiss Francs
@@ -23,11 +36,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, nullable, copy, readonly) NSString* currency;
 
 /**
- Set allowed country codes.
- Example: would be US and Switzerland
- @[@1, @41]
+ The welcome name used on dashboard screen.
  */
-@property (nonatomic, nullable, copy, readonly) NSArray <NSNumber *> *allowedCountryCodes;
+@property (nonatomic, nullable, copy, readonly) NSString* dashboardWelcomeName;
 
 /**
  A default withdraw amount index in the Withdraw View Controller amount picker control.
@@ -41,6 +52,17 @@ NS_ASSUME_NONNULL_BEGIN
  @default NO
  */
 @property (nonatomic, readonly) BOOL shouldPresentTransactionIfAvailable;
+
+/**
+This value determines which code type should be preselected when viewing transaction.
+@default SNCCodeTypeBarcode
+*/
+@property (nonatomic, readonly) SNCCodeType preferredWithdrawCodeType;
+
+/**
+ Additional attributes that could be of variable nature.
+*/
+@property (nonatomic, strong, nullable) SNCAttributes *attributes;
 
 /**
  Initializes the configuration with a designated configuration plist file.

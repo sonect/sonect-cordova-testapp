@@ -8,10 +8,10 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "hellocordova.sonect.ch"
     },
     "ch.sonect.sdk.cordova.plugin": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "ch.sonect.sdk.ios.OpenBankIntegrationApp"
     }
   },
   "dependent_plugins": {}

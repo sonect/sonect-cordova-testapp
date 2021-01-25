@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="ch.sonect.sdk.cordova.plugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="ch.sonect.sdk.cordova.plugin" version="0.0.2" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>SonectCordovaPlugin</name>
     <js-module name="SonectCordovaPlugin" src="www/SonectCordovaPlugin.js">
         <clobbers target="sonect" />
@@ -13,7 +13,9 @@
         <header-file src="src/ios/SonectCordovaPlugin.h" />
         <source-file src="src/ios/SonectCordovaPlugin.m" />
         <source-file src="src/ios/Sonect.framework" target-dir="lib" framework="true" />
-        <framework src="src/ios/Sonect.framework" embed="true" custom="true" /> 
+        <framework src="src/ios/Sonect.framework" embed="true" custom="true" />
+        <source-file src="src/ios/SonectCore.framework" target-dir="lib" framework="true" />
+        <framework src="src/ios/SonectCore.framework" embed="true" custom="true" />
     </platform>
 
     <platform name="android">

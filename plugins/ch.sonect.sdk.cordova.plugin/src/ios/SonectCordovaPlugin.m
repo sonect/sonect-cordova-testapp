@@ -52,6 +52,10 @@
 
 @implementation PaymentMethod
 
+- (NSString *)title {
+    return self.name;
+}
+
 - (NSString *)shortDescription {
     return self.detailDescription;
 }
@@ -119,7 +123,8 @@
     }
 
     SNCBankTransactionMetadata *metadata = [SNCBankTransactionMetadata transactionMetadataWithAmount:self.requestedAmount
-                                                                                    paymentReference:paymentReference];
+                                                                                    paymentReference:paymentReference
+                                                                                           signature:@""];
     [SNCSonect presentWithTransactionMetadata:metadata];
 }
 
@@ -129,7 +134,8 @@
     }
 
     SNCBankTransactionMetadata *metadata = [SNCBankTransactionMetadata transactionMetadataWithAmount:self.requestedAmount
-                                                                                    paymentReference:paymentReference];
+                                                                                    paymentReference:paymentReference
+                                                                                           signature:@""];
     self.paymentHandler(metadata, nil, SNCPaymentStatusPending);
 }
 
@@ -151,7 +157,7 @@
     NSString *sdkTokenValue = credentialsDictionary[@"token"];
     NSString *userIdValue = credentialsDictionary[@"userId"];
     NSString *signatureValue = credentialsDictionary[@"signature"];
-
+    
     NSArray *paymentMethodDictionaries = [command.arguments objectAtIndex:1];
     NSDictionary *themeDictionary = [command.arguments objectAtIndex:2];
 
