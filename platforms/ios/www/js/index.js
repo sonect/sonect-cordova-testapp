@@ -50,9 +50,9 @@ receivedEvent: function(id) {
 
 openSonect: function() {
     let credentials = {
-        token: "NGE1ODA5NjAtMDdiNS0xMWVhLWIyNzQtYjllZDdhMjk4ZTI5OjAzNjE4YWVjYTM1YzZmZDZlM2Q4YWExYTFjZTYwZWZlNTczZTY2NTNjNzMyMWMzYzVhMDliNDEzODQ3OThhZjg=",
-        userId: "etLiIhOADD3F7EUZgdDackmmZbRji5",
-        signature: "WvbubBK85F6yDYddG8wb9iVCmjbZQqaDeVeGKsQoe1c="
+        token: "NDhkOGNiNTAtYjliNC0xMWU5LWJlNGMtNWRiNTMyOGNhZmE0OmY4ZWFhYzNlMGQyNjE5MjhiZGI5ZjQxNTk3NGVkMTU4MjA0YjQ5NTVhNzdjMDZiZTA1YTBjZWI3Nzk2NzExYzg=",
+        userId: "User1",
+        signature: "Vwh8+lLES2DeezBzRatAUJ5lC8SHBQXANAo3r7DhoNo="
     };
 
     let theme = {
