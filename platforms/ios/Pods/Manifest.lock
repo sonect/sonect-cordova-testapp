@@ -1,0 +1,21 @@
+PODS:
+  - sonect-core-ios (1.2.1)
+  - sonect-sdk-ios (3.1.7):
+    - sonect-core-ios (~> 1.2.1)
+
+DEPENDENCIES:
+  - sonect-core-ios
+  - sonect-sdk-ios
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - sonect-core-ios
+    - sonect-sdk-ios
+
+SPEC CHECKSUMS:
+  sonect-core-ios: e4151386494c4e03735b9d6681463b1a392cf432
+  sonect-sdk-ios: 1fad2bc1f51fb32bc397d062330cadf9d5e99599
+
+PODFILE CHECKSUM: da994659e712b8ad929af37ad13436e14f1d78ee
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-HelloCordova/Pods-HelloCordova-frameworks.sh
+${PODS_ROOT}/sonect-core-ios/SonectCore.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/Sonect/Sonect.framework/Sonect

@@ -10,7 +10,7 @@
   "ch.sonect.sdk.cordova.plugin": {
     "source": {
       "type": "local",
-      "path": "/Users/markohlebar/Work/Sonect/Cordova/hello/node_modules/ch.sonect.sdk.cordova.plugin"
+      "path": "/Users/markohlebar/Work/Sonect/Cordova/sonect-cordova-testapp/node_modules/ch.sonect.sdk.cordova.plugin"
     },
     "is_top_level": true,
     "variables": {}
