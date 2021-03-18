@@ -8,6 +8,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class SonectCordovaPlugin extends CordovaPlugin {
 
@@ -23,7 +24,7 @@ public class SonectCordovaPlugin extends CordovaPlugin {
         if ("init".equalsIgnoreCase(action)) {
             processInitCommand(args);
         } else if ("present".equalsIgnoreCase(action)) {
-            processPresentCommand(args);
+            processPresentCommand();
         } else if ("presentTransaction".equalsIgnoreCase(action)) {
             processPresentTransactionCommand(args);
         }
@@ -35,37 +36,43 @@ public class SonectCordovaPlugin extends CordovaPlugin {
         JSONArray paymentMethods = args.getJSONArray(1);
         JSONObject theme = args.getJSONObject(2);
 
-        PAYMENT_METHODS = new ArrayList<>();
+        PAYMENT_METHODS = new ArrayList<SDKEntryPointActivity.PaymentMethodReference>();
         for (int i = 0; i < paymentMethods.length(); i++) {
             JSONObject pm = paymentMethods.getJSONObject(i);
             PAYMENT_METHODS.add(new SDKEntryPointActivity.PaymentMethodReference(
-                            pm.getString("name"), R.drawable.ic_sonect_web_bank, pm.getString("detailDescription"), (float) pm.getDouble("funds")
-                    )
-            );
+                    pm.getString("name"), R.drawable.sonect_ic_sonect_web_bank, "**** 1234", (float) pm.getDouble("funds")
+            ));
         }
 
         CREDENTIALS = new SonectSDK.Config.UserCredentials(credentials.getString("userId"),
                 credentials.getString("token"),
-                credentials.getString("signature"), "eu", null);
+                credentials.getString("signature"),
+                Collections.emptyMap());
 
         IS_LIGHT_THEME = theme.get("type") == "light";
     }
 
-    private void processPresentCommand(CordovaArgs args) throws JSONException {
-        SDKEntryPointActivity.Companion.start(cordova.getActivity(), CREDENTIALS,
-                PAYMENT_METHODS, IS_LIGHT_THEME, SonectSDK.Config.Enviroment.DEV);
+    private void processPresentCommand() {
+        SDKEntryPointActivity.Companion.start(
+                cordova.getActivity(),
+                CREDENTIALS,
+                PAYMENT_METHODS,
+                IS_LIGHT_THEME,
+                SonectSDK.Config.Enviroment.DEV
+        );
     }
 
     private void processPresentTransactionCommand(CordovaArgs args) throws JSONException {
         JSONObject paymentRef = args.getJSONObject(0);
 
-        String uniqueID = null;
-        if (paymentRef.has("uniqueIdentifier")) {
-            uniqueID = paymentRef.getString("uniqueIdentifier");
-        }
-        SDKEntryPointActivity.Companion.startWithdraw(cordova.getActivity(), CREDENTIALS,
-                new SDKEntryPointActivity.NewTransactionReference(paymentRef.getString("paymentReference"), uniqueID,
-                        paymentRef.getString("value"), paymentRef.getString("currency")),
-                PAYMENT_METHODS, IS_LIGHT_THEME, SonectSDK.Config.Enviroment.DEV);
+        SDKEntryPointActivity.Companion.startWithdraw(
+                cordova.getActivity(), CREDENTIALS,
+                new SDKEntryPointActivity.NewTransactionReference(
+                        "BALANCE", "**** 1234", paymentRef.getString("value"), paymentRef.getString("currency"), null
+                ),
+                PAYMENT_METHODS,
+                IS_LIGHT_THEME,
+                SonectSDK.Config.Enviroment.DEV
+        );
     }
 }
