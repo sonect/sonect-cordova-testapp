@@ -6,10 +6,14 @@ repositories{
 }
 
 dependencies {
-   implementation ('com.github.sonect:android-user-sdk:1.0.10') {
+   implementation('com.github.sonect:android-user-sdk:3.1.11') {
        exclude group: "idenfySdk"
        exclude group: "io.anyline"
+       exclude module: "okhttp4"
    }
+
+    implementation "com.squareup.okhttp3:okhttp:3.14.9"
+    implementation "com.squareup.okhttp3:logging-interceptor:3.14.9"
 }
 
 android {

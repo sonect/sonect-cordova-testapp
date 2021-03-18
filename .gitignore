@@ -130,3 +130,12 @@ crashlytics.properties
 # End of https://www.gitignore.io/api/android,androidstudio
 
 \.scannerwork/
+
+
+### ApacheCordova ###
+# Apache Cordova generated files and directories
+node_modules/
+plugins/
+
+package-lock.json
+
