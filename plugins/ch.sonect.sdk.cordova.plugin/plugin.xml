@@ -12,10 +12,15 @@
         </config-file>
         <header-file src="src/ios/SonectCordovaPlugin.h" />
         <source-file src="src/ios/SonectCordovaPlugin.m" />
-        <source-file src="src/ios/Sonect.framework" target-dir="lib" framework="true" />
-        <framework src="src/ios/Sonect.framework" embed="true" custom="true" />
-        <source-file src="src/ios/SonectCore.framework" target-dir="lib" framework="true" />
-        <framework src="src/ios/SonectCore.framework" embed="true" custom="true" />
+        <podspec>
+            <config>
+                <source url="https://github.com/CocoaPods/Specs.git" />
+            </config>
+            <pods use-frameworks="true">
+                <pod name="sonect-sdk-ios"/>
+                <pod name="sonect-core-ios"/>
+            </pods>
+        </podspec>
     </platform>
 
     <platform name="android">

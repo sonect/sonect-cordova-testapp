@@ -11,7 +11,7 @@
       "PACKAGE_NAME": "hellocordova.sonect.ch"
     },
     "ch.sonect.sdk.cordova.plugin": {
-      "PACKAGE_NAME": "ch.sonect.sdk.ios.OpenBankIntegrationApp"
+      "PACKAGE_NAME": "ch.sonect.app.cordova.test"
     }
   },
   "dependent_plugins": {}
