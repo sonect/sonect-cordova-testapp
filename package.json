@@ -29,7 +29,7 @@
   "dependencies": {
     "android-versions": "^1.6.0",
     "compare-func": "^2.0.0",
-    "execa": "^5.0.0",
+    "execa": "^5.1.1",
     "install": "^0.13.0",
     "properties-parser": "^0.3.1"
   }
